@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       a2a69177-50c1-4dee-ad4d-c14d61006db5
+:ROAM_ALIASES: ADP
+:END:
+#+title: Acyclic Dependencies Principle
+
+/Allow no cycles in the component dependency graph./
+
+
+Als je cycles in je component structuur hebt dan:
+- heb je vaak meer afhankelijkheden dan nodig, bv. als je een unit test wilt doen
+- kan het wel eens lastiger worden om te weten in welke volgorde je de componenten moet bouwen
+
+Een oplossing is het verwijderen van cyclische afhankelijkheden en het separaat releasen van componenten. Een component krijg een versie, als je het component als afhankelijkheid hebt kun je kiezen welke versie je wel/niet integreert.

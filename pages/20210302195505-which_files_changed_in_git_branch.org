@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       998a68ce-3915-461a-bebe-af69e9b313ca
+:END:
+#+title: Which files changed in Git branch?
+#+options: toc:nil num:nil
+
+- tags :: [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+Show which files in [[id:00f182c8-814f-4400-b072-270f528dcd42][Git]] are different between develop [[id:df92f84f-a09b-4fff-89b5-4ad28a0a62ff][branch]] and HEAD ~git diff --name-only develop..HEAD~
+
+Show which files in [[id:00f182c8-814f-4400-b072-270f528dcd42][Git]] are changed since forking develop [[branch]] ~git diff --name-only $(git merge-base develop HEAD) HEAD~

@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       26447ea4-6bd7-4fbf-b9a2-b07dc1e19326
+:ROAM_ALIASES: "Speed Reading"
+:END:
+#+title: Simple tips on improving reading speed
+
+
+Blijkbaar is je oog gemaakt om beweging te volgen en niet om beweging te maken. Daar door springt je oog nog wel es alle kanten op en gaat je brein automatisch terug naar iets waarvan je denk dat je het niet (goed) gelezen hebt.
+
+Je brein kan een stuk sneller data verwerken dan wij mensen kunnen praten, als we langzaam lezen kan het zelfs verveeld raken en afdwalen of, erger, in slaap vallen.
+
+* Tips
+- lees met vinger/pen of zoiets
+- lees niet terug (1% meer begrip voor 20% minder snelheid)
+- Lees slecht enkele woorden aan jezelf voor (zie [[id:a9f230e5-f614-4029-92db-1efbc8ae1a04][Subvocalization - Voorlezen in je hoofd.]])
+
+* Hoe
+- streep aan de kantlijn van een boek zetten (eerst 1 woord, na een paar weken meer)
+- langzaamaan de snelheid waarmee je spraak opneemt opvoeren (audible, youtube speed x1.5 etc...)
+
+* Links
+- [[https://youtu.be/HKYmwD_weE8filmpje][📖📖📖SPEED READING TECHNIQUES 📚📚📚(world champion speed reading Michel Wozniak) - YouTube]]
+- [[https://youtu.be/p3Hst3fz-4A][My 6 Speed Reading Secrets, REVEALED! - YouTube]]
+- [[https://youtu.be/jv2BdHXRD3Q][The Science Behind Reading Speed - College Info Geek - YouTube]]

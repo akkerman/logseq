@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       126a1e03-1dcd-4fa3-80dd-59fd6e07ab56
+:ROAM_REFS: https://www.python.org/
+:END:
+#+title: Python
+
+A programming language that lets you work more quickly and integrate your systems more effectively.

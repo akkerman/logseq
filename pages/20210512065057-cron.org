@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       7ca5dd3d-fadb-4867-a7dd-262d3135b719
+:ROAM_REFS: https://en.wikipedia.org/wiki/Cron
+:ROAM_ALIASES: "cron job"
+:END:
+#+title: cron

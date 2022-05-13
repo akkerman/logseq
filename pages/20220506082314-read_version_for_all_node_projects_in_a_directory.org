@@ -1,0 +1,43 @@
+:PROPERTIES:
+:ID:       1983bd40-b519-4b3a-8056-8f8a9dbe7325
+:END:
+#+title: Read version for all node projects in a directory
+
+Om alle versies van een [[id:3125d530-3156-4c44-bfaf-19e8dbb40f47][node]] project te tonen doe:
+
+#+begin_src sh
+for file in $(find . -name package.json |grep -v node_); do
+echo "${file/\/package.json/} $(jq -r .version $file)"
+done | sort | tabulate
+#+end_src
+
+#+RESULTS:
+| ---------------------------------------- | ------ |
+| ./beheer/api                             |  1.0.0 |
+| ./beheer/app                             |  0.1.0 |
+| ./capo-for-review/api                    | 1.30.0 |
+| ./capo-for-review/app                    | 1.30.0 |
+| ./capo-for-review/e2e                    |  3.0.0 |
+| ./capo-frontend/api                      | 1.32.0 |
+| ./capo-frontend/app                      | 1.32.0 |
+| ./capo-frontend/e2e                      |  3.0.0 |
+| ./capo-technical-debt/api                | 1.29.0 |
+| ./capo-technical-debt/app                | 1.29.0 |
+| ./capo-technical-debt/e2e                |  3.0.0 |
+| ./dsp-analytics-frontend/api             | 2.10.0 |
+| ./dsp-analytics-frontend/app             | 2.10.0 |
+| ./dsp-analytics-services                 | 1.17.1 |
+| ./dsp-berichtanalyse/api                 |  0.0.1 |
+| ./dsp-berichtanalyse/app                 |  0.0.1 |
+| ./dsp-berichtanalyse-sample              |  0.1.0 |
+| ./dsp-data-mining                        |  1.0.0 |
+| ./dsp-rules-manager/api                  |  1.5.0 |
+| ./dsp-rules-manager/app                  |  1.5.0 |
+| ./dsp-rules-manager-review/api           |  1.4.2 |
+| ./dsp-rules-manager-review/app           |  1.4.2 |
+| ./dsp-rules-manager-review/xsd2templates |  1.0.0 |
+| ./dsp-rules-manager/xsd2templates        |  1.0.0 |
+| ./external-api-mock                      |  1.0.0 |
+| ./integration-tests                      |  1.0.0 |
+| ./roxit-call                             |  1.0.0 |
+| ---------------------------------------- | ------ |

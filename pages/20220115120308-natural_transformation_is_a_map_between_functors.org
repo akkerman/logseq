@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       febff629-b660-4def-9e5f-7ebad6582f54
+:ROAM_ALIASES: "natural tranformation"
+:END:
+#+title: Natural Transformation is a map between Functors
+
+A natural transformation is a map between [[id:7e262c95-c276-4563-b816-efafba7ad42a][Functors]]
+
+Functor F and G both map from Category C to Category D
+
+F,G : C -> D
+
+The natural transformation is called ɑ (alpha)
+
+'t idee is dat F een mapping is van C naar een mogelijke subset (S1) van D.
+En G een mapping is van C naar een andere subset van D (S2).
+De natural natural tranformation maakt dan een lijn van de punten in S1 naar S2.
+
+
+
+    [[./refs/programming-with-categories_natural-transformation-satisfying.png]]
+
+
+The visualization of a natural transformation should be a [[id:9435fae5-61c3-4571-b30c-ff70210bed7a][Commutative diagram]]

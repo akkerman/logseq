@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       5e7e83d1-ab4d-4060-b1e3-a83b941f68e1
+:ROAM_ALIASES: "yo-yo effect" "jojo effect"
+:END:
+#+title: Verval in oud gedrag na behalen van een doel
+
+Om een doel te behalen meten we ons, tijdelijk, nieuw gedrag aan.
+Zodra we het doel behaald hebben en we dit gedrag niet meer vertonen vallen we
+terug op het oude gedrag en uiteindelijk verliezen we de resultaten die ons naar
+het doel leidde.
+
+
+- [[id:7ebd9862-20b3-4c46-b061-cd9cca8128df][Als de focus is op een doel, en het doel valt weg dan valt het goede gedrag ook weg.]]

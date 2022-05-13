@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       3edb75fa-8a5d-42d3-b3b2-0c132e51123a
+:END:
+#+title: Testing
+#+filetags: :moc:
+
+- tags :: [[id:9be3ea40-46d8-4916-9826-35074da11d2a][Home]]
+
+* Automatic Testing Types
+
+- [[id:f64cdd81-9f54-4ae2-a44b-39f088e02290][Unit Testing]]
+- [[id:7e960478-36bb-498b-941d-6a6353723151][Integration Testing]]
+- [[id:eba07f2c-4f25-41bd-95c8-4460de157e35][Component Testing]]
+- [[id:d4fb1ea4-d151-4fff-9c5f-562b5ee0b4ff][Contract Testing]]
+- [[id:b4a5e76b-a480-4097-ba54-84cd86d48da9][API Testing]]
+- [[id:13e64c35-1f20-4a77-804a-8353b473cf52][E2E Testing]]
+- [[id:ab4aa53a-c62f-49a4-9e76-8083b8834406][GUI Testing]]
+- [[id:4b9274ab-1b93-4f06-8c3a-2ff6fcbdb824][System Testing]]
+
+* Manual Testing
+
+* Termen
+
+- [[id:8dd84229-13c2-4745-9944-49868ec32a2b][Test Double]]
+- [[id:23373aca-1ea2-45be-a995-d66f568b2b74][Testing Pyramid]]
+
+* Aanpak
+
+- [[id:1b3ceeec-d1f3-4d97-b933-dfc5e06e1b8a][Shift Left Testing]]
+- [[id:0e723fa6-4831-4a12-b47d-c9b442f5beb5][Specification based testing]]
+- [[id:0fb2de60-12f8-4cf2-aa46-029219cbf4bd][Structural testing]]
+
+* TODO checkout testing podcasts
+:PROPERTIES:
+:CREATED:  [2022-04-03 Sun 13:17]
+:END:
+https://www.softwaretestingmagazine.com/resources/software-testing-podcasts

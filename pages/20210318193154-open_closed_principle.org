@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       48226ded-ee42-4870-9c41-19a1ae6b8021
+:ROAM_ALIASES: OCP
+:END:
+#+title: Open-Closed Principle
+#+options: toc:nil num:nil
+
+* Architecture
+Als het gedrag van een systeem aangepast moet worden dan kan dat door het toevoegen van code ipv het aanpassen van code.
+
+* Class
+Je moet het gedrag van een classe kunnen uitbreiden zonder het aan te passen.

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       75a2baf7-eb4a-4fb5-b914-34554545b33a
+:END:
+#+title: Writing starts with the first note taken
+
+- [[id:25f24494-0032-4d8f-8dce-a938d27fc556][Note taking]] · [[roam:writing]]
+
+#+begin_quote
+They struggle because they believe, as they are made to believe, that writing starts with a blank page.
+#+end_quote
+[cite:@ahrens2017]

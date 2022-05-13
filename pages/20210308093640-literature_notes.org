@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       7f327c4c-e773-4078-a26e-e5a424540266
+:END:
+#+title: Literature Notes
+#+options: toc:nil num:nil
+
+Origineel in [[id:c91fec83-5759-41a6-9702-6478d2f7f197][zettelkasten]] is het een korte beschrijving van de inhoud aan de ene kant van het kaartje en aan de andere kant de verwijzing(en) naar het boek of artikel.
+
+Volgens [[id:77e6658a-463f-40e4-8fd9-03a52548515b][Communicating with Slip Boxes by Niklas Luhmann]] is het de bedoeling om literaire notities apart van de [[id:00b4999d-f578-4972-9307-efafbbdd81e9][permanent notes]] te bewaren.
+
+Het doel is het hebben van een history van wat je daadwerkelijk gelezen hebt en wat je voor bereid hebt om te lezen ([[id:f475a741-2ea4-4eca-81db-bcedbe626342][Pre-Reading]]).
+
+Vanuit een literatuur notitie kun je ook linken naar [[id:00b4999d-f578-4972-9307-efafbbdd81e9][Permanent notes]].
+
+Het schrijven van literature notes is een form van bewuste oefening ([[id:08b79284-e118-49e2-a2b1-658827870bcc][deliberate practice]]).

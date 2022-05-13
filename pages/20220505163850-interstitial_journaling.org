@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       69cbe20c-6f3a-4443-b7fc-643c15d93c46
+:END:
+#+title: interstitial journaling
+
+- tags :: [[id:2a2c7971-5069-472a-b0cc-23ded4631cab][Productiviteit]]
+
+De basis is om elke keer als je wisselt van activieit even de tijd te noteren, wat je gedaan hebt en wat je nu gaat doen.
+
+[[id:d20f706d-4c1f-4418-82f7-7f9e85494756][Multitasking ondermijnt productiviteit en kwaliteit]], als je de vorige taak van je af schrijft en een strategie uit zet voor de volgende ben je productiever.
+
+Je bent ook bewuster van als je procrastineerd, en zo merkt ik, als ik procrastineer met een side-project dan kan ik die gelijk goed opschrijven waardoor het ineens een win-win wordt.
+
+
+https://betterhumans.pub/replace-your-to-do-list-with-interstitial-journaling-to-increase-productivity-4e43109d15ef
+
+https://nesslabs.com/interstitial-journaling

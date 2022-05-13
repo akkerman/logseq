@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       83121686-d6de-4621-a56f-93fbf72a5254
+:ROAM_ALIASES: xmonad
+:END:
+#+title: xmonad tiling X11 window manager
+
+xmonad is a dynamically tiling X11 window manager that is written and configured in [[id:857ff32f-0fe9-42cb-b72a-70d7aeaff7bd][Haskell]].
+
+website: [[https://xmonad.org/][xmonad | the tiling window manager that rocks]]
+
+[[file:~/.xmonad/xmonad.hs][Main Configuration File]]

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       714f754e-ef51-4681-ba22-14ff7464bd18
+:ROAM_REFS: https://www.howtogeek.com/465350/everything-you-ever-wanted-to-know-about-inodes-on-linux/
+:ROAM_ALIASES: inode
+:END:
+#+title: Everything You Ever Wanted to Know About inodes on Linux
+
+
+Om te kunnen bij houden waar bestanden en directories zijn heb je wat metadata nodig.
+In deze metadata staat o.a. ook de naam, eigenaar en permissies.
+
+Inodes en directorystructuren verzorgen alle metadata.

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       1a302112-6592-4219-9d4f-c096b6721d95
+:ROAM_ALIASES: Hardlopen
+:END:
+#+title: Running
+#+filetags: :tag:
+
+- tags :: [[id:d039e34c-bec4-4b44-bbaa-76e7aa5ef7a9][Health]]

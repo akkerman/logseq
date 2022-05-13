@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       3c9abfe5-e888-4e6f-ac8b-035c222fabe8
+:ROAM_ALIASES: "total order" "linear order" preorder
+:END:
+#+title: Ordered Categories
+
+- preorder :: a [[id:65ef0e5c-8864-4f80-b92f-1c7ec0d560d2][Category]] where the morphism are relations of being less than or equal ≤.
+
+- partial order :: a preorder where if a ≤ b and b ≤ a then a = b.
+
+- linear order ::  a any two objects are in a relation with each other
+
+- total order ::  see linear order
+
+You may have cycles in a preoder but not in a partial order. Only partial and
+total orders can be sorted by an [[roam:algorithm]] like [[roam:quick-sort]],
+[[roam:bubble sort]], [[roam:merge sort]].

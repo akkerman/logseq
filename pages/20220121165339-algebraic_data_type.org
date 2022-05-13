@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       1823f841-2b50-408a-8984-cc18ab0dd748
+:END:
+#+title: Algebraic data type
+
+Use a Algebraic data type to create enumerations in [[id:857ff32f-0fe9-42cb-b72a-70d7aeaff7bd][Haskell]]
+
+#+begin_src haskell exports: both
+data Day = Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday deriving (
+           Eq, Ord, Show, Read, Bounded, Enum)
+
+(minBound :: Day) `compare` (read "Monday" :: Day)
+#+end_src
+
+#+RESULTS:
+: Prelude> EQ

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       1cde1661-dc77-4789-bda5-e9aef6cb1e3d
+:ROAM_REFS: https://en.wikipedia.org/wiki/Empiricism
+:ROAM_ALIASES: Empirisme
+:END:
+#+title: Empiricism
+
+Het empirisme is een [[id:dde81736-7aa2-4d43-bdd0-de363bd0f78b][filosofische]] stroming waarin gesteld wordt dat kennis voornamelijk of geheel voortkomt uit de ervaring.

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       a2d34564-2999-4381-9fe4-6f7b753b32d2
+:END:
+#+title: Structure enables flow
+
+Als de dingen, tot het kleinste detail, zijn toe vertrouwd aan een struktuur kan er volledige focus zijn voor de huidige taak zodat men in een [[id:cb468892-d1fd-4b5c-9e28-344c21bc4152][flow]] geraakt.
+
+#+begin_quote
+A good structure is something you can trust. It relieves you from the burden of remembering and keeping track of everything. If you can trust the system, you can let go of the attempt to hold everything together in your head and you can start focusing on what is important: The content, the argument and the ideas. [1]
+#+end_quote
+
+[cite:@ahrens2017]

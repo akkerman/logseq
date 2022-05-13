@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       ce5adb30-44b9-4a9e-bf38-13c5e08659e4
+:ROAM_ALIASES: ISP
+:END:
+#+title: Interface Segregation Principle
+
+Maak kleine, client specifieke interfaces. Wees niet afhankelijk van classes die je niet gebruikt.

@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       e7733fd5-7213-4399-8a5e-2801aaf9a6c3
+:END:
+#+title: why VO2max is not the be-all and end-all
+
+Voor de aërobe capaciteit (VO2max) krijg je geen prijzen, toch willen renners em hoger hebben.
+
+Om je aërobe systeem sterker te krijgen moet het aan stress onderwerpen,
+minimaal 60% van max hartslag. Onderzoek toont aan dat hoge intensiteit de
+samentrekkingen van het hart meer versterkt dan lage intensiteit.
+
+Echter lang lopen op lage intensiteit zorgt er voor dat je blootgesteld wordt aan IL-6,
+wat bijdraagt aan vermoeidheids verschijnselen, wat er weer toe leid dat je meer
+weerstand opbouwd tegen vermoeidheid en zo je uithoudingsvermogen verbeterd.
+
+Hoge en lage intensiteit complementeren elkaar, hoe moet je ze combineren?
+Blijkbaar met heel veel lage en een beetje hoge, zgn [[id:3b60c874-9fb0-441d-bb2d-f963d0bd21e4][polarized training]] waarbij
+je de gemiddelde intensiteit vermijd.
+
+Als je aërobe capaciteit groter wordt is dit van invloed op je snelheid over een
+bepaalde afstand, maar nog vele malen meer op het kunnen volhouden van een
+snelheid. Aërobe training zorgt er voor dat spieren zich aanpassen waardoor je
+economischer kunt rennen over langere afstanden met als gevolg dat de absolute
+maximale snelheid daalt.
+
+Dus niet alleen je VO2max zou hoger mogen, je moet ook meer weerstand kunnen
+bieden aan vermoeidheid om een hoge snelheid lang vol te kunnen houden.

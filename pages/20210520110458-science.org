@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       4391b5be-9d86-4599-8f25-3283d8d062da
+:ROAM_ALIASES: Wetenschap
+:END:
+#+title: Science
+#+filetags: :tag:

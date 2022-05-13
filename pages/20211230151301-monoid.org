@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       7e7c075d-77a4-4989-b9cc-2db2300c1887
+:END:
+#+title: Monoid
+#+options: toc:nil num:nil
+
+A Monoid is a set with an [[id:615eca01-bd42-49fb-aa9a-0f981cea7674][associative binary operation]] with one special element which is neutral with respect to the operation.
+
+This neutral element is also called a unit or identity element.
+
+Examples:
+
+|-----------------+-----------+-------|
+| Set             | Operation | Unit  |
+|-----------------+-----------+-------|
+| Natural numbers | +         | 0     |
+| Natural numbers | *         | 1     |
+| Strings         | +         | ~""~    |
+| Arrays          | concat    | ~[]~    |
+| Sets            | union     | ~{}~    |
+| Boolean         | and       | ~true~  |
+| Boolean         | or        | ~false~ |
+| Boolean         | xor       | ~false~ |
+<<<<<<< HEAD
+
+---
+
+- [[https://bartoszmilewski.com/2014/12/05/categories-great-and-small/][Categories Great and Small |   Bartosz Milewski's Programming Cafe]]
+- [[file:~/Dropbox/Library/Learn You a Haskell for Great Good.pdf][Learn You a Haskell for Great Good]] Chapter 12
+=======
+>>>>>>> y2022w03

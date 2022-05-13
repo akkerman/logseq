@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       615eca01-bd42-49fb-aa9a-0f981cea7674
+:ROAM_ALIASES: associative
+:END:
+#+title: associative relation
+
+When a relation or [[id:5070516e-6dc7-4c8b-b69e-45db03c10be2][binary operation]] is associative it means that the result will not be
+different when applying the operation in a different order (e.g. parentheses)
+
+#+begin_src
+1 + 2 + 3 == (1 + 2) + 3 == 1 + (2 + 3)
+#+end_src

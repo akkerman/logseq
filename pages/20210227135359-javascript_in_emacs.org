@@ -1,0 +1,106 @@
+:PROPERTIES:
+:ID:       ce75c74f-e269-4552-aaf8-bbdcf12303ed
+:END:
+#+title: JavaScript in Emacs
+#+filetags: :todo:
+
+Some notes about [[id:4aad8986-2a12-4877-ab70-345ab5614c66][JavaScript]] in [[id:60327c8c-4c49-4867-bf95-69714d9714e0][Emacs]]
+
+- [[https://www.ianjones.us/zaiste-programming-doom-emacs-tutorial][Doom Emac Zaiste Programming Tutorial]]
+
+* TODO quickly/fuzzy find files
+=SPC SPC= opens a search within the project files, however new files cannot be found. How to update cache?
+
+** create project
+- Add project directory to the cache
+  =M-x projectile.. ?=
+- Open project
+  =SPC p p=
+- Open file in project
+  =SPC SPC=
+- Clear project cache (when new file added)
+   =???? SPC p i=
+
+* TODO look into sessions
+=SPC q S= and =SPC q L= will save and load sessions
+
+When persp-mode is active, =doom-buffer-list= becomes workspace-restricted. You can overcome this by using buffer-list.
+
+* TODO javascript snippets
+* TODO Add .todo( and .skip( as todo
+:PROPERTIES:
+:CREATED:  [2021-02-26 Fri 06:27]
+:END:
+For =SPC p t=
+
+* DONE how to show complete branch name?
+CLOSED: [2021-02-26 Fri 18:54]
+It now shows e.g. =feature/w...=  while the branch is called =feature/wow-client=.
+
+[[https://www.reddit.com/r/DoomEmacs/comments/ls13ir/how_to_show_complete_branch_name_in_status_bar/][How to show complete branch name in status bar? : DoomEmacs]]
+
+#+begin_src elisp
+; config.el
+(setq doom-modeline-vcs-max-length 100)
+#+end_src
+
+* DONE automatically fix eslint error
+combine eslint-fix with estlint_d
+
+** DONE manual:
+- type =M-S-1= to Run one shell command.
+- Then type =yarn lint --fix=
+
+** DONE automatically with [[github:codesuki/eslint-fix][eslint-fix]] (slow):
+CLOSED: [2021-02-22 Mon 19:15]
+#+begin_src elisp
+; add to ~/.doom.d/packages.el
+(package! eslint-fix)
+; add to ~/.doom.d/config.el
+
+(setq eslint-fix-executable "eslint_d") ; this will make it a lot faster
+(eval-after-load 'js2-mode
+  '(add-hook 'js2-mode-hook (lambda () (add-hook 'after-save-hook 'eslint-fix nil t))))
+#+end_src
+
+sync doom and restart emacs
+
+** KILL automatically with [[github:aaronjensen/eslintd-fix][eslintd-fix]]:
+CLOSED: [2021-02-22 Mon 20:19]
+works not yet
+
+* DONE open new tab
+CLOSED: [2021-02-23 Tue 21:14]
+=C-t= works while in orgmode but not in javascript?
+=:tabe= doesn't work at all
+=gt and gT= for next and previous tab work, it's confusing with a number
+
+emacs has a concept called workspaces
+
+Switch to the workspaces with meta and a number e.g.: =m-1=, =m-2= etc.
+
+=SPC TAB n=
+
+* DONE switch between implementation and test file
+CLOSED: [2021-02-23 Tue 21:51]
+#+begin_src elisp
+; add to ~/.doom.d/config.el
+(add-to-list 'projectile-other-file-alist '("js" "test.js"))
+(add-to-list 'projectile-other-file-alist '("test.js" "js"))
+
+(map! :leader
+      :desc "Otherfile in window"
+      "p w" #'projectile-find-other-file-other-window)
+#+end_src
+
+Switch between the two with =SPC p o=
+Switch between the two in different window =SPC p w= (custom mapping)
+
+* DONE completion
+CLOSED: [2021-02-22 Mon 16:57]
+already works in doom-emacs
+accept with enter key
+
+* DONE code folding
+CLOSED: [2021-02-22 Mon 14:07]
+works out of the doom box with zf, zc, zR etc etc

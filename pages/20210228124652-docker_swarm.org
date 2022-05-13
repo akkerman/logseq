@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       e8c20c3a-54dc-4ee9-8cde-785a5492dca7
+:END:
+#+title: Docker Swarm
+
+A swarm consists of multiple [[id:0a9884c7-99ee-4219-b4b9-95fd958c11b9][Docker]] hosts which run in swarm mode and act as managers (to manage membership and delegation) and workers (which run swarm services).

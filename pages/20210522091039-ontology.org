@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       086fba9c-50a0-4435-9424-779a1a3de1d8
+:END:
+#+title: Ontology
+
+De ontologie of zijnsleer is een tak van [[id:dde81736-7aa2-4d43-bdd0-de363bd0f78b][filosofie]] die de eigenschappen, het zijn, van de dingen onderzoekt en beschrijft.
+
+Een ontologie in de [[id:889a9282-2b0a-4366-a5e8-ccdad8e4f8d9][informatica]] is een data structuur die alle relevante entiteiten en relaties vastlegt.

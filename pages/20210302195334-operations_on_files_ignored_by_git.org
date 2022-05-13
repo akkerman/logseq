@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       0b61d226-cd72-42bb-955c-932120226439
+:END:
+#+title: Operations on files ignored by Git
+#+options: toc:nil num:nil
+
+- tags :: [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+show everything that is ignored by [[id:00f182c8-814f-4400-b072-270f528dcd42][Git]] ~git status --ignored~
+
+show what [[id:00f182c8-814f-4400-b072-270f528dcd42][Git]] ignores by which rule in .gitignore ~git check-ignore -v **/*~
+
+Remove everything not under [[id:00f182c8-814f-4400-b072-270f528dcd42][Git]] version control (ignored and new) ~git clean -fx~

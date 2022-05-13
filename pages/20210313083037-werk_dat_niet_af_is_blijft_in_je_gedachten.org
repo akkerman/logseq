@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       34be9a5e-e60b-44ff-af19-8632410bb942
+:ROAM_ALIASES: "Zeigarnik effect"
+:END:
+#+title: Werk dat niet af is blijft in je gedachten.
+
+- tags :: [[id:2a2c7971-5069-472a-b0cc-23ded4631cab][productivity]]
+
+
+Werk hoeft niet echt af te zijn om het los te kunnen laten, je kunt het goed op schrijven op een manier dat het brein denkt dat er voor gezorgd zal worden.
+
+- [[https://interruptions.net/literature/Zeigarnik-PsychologischeForschung27.pdf]]
+- [[https://en.wikipedia.org/wiki/Zeigarnik_effect][Zeigarnik effect - Wikipedia]]

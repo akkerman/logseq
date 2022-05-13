@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       45c21cd1-78b9-4f5b-9b09-80eea8e150b7
+:ROAM_ALIASES: mongo
+:END:
+#+title: MongoDB
+
+[[https://www.mongodb.com/][The most popular database for modern apps | MongoDB]]

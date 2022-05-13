@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       1f88c29f-24f2-448d-8b72-b6c5a3fcb418
+:ROAM_ALIASES: org-agenda
+:ROAM_REFS: https://orgmode.org/manual/Weekly_002fdaily-agenda.html
+:END:
+#+title: Org Agenda
+
+An agenda in [[id:440c7859-bd16-4919-b105-f6a2fdb18270][org mode]]
+
+Shortcut:
+
+#+begin_quote
+The purpose of the weekly/daily agenda is to act like a page of a paper agenda, showing all the tasks for the current week or day.
+#+end_quote

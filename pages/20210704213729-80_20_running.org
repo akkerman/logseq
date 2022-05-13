@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       f30b65bd-4ee3-4528-8632-beee8e58fe84
+:END:
+#+title: 80/20 running
+
+- tags :: [[id:1a302112-6592-4219-9d4f-c096b6721d95][Running]]
+
+[[id:9b4f9318-75ef-4b1e-9a59-b43003594fde][Fitzgerald, M. (2014).  80/20 running: run stronger and race faster by training
+slower.]]
+
+De 80/20 rule van Stephen Seiler is een benadering bij zijn onderzoeken zag hij
+dat in meerdere duursporten atleten ongeveer 80% van hun training op lage
+intensiteit deed en ruwweg 20% op hoge intensiteit. Niemand houd er echter een
+stricte 80/20 balans op na.
+
+Begin met het opvoeren van volume, ga 6 a 7 dagen per week hardlopen en werk van
+daaruit toe naar een weekgemiddelde van 1 uur per dag. Gan dan, per jaar, niet
+meer dan 10mijl gemiddeld in de week meer lopen.
+
+[[id:b81bbab6-7151-4fcf-930a-173e5dd69252][Add low intensity cross-training to running]] als je toch meer volume/conditie
+wilt opbouwen
+
+Na 24 weken van training, neem een paar weken de tijd om te herstellen.
+
+Gebruik bekende en geteste workouts (zie literature notes of het boek)
+
+Gebruik microcycles; wissel zwaardere en lichtere trainingen met elkaar af. Van
+de drie zware dagen zijn er twee van gemiddeld of hoge intensiteit en de derde
+is een long run op lage intentsiteit.
+
+Gebruik mesocycles; cluster meerdere weken in blokken waarin volume bewust wordt
+gevarieerd (niet de 80/20 verhouding).
+
+Train progressief ofwel door het steeds moeilijker te maken of door je zware
+training steeds meer op de wedstrijd te laten lijken.
+
+De zones voor 80/20 worden bepaald obv de lactatie hartslag en het bijbehorende
+tempo.

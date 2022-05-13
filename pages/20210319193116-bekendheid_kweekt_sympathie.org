@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       8132cd76-6331-4fea-b7d4-fcaefc0fa3ec
+:ROAM_REFS: https://en.wikipedia.org/wiki/Mere-exposure_effect
+:ROAM_ALIASES: "Mere-exposure effect"
+:END:
+#+title: Bekendheid kweekt sympathie
+
+Het mere-exposure effect is een [[id:426a3dda-aeaf-4d3c-b9cc-80b1635e4840][psychologisch]] fenomeen waarbij mensen een
+voorkeur ontwikkelen voor dingen enkel omdat ze ermee bekend zijn.
+
+Of het effect dat je een voorkeur krijgt voor dingen die bekend zijn.
+
+Dit kan onbewust zijn.
+
+Reclame maakt hier handig gebruik van door bepaalde dingen maar vaak te tonen.
+
+
+- [[id:042eb91a-fc66-45d7-b8f5-606aa8ec49c2][Een herhaalde stimulus, zelfs een onbewuste, zorgt voor positieve emotie omdat het niet gevolgd door iets negatiefs.]]

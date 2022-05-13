@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       889a9282-2b0a-4366-a5e8-ccdad8e4f8d9
+:ROAM_ALIASES: computerwetenschap informatica
+:END:
+#+title: Computer Science
+#+filetags: :tag:

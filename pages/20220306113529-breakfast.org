@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       e76dca78-d4ea-4c01-86c2-94c918dbb1c1
+:END:
+#+title: breakfast
+
+- tags :: [[id:54ba9bc5-38ac-41b7-bede-2188fb47bf66][Diet]]
+
+[[https://www.mashed.com/66838/secret-history-breakfast/][The Secret History Of Breakfast]]
+
+[[https://www.historyextra.com/period/tudor/how-the-tudors-invented-breakfast/][How Did The Tudors Invent Breakfast? - HistoryExtra]]
+
+[[https://www.huffpost.com/entry/breakfast-most-important-history_n_5910054][A Brief History Of How Breakfast Got Its 'Healthy' Rep | HuffPost Life]]

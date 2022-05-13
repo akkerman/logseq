@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       21317d48-4a07-42c2-a066-2c50cd34c620
+:ROAM_REFS: https://git-scm.com/docs/git-worktree
+:END:
+#+title: Git Worktree
+#+subtitle: Create a 2nd working directory in same repository
+#+options: toc:nil num:nil
+
+- tags :: [[id:00f182c8-814f-4400-b072-270f528dcd42][Git]] . [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+A [[id:00f182c8-814f-4400-b072-270f528dcd42][git]] repository can support multiple working trees, allowing you to check out more than one [[id:df92f84f-a09b-4fff-89b5-4ad28a0a62ff][branch]] at a time.
+
+The following commands are executed at the TOP of the original worktree (e.g. sandbox)
+
+#+begin_src sh
+# create worktree with name 'sandbox-review' and new branch 'sandbox-review'
+git worktree add ../sandbox-review
+
+# create worktree with name 'sandbox-review' and new branch 'feature/translations'
+git worktree add ../sandbox-review -b feature/translations
+
+# REMOVE
+git worktree remove sandbox-review
+#+end_src

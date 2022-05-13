@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       1b3ceeec-d1f3-4d97-b933-dfc5e06e1b8a
+:END:
+#+title: Shift Left Testing
+
+
+Shift Left Testing is an approach to testing where testing is performed earlier
+in the development cycle. i.e. moved left on a timeline or down in the [[id:23373aca-1ea2-45be-a995-d66f568b2b74][Testing
+Pyramid]]
+
+Larry Smith -- [[https://web.archive.org/web/20140810171940/http://collaboration.cmc.ec.gc.ca/science/rpn/biblio/ddj/Website/articles/DDJ/2001/0109/0109e/0109e.htm][Sep01: Shift-Left Testing]]
+
+  [[https://en.wikipedia.org/wiki/Shift-left_testing][Shift-left testing - Wikipedia]]

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       7551debd-fe45-40a7-b2ba-a6dc72769a86
+:ROAM_ALIASES: bevestigingsvooroordeel "positive test strategy"
+:END:
+#+title: confirmation bias
+
+Confirmation bias is de neiging om aandacht en waarde te hechten aan informatie die eigen ideeën, overtuigingen, theoriën bevestigt.
+
+Confirmation bias is a type of [[id:8ad0eafc-ce57-418e-a285-b7cbe1a82d5c][cognitive bias]]
+
+- [[id:a2125c0c-0b5f-4d47-a990-8bb3af5fd1a8][Een hypothese testen door (alleen) bevestigend bewijs te verzamelen]]

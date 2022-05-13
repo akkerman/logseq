@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       8dd9522c-356f-4d6a-849b-a91c87f84c56
+:ROAM_ALIASES: ghci ghc
+:END:
+#+title: The Glasgow Haskell Compiler
+
+The Glasgow Haskell Compiler or GHC is a compiler and interactive environment for the functional language [[id:857ff32f-0fe9-42cb-b72a-70d7aeaff7bd][Haskell]].
+
+Run ~ghci~ to enter a [[id:59d56f9d-b76e-468e-9899-33709f11756e][repl]] for [[id:857ff32f-0fe9-42cb-b72a-70d7aeaff7bd][Haskell]]

@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       10f04d9b-92f2-480c-a949-c51e9cbee122
+:END:
+#+title: Interests
+#+filetags: :moc:
+
+- tags :: [[id:9be3ea40-46d8-4916-9826-35074da11d2a][Home]]
+
+* Interests
+
+- [[id:889a9282-2b0a-4366-a5e8-ccdad8e4f8d9][Informatica]]
+- [[id:12f99272-16fd-4ade-984a-ff58926e176b][Programming]]
+- [[id:0bede2b9-9c51-454a-ab27-b833ab5314f9][Reading]]
+- [[id:67ccdc6b-0708-4282-963f-a8056d4cb11d][Learning]]
+- [[id:426a3dda-aeaf-4d3c-b9cc-80b1635e4840][Psychology]]
+- [[id:dde81736-7aa2-4d43-bdd0-de363bd0f78b][Philosophy]]
+- [[id:d039e34c-bec4-4b44-bbaa-76e7aa5ef7a9][Health]]

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       9435fae5-61c3-4571-b30c-ff70210bed7a
+:END:
+#+title: Commutative diagram
+
+All directed graphs in a diagram with the same start and endpoints lead to the same result.

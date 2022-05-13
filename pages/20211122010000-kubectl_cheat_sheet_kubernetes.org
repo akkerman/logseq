@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       4a97e615-1734-471a-adab-3f9111a04d70
+:ROAM_REFS: https://kubernetes.io/docs/reference/kubectl/cheatsheet/
+:END:
+#+title: kubectl Cheat Sheet | Kubernetes
+
+- tags :: [[id:d83fb7dc-2921-4392-a24d-e7dfccc2e5f2][Kubernetes]] · [[id:542a0cee-7fd8-445f-81ee-baf5dee5be74][kubectl]]

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       466454a9-71b6-4f46-9858-8751940964de
+:ROAM_ALIASES: DIY klussen
+:END:
+#+title: Do it Yourself
+#+filetags: :tag:

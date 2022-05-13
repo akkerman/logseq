@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       d7868cd3-d03d-4438-aecd-477df2aec1e5
+:END:
+#+title: Het hebben van een structuur is niet hetzelfde als een plan
+#+options: toc:nil num:nil
+
+Een plan is een structuur die je jezelf oplegt, als je het wilt laten slagen zul je het moeten volgen. Een plan kan in gevaar komen door een nieuw idee of inzicht. Een plan kan demotiverend werken als het steeds maar niet gehaald wordt.
+
+De uitdaging is om je werk zo te structureren dat een nieuw idee of inzicht opbouwd aan waarmee je bezig bent of, liever, je juist extra motivatie geeft. [[id:a2d34564-2999-4381-9fe4-6f7b753b32d2][Structure enables flow]]
+
+Is het volgen van een [[roam:dieet]] niet ook een plan? Een levensstijlwijziging lijkt meer effect te hebben. Zoals andere voedingskeuzes, regelmatig (vaste momenten) bewegen.

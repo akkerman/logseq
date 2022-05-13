@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       eb5dc1ed-3c0e-4b9d-aa23-00fa9639f583
+:END:
+#+title: Category Theory
+#+filetags: :moc:
+
+
+* Summary in terms of programming
+
+- [[id:65ef0e5c-8864-4f80-b92f-1c7ec0d560d2][Category]] :: a labeled directed graph, providing a theory for functions on types and composition of those functions.
+
+- [[id:8674d761-fec0-45ed-9ebb-e0f621863b56][product]] :: a record of types, in it simplest form it is a tuple.
+
+- [[id:cd30b10d-0059-404b-a92f-31d5246fbfd4][co-product]] or sum type :: the possibility to have one of multiple types, e.g. a result or an error but not both.
+
+- [[id:7e262c95-c276-4563-b816-efafba7ad42a][Functor]] :: lift a function, that is from and to simple types, to a function of 'boxed in' types. `a box you can map over`.
+
+- [[id:908adfea-2025-4a09-b102-d96e65b72d7f][exponential]] :: ???
+
+- [[id:65b3d041-fc42-4cc1-a303-526f30b4192f][adjunction]] :: ???
+
+- [[id:326107eb-0d3d-4915-8667-ffd29f168fe1][conjunction]] :: ???

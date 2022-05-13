@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       8fbef559-75fd-4918-a119-be374dae19ef
+:END:
+#+title: Politics
+#+filetags: :tag:

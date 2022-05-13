@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID:       93d43745-49e9-4307-b51f-cc7de39bb0e9
+:END:
+n:PROPERTIES:
+:ID:       5d2308fb-266a-4888-ae44-f270d9afd57e
+:END:
+#+title: Computational Type Class Hierarchy
+
+This is the the [[id:6d1ba0eb-505f-4e6f-9c2a-af30c0a579d5][Type Class]] hierarchy of [[id:7e262c95-c276-4563-b816-efafba7ad42a][Functor]], [[id:53b6b8d0-f49f-4758-9330-07eabbedefeb][Applicative]] and [[id:a9136d69-27ce-4e18-914b-a73cb597afab][Monad]].
+
+#+begin_src mermaid :file type-class-hierarchy.png :dir /tmp
+graph TD;
+Functor-->Applicative
+Applicative-->Monad;
+#+end_src
+
+#+RESULTS:
+[[file:../../../../tmp/type-class-hierarchy.png]]
+
+#+CAPTION: Functor
+#+begin_src haskell
+fmap   :: Functor f :: (a -> b) -> f a -> f b
+(<$>)  :: Functor f :: (a -> b) -> f a -> f b
+#+end_src
+
+#+CAPTION: Applicative
+#+begin_src haskell
+fmap   :: Functor f :: (a -> b) -> f a -> f b
+(<$>)  :: Functor f :: (a -> b) -> f a -> f b
+(<*>)  :: Applicative f :: f (a -> b) -> f a -> f b
+pure   :: Applicative f :: a -> f a
+#+end_src
+
+#+CAPTION: Monad
+#+begin_src haskell
+fmap   :: Functor f :: (a -> b) -> f a -> f b
+(<$>)  :: Functor f :: (a -> b) -> f a -> f b
+(<*>)  :: Applicative f :: f (a -> b) -> f a -> f b
+pure   :: Applicative f :: a -> f a
+(>>=)  :: Monad m :: m a -> (a -> m b) -> m b
+(>>)   :: Monad m :: m a -> (m b -> m b)
+return :: Monad m :: a -> m a
+fail   :: Monad m :: String -> m a
+#+end_src

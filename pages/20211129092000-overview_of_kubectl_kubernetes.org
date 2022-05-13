@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       542a0cee-7fd8-445f-81ee-baf5dee5be74
+:ROAM_REFS: https://kubernetes.io/docs/reference/kubectl/overview
+:END:
+#+title: kubectl
+
+With the command =kubectl= you can control [[id:d83fb7dc-2921-4392-a24d-e7dfccc2e5f2][Kubernetes]] Klusters
+
+There are two ways to run this.
+
+1. Just install the command and rune =kubectl=
+2. When [[id:1d5b69d3-56ac-4fdd-bc65-744b89a15910][minikube]] is installed run : =minikube kubectl --=
+      I think we need the dashes to signal to minikube that the rest needs to be processed by kubectl and nog minikube

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       d83fb7dc-2921-4392-a24d-e7dfccc2e5f2
+:ROAM_REFS: https://kubernetes.io/
+:END:
+#+title: Kubernetes
+
+
+A system for automating deployment, scaling, and managment of containerized applications.
+
+It is possible to manage containers created from images built by [[id:c51d6f17-7f89-4a07-9e8f-12df4b053175][Docker]].
+
+[[id:e8c20c3a-54dc-4ee9-8cde-785a5492dca7][Docker Swarm]] is also a way to deploy and scale containers.

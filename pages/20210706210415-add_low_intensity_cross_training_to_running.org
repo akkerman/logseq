@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       b81bbab6-7151-4fcf-930a-173e5dd69252
+:END:
+#+title: Add low intensity cross-training to running
+
+Er zijn een aantal redenen om cross-training toe te voegen aan [[id:1a302112-6592-4219-9d4f-c096b6721d95][Hardlopen]].
+
+1. non impact cross-training, zoals fietsen vergroot wel je conditie maar brengt minder kans op blessures met zich mee dan harrdlopen
+2. als je al gewend bent cross-training te doen dan val je daar gemakkelijker op terug als je eens wat minder (goed) zou kunnen hardlopen ivm met blessure
+3. cross-training kun je gebruiken om je volume te vergroten dus niet ipv hardlopen maar aanvullend
+
+Alle cross-training, in [[id:f30b65bd-4ee3-4528-8632-beee8e58fe84][80/20 running]] kan geschieden op lage intensiteit, doe de hoge intensiteit bij je hoofdsport:  hardlopen.

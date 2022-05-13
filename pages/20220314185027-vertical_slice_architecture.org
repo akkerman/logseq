@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       e7e8b128-6d02-47a2-8a3a-72a2635979f8
+:END:
+#+title: vertical slice architecture
+#+filetags: :todo:
+
+
+Is Vertical Slice Architecture a [[id:7b793ae6-dae4-4c19-bb91-8527aead15fd][Clean Architecture]] and a viable alternative to [[roam:Hexagonal Architecture]] or [[roam:Onion Architecture]]
+
+[[https://jimmybogard.com/vertical-slice-architecture/][Vertical Slice Architecture]]

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       6e534507-da08-49ed-9946-36ab380bdbe4
+:END:
+#+title: Difference between print and putStr
+
+In [[id:857ff32f-0fe9-42cb-b72a-70d7aeaff7bd][Haskell]] ~print~ instances of ~Show~ and putStr ~String~.
+You could think of print as being:
+
+#+begin_src haskell
+print :: Show a => a -> IO ()
+print = putStrLn . show
+#+end_src

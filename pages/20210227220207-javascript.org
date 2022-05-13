@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       4aad8986-2a12-4877-ab70-345ab5614c66
+:ROAM_ALIASES: ecmascript
+:END:
+#+title: JavaScript
+
+A general-purpose [[id:12f99272-16fd-4ade-984a-ff58926e176b][programming]] language.
+
+- [[https://en.wikipedia.org/wiki/ECMAScript][ECMAScript - Wikipedia]]
+- [[https://262.ecma-international.org/10.0/][ECMAScript® 2019 Language Specification]]

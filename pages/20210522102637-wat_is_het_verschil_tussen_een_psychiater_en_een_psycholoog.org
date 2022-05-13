@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       ea83da25-21b7-45a3-a63f-be23c7ab8bfb
+:END:
+#+title: Wat is het verschil tussen een psychiater en een psycholoog
+
+Een [[id:4c2c32b1-ab0e-4d70-8ed1-82c5b6900181][psychiater]] is over het algemeen vooral geïnteresseerd in mentale stoornissen en hoe dit via een medische behandeling (vaak met medicatie) verbeterd kan worden. Een [[id:426a3dda-aeaf-4d3c-b9cc-80b1635e4840][psycholoog]] is over het algemeen meer geïnteresseerd in menselijk gedrag en de onderliggende hersen-processen en hoe deze veranderd zouden kunnen worden.

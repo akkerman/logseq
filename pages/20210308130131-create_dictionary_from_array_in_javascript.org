@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       b0f7db3c-2e47-4ad0-be6e-dad4020efde7
+:END:
+#+title: Create dictionary from array in JavaScript
+
+- tags :: [[id:4aad8986-2a12-4877-ab70-345ab5614c66][JavaScript]] [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+
+#+begin_src javascript
+function arrayToDict ({ keyProp, valueProp = null, array }) {
+  const reducer = valueProp
+    ? (result, item) => ({ ...result, [item[keyProp]]: item[valueProp] })
+    : (result, item) => ({ ...result, [item[keyProp]]: item })
+
+  return array.reduce(reducer, {}) // empty object as start value
+}
+#+end_src

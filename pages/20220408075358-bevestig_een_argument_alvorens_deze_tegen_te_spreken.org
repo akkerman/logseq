@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       a6c3469f-b9f4-4c67-9838-149d83890daf
+:END:
+#+title: Bevestig een argument alvorens deze tegen te spreken
+
+Alvorens te reageren op een argument of voorbeeld van iemand kun je eerst het nut of toepassing bevestigen voordat je aangeeft waarom het niet goed is of waar het te kort schiet.
+Daarna geeft je een tegenvoorbeeld of argument.
+
+
+n.a.v [[id:8734fc3c-cb9a-4120-a828-d81585674489][Erken eerst de utiliteit van een aanpak of voorbeeld alvorens te zeggen waar het te kort schiet en een alternatief te bieden]]
+gerelateerd aan [[id:66b1b771-3c2f-437c-ba26-9f06e87a7c4c][Rule 9.  Assume that the person you are listening to might know something you don’t]]

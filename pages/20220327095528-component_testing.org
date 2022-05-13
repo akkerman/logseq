@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       eba07f2c-4f25-41bd-95c8-4460de157e35
+:END:
+#+title: Component Testing
+
+Uitgevoerd door QA, begint bij requirements, blackbox test input/output.
+
+#+begin_quote
+A component test is a test that limits the scope of the exercised software to a
+portion of the system under test. [fn:2]
+#+end_quote
+
+#+begin_quote
+Each component of the software should be user comprehensible. [fn:19]
+#+end_quote
+
+#+begin_quote
+The primary purpose of executing the component testing is to validate the input/output performance of the test object. And also makes sure the specified test object's functionality is working fine as per needed requirement or specification. [fn:22]
+#+end_quote
+
+[fn:2]  Martin Fowler -- [[https://martinfowler.com/bliki/ComponentTest.html][ComponentTest]]
+[fn:19] [[https://www.geeksforgeeks.org/difference-between-component-and-unit-testing/][Difference between Component and Unit Testing - GeeksforGeeks]]
+[fn:22] javaatpoint -- [[https://www.javatpoint.com/component-testing][Component Testing]]

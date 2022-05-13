@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       b3fd4cb2-9a94-4cf1-8b35-64c6a50928c2
+:ROAM_ALIASES: seasoning
+:END:
+#+title: Kruiden
+#+options: num:nil
+#+SETUPFILE: refs/theme-readtheorg.setup
+#+filetags: :tag:

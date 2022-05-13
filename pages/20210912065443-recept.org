@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       d199560e-df54-4a43-bac5-ebd5709e9d0c
+:END:
+#+title: recept
+#+raom_alias: recipe
+#+filetags: :tag:
+
+- tags :: [[id:4fd89689-33c9-4f83-a827-4e0b07a6808c][voedsel]]

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       ad90ff9f-fac2-4b64-a038-d958fcf19e11
+:END:
+#+title: Semigroup
+
+In [[id:c24f193e-a83b-4253-aba8-d5bef70a96c9][Mathematics]] a semigroup is an [[roam:Algebraic Structure]] consisting of a Set with an [[id:615eca01-bd42-49fb-aa9a-0f981cea7674][associative binary operation]].
+
+In [[id:857ff32f-0fe9-42cb-b72a-70d7aeaff7bd][Haskell]] a semigroup represents a set with an [[id:615eca01-bd42-49fb-aa9a-0f981cea7674][associative binary operation]]. This makes a semigroup a superset of [[id:0ce424b5-f020-4a3a-9409-e8a09406b9fa][Haskell Monoid]].

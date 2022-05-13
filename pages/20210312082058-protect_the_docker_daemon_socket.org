@@ -1,0 +1,55 @@
+:PROPERTIES:
+:ID:       548c909e-c382-42ac-b2ac-ddf3cbd37a3e
+:END:
+#+title: Protect the Docker daemon socket
+#+options: toc:nil num:nil
+#+filetags: :how_to:
+
+- tags :: [[id:c51d6f17-7f89-4a07-9e8f-12df4b053175][Docker]] [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+
+* [#B] Deprecated
+
+This has been superseeded by accessing the docker deamon though ssh. See [[id:8801870e-b23f-4b92-a149-ece642eb4d68][Connect to different docker nodes]]
+
+* Preamble
+
+In deze map staan de certificaten die je nodig zult hebben om de docker daemon van
+*.energieonderbrekingen.nl te beveiligen.
+
+Check deze documentatie.
+https://docs.docker.com/engine/security/https/
+
+Als extra beveiliging is het aan te raden om poort 2376 nooit voor het hele internet open te zetten. b.v. alleen voor extern IP van creetion kantoor en evt van het huis van de ontwikkelaar (voor als deze thuis werkt). Dit kun je regelen via amazon.
+
+* Install Server
+
+Er zijn 3 stappen om dit aan de praat te krijgen.
+configuratie
+override docker.service
+restart
+
+* Configuratie
+
+Plaats onderstaande bestanden in /etc/docker/ het bestand key.json staat daar al.
+Je kunt aan de afbeelding ook zien welke rechten de bestanden dienen te hebben.
+cre
+Override docker.service
+mkdir -p /etc/systemd/system/docker.service.d
+Plaats override.conf in deze directory
+Achtergrond: https://github.com/moby/moby/issues/25471
+Restart
+systemctl daemon-reload
+systemctl restart docker.service
+
+* Install Client
+
+Zie de deploy instructies in de README van de code repository op gitlab
+
+* Opnieuw certificaten maken, signeren
+
+De certificaten zijn door mij (Marcel Akkerman) gemaakt en gesigneerd.
+Het CA.PEM is mijn certificaat als Signing Authority (niet officieel dus).
+
+Als deze opnieuw gemaakt moeten worden dan kan dat met de *.cnf en *.ext bestanden.
+Dan hoef je niet helemaal zelf te bedenken welke config erin moet.

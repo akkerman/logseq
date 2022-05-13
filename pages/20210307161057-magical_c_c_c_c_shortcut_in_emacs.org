@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       e556a78f-67eb-4c07-b6e8-5102f3830100
+:END:
+#+title: Magical C-c C-c shortcut in Emacs
+#+options: toc:nil num:nil
+
+* Magical =C-c C-c= [[id:c04ad12a-fd38-4280-96ec-2f9fe278ab2c][shortcut]] in [[id:60327c8c-4c49-4867-bf95-69714d9714e0][Emacs]]
+
+** add (multiple) tags to one line
+To add a tag surround it with colons,
+To add multiple separate with colon for example
+
+=:emacs:orgmode:=
+
+Just press =C-c C-c= on the heading to add a tag
+
+** Finish capturing a note
+When capturing a note e.g. with ~org-roam-capture~ (=SPC n r n= or =SPC n r i=).
+
+** Execute a codeblock
+Set the cursor anywhere in the code block, even on the begin/end tags and press ~C-c C-c~ to generate a result block.
+
+#+begin_src elisp
+(setq x 12)
+(setq y 30)
+
+(+ x y)
+#+end_src
+
+#+RESULTS:
+: 42

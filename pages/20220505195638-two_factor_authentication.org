@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       1db93e9a-82bf-420e-bc47-fd24ff66277f
+:ROAM_ALIASES: 2fa
+:END:
+#+title: Two Factor Authentication

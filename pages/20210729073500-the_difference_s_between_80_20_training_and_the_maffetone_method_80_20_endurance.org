@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       3d57d6fe-51af-450a-af99-6f49616fc6ce
+:ROAM_REFS: https://www.8020endurance.com/8020-training-and-the-maffetone-method/
+:END:
+#+title: The Difference(s) Between 80/20 Training and the Maffetone Method | 80/20 Endurance
+
+tags :: [[id:f30b65bd-4ee3-4528-8632-beee8e58fe84][80/20 running]] · [[id:b0087ad9-d553-461a-b5e5-be0510c43814][Maffetone philosophy regarding endurance]]
+
+|                                                             | Maffetone                                                   | 80/20                                                                                                           |
+|-------------------------------------------------------------+-------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------|
+| Is there a place for moderate- and high-intensity training? | Only in the last few weeks before competition.              | Yes! Up to 20% of training is done at these intensities throughout the training cycle                           |
+| How is low intensity defined?                               | Through a one-size-fits-all heart rate formula of 180 – age | Through validated field or lab tests aimed at pinpointing an individual athlete’s current ventilatory threshold |
+| How is training intensity monitored                         | Heart rate                                                  | Take your pick: Heart rate, pace, power, perceived effort                                                       |
+
+- [[id:9b4f9318-75ef-4b1e-9a59-b43003594fde][Fitzgerald, M. (2014).  80/20 running: run stronger and race faster by training slower.]]
+- [[id:907cabba-5163-46c2-83a2-812cee2cdd51][Maffetone, P. & Allen, M. (2010).  The Big Book of Endurance Training and Racing.]]

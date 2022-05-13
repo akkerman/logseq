@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       58d50d06-323c-4316-bbc8-aad58a417fcf
+:END:
+#+title: Edit code in emacs buffer
+
+- tags :: [[id:440c7859-bd16-4919-b105-f6a2fdb18270][Org-mode]]
+
+When in a source code block (starting with =begin_src=) the code can be edited in e separate buffer by pressing =C-c '=. This has the added advantage of code completion etc.
+
+[[https://orgmode.org/manual/Editing-Source-Code.html][Editing Source Code (The Org Manual)]]
+

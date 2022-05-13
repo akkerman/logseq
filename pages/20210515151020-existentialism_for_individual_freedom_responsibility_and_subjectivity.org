@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       0eb5a80e-df5d-4647-8a59-833ca15436ea
+:ROAM_REFS: https://en.wikipedia.org/wiki/Existentialism
+:ROAM_ALIASES: Existentialisme
+:END:
+#+title: Existentialism
+
+Existentialisme is een [[id:dde81736-7aa2-4d43-bdd0-de363bd0f78b][filosofische]] stroming die individuele vrijheid, verantwoordelijkheid en subjectiviteit vooropstelt.
+
+- Existence precedes essence -- Existentie gaat vooraf aan essentie :: Men geeft betekenis aan zijn leven door te bestaan, niet door vooraf gestelde categoriën. \\
+   Je bestaat en bent niet het hokje waarin je geplaats zou kunnen worden?
+
+- The Absurd -- Het absurde :: Er is geen betekenis in de wereld, anders dan die de mens er aan toe kent.
+
+- Facticity :: Feitelijkheid. \\
+  Dit gaat over zijn en niet zijn en hoe dat gedefinieert is in de tijd. Ik kan het iig nog niet volgen.
+
+- The Other and the Look :: De ervaring van iemand anders in dezelfde wereld/omgeving als jezelf. Het is het verschil tussen in het geheim gluren en worden betrapt. In het eerste geval kun je, als gluurder, op gaan in de situatie die je ziet. In het tweede geval wordt je zelfbewust en zie je jezelf zoals je iemand in een zelfde situatie zou bekijken en voel je schaamte.
+
+- Angst and dread :: Fear and Anguish. Hier kennen ze de volgende definities: \\
+  - Fear :: angst van buiten af, bijvoorbeel een klif zonder een handleuning.
+  - Anguis :: angst door je eigen denken, angst voor je eigen handlen of de (verkeerde) keuze die je maakt. bijvoorbeeld (onkundig) misstappen en naar beneden tuimelen
+
+- Despair :: Existential crisis. Je afvragen of je leven wel betekenis heeft.
+
+
+
+<2021-05-15 Sat> Eerste notitie n.a.v luisteren naar [cite:@jean-paul-sartre_2006,] achteraf mbv wiki om geheugen te triggeren.

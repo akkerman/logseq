@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       95e4a941-5ea0-4dcb-a18e-c133e60db46f
+:ROAM_ALIASES: transitive
+:END:
+#+title: transitive relation
+
+When a relation or [[id:5070516e-6dc7-4c8b-b69e-45db03c10be2][binary operation]] is transitive it means that if there is a
+relation from some element a to b /and/ there is a  relation from b to c /then/
+there must also be a relation from a to c.
+
+In a [[id:65ef0e5c-8864-4f80-b92f-1c7ec0d560d2][Category]] transitivity is defined as the composition of morphisms.
+
+examples:
+
+|       | and   | yields |
+|-------+-------+--------|
+| a < b | b < c | a < c  |
+| a = b | b = c | a = c  |
+| a ≥ b | b ≥ c | a ≥ c  |
+
+
+A [[roam:Logical Implication]] is also transitive.

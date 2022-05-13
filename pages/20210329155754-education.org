@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       6aa19936-62a6-4a66-9dbd-f2bec178358b
+:END:
+#+title: Education
+#+filetags: :tag:

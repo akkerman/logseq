@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       45cf582b-169a-4399-acf1-743cf2c6b94b
+:END:
+#+title: Verander je omgeving zodat jouw beste gewoonte de gemakkelijkste wordt
+
+Gewoontes worden getriggered door de relatie die je hebt met je omgeving en de dingen in je omgeving.
+
+Omdat wij mensen altijd de [[id:8a28b2c8-2435-49d0-8dce-50904123560f][weg van de minste weerstand]] kiezen, vaak onbewust,
+loont het zich om dingen die slechte gewoontes triggeren te verbergen en dingen
+die goede gewoontes triggeren overduidelijk in de ruimte te plaatsen.
+
+- [[id:b7454d42-19c9-49b5-af02-deb938ed4940][We voeren, vaak onbewust, de meest gemakkelijke actie uit daardoor worden we gestuurd door wat in onze directe omgeving zien]]
+- [[id:d3cf24c1-a12c-4709-aa8f-ce374c1d1157][We kunnen onze omgeving zo beinvloeden dat we de goede gewoontes uitlokken en slechte niet]]

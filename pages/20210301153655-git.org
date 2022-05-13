@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       00f182c8-814f-4400-b072-270f528dcd42
+:ROAM_REFS: https://git-scm.com/
+:ROAM_ALIASES: git
+:END:
+#+title: Git
+#+options: toc:nil num:nil
+
+* Links
+
+- [[https://git-scm.com/book/en/v2][Git - Book]]

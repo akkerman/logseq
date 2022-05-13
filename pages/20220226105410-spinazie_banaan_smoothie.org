@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       21502300-9b04-4a7f-8f14-c22a537570e1
+:END:
+#+title: Spinazie Banaan Smoothie
+
+- tags :: [[id:d199560e-df54-4a43-bac5-ebd5709e9d0c][recept]]
+
+* Ingredienten (1 portie)
+
+- banaan
+- zakje baby spinazie
+- 4x halve walnoot
+- schep proteine poeder
+- (dubbele) espresso
+- water
+- 1/2 el [[id:6da33da3-feb8-420a-99ee-4e3aac45ff00][Smoothie Kruiden]]
+
+* Bereiding
+
+- banaan pellen
+- walnoten prakken
+
+- alles in de blender

@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       3de368e3-93c2-4bd2-b413-9e1908269f10
+:END:
+#+title: Stoofvlees
+
+
+- tags :: [[id:d199560e-df54-4a43-bac5-ebd5709e9d0c][recept]]
+
+* Ingredienten
+- 500g sucade lappen
+- 1 ui
+- scheut natuurazijn
+- runderbuillon (blokje) en/of kruiden naar keuze
+
+* Bereiding
+- ui halve ringen snijden
+- 1 liter water koken
+- sucade lappen aan elke zijde aanbraden
+- lappen uit de pan
+- uien in de pan
+- lappen op de uien
+- bouilon blokje erbij
+- scheut azijn erbij
+- kokend water erop (zodat alles net onder water staat)
+
+3 a 4 uur sudderen (net tegen de kook aan)
+
+- evt dikke stukken vet verwijderen

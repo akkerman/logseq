@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       5bf64404-b427-4df7-aaca-b9cafeb3b4d2
+:END:
+#+title: Find all hardlinked files
+#+PROPERTY: header-args:sh :results verbatim :exports both
+
+When a file has a [[id:b061df21-e09d-450d-8fc4-5855d1a341b6][Hardlink in Linux]] all instances can be found by searching for the shared [[id:714f754e-ef51-4681-ba22-14ff7464bd18][inode]].
+
+#+begin_src sh
+ln 20220106134106-find_all_hardlinked_files.org testfile_1.org
+ln 20220106134106-find_all_hardlinked_files.org testfile_2.org
+find . -inum 14314066
+#+end_src
+
+#+RESULTS:
+: ./testfile_2.org
+: ./20220106134106-find_all_hardlinked_files.org
+: ./testfile_1.org

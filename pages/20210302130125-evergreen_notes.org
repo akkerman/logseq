@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       70d4862d-26ec-44b5-bd86-852e224cb0f4
+:ROAM_REFS: https://notes.andymatuschak.org/Evergreen_notes
+:END:
+#+title: Evergreen Notes
+#+options: toc:nil num:nil
+
+* Evergreen notes are written and organized to evolve, contribute, and accumulate over time, across projects.
+
+- Een notitie gaat over een ding en zoveel mogelijk alles over dat ene ding.
+- Een notitie hoort bij een onderwerp niet bij b.v. een schrijver of boek. Het doel hiervan is dat soortgelijke onderwerpen uit verschillende bronnen elkaar gemakkelijker vinden.
+- Het doel van het toevoegen van links is dwingen na te denken waarmee het onderwerp te maken heeft.
+- Omdat wij denken via associaties, is het beter om verbindingen tussen notities te laten groeien ipv ze van te voren af te dwingen.
+
+* Verschillen tussen [[id:c91fec83-5759-41a6-9702-6478d2f7f197][Zettelkasten Method]]
+Afgaande op de website zijn de verschillen
+- De werkwijze heeft inboxen voor
+  + mogelijk interessante referenties
+  + [[id:41ab37ae-b6c6-4205-9828-694601495d2d][transient notes]] en notities die niet af zijn
+- Links zijn niet alleen een verwijzing (nummertje) maar bevatten ook context, zoals de backlinks van [[id:2103e6b5-7f31-4ee2-aafd-ab49f85fbc83][Org Roam]] ook context.
+- Blijkbaar hanteert evergeen notes meer verschillende typen notities.
+- Evergreen notes maakt gebruikt van een [[id:80ddbad7-b149-4919-a230-2b02edbbe71f][spaced repetition]] memory system.

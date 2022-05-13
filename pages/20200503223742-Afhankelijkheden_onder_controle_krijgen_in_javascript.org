@@ -1,0 +1,182 @@
+:PROPERTIES:
+:ID:       394e6791-9a91-47e0-a3da-e1226d955e9d
+:END:
+#+title: Afhankelijkheden onder controle krijgen in JavaScript
+#+author: Marcel Akkerman
+#+date: 2020-05-03
+#+options: toc:nil num:nil
+
+- tags :: [[id:4aad8986-2a12-4877-ab70-345ab5614c66][JavaScript]] · [[id:f64cdd81-9f54-4ae2-a44b-39f088e02290][Unit Testing]] · [[roam:Adapter Pattern]] · [[id:7b793ae6-dae4-4c19-bb91-8527aead15fd][Clean Architecture]] · [[id:02b930f6-698b-4d3e-a11d-8842bc36168e][Factory Function]] · [[id:50395419-1f76-4c50-98dd-d9645d0b6b61][Dependency Inversion Principle]]
+
+* Afhankelijkheden krijgen ipv ophalen
+
+Maak functionaliteit testbaar door afhankelijkheden expliciet te
+specificeren als *input*. Zo kun je onderstaande lastig testen omdat
+deze direct afhankelijk is van de [[id:baac98aa-086c-4a2a-9ad8-24b2f0535341][axios]] library.
+
+#+begin_src javascript
+  // search.js
+  // originele code met expliciete afhankelijkheid naar axios
+  const axios = require('axios')
+
+  module.exports = async function search(query) {
+      const response = await axios.get('https://postman-echo.com/get', {
+        params: { query }
+       })
+
+       if (response.status === 200)
+          return response.data
+        return null
+  }
+#+end_src
+
+Omdat we niet willen dat de externe service echt wordt aangeroepen zul
+je axios moeten mocken voordat deze functie getest wordt. Dit kan evt.
+met zelfgeschreven [[id:649cb2a4-feee-424a-b332-d337c2e5d47b][mocks]] in een speciale directory die automagisch door
+jest wordt herkend. Zie, bijvoorbeeld, [[https://www.leighhalliday.com/mocking-axios-in-jest-testing-async-functions][mocking axios in jest]]. Dat dit wel/niet
+wordt gedaan is echter aan de test *niet* te zien, je maakt dus je test dan
+impliciet afhankelijk van een andere module.
+
+Hieronder is de functie herschreven met een [[id:02b930f6-698b-4d3e-a11d-8842bc36168e][factory function]] eromheen,
+welke de afhankelijkheid specificeert.
+
+#+begin_src javascript
+  // search.js
+  module.exports = function makeSearch({ httpClient }) {
+    return async function search(query) {
+      const response = await httpClient.get('https://postman-echo.com/get', {
+        params: { query }
+       })
+
+       if (response.status === 200)
+          return response.data
+        return null
+    }
+  }
+#+end_src
+
+Een stukje code welke wel de axios library binnen haalt, de factory
+function voorziet van de axios library, en een service aanbied waarin de
+search function bestaat. Je kunt je voorstellen dat evt. gerelateerde
+functies in dezelfde =index.js= gemaakt worden en voorzien van
+afhankelijkheden.
+
+#+begin_src javascript
+  // index.js -- with axios
+  const axios = require('axios')
+  const makeSearch = require('./search')
+  module.exports = {
+     search: makeSearch({httpClient: axios})
+  }
+#+end_src
+
+De test is nu vrij eenvoudig. Deze zal expliciet een [[id:649cb2a4-feee-424a-b332-d337c2e5d47b][mock]] moeten maken
+voor de httpClient.
+
+#+begin_src javascript
+  // search.test.js
+  const makeSearch = require('./search')
+
+  describe('search client', () => {
+      let httpClient
+      let search
+
+      beforeEach(() => {
+          httpClient = {
+              get: jest.fn()
+          }
+          search = makeSearch({ httpClient })
+      })
+
+      test('fetch search results', async () => {
+          // setup
+          const expectedResults = {items:['stuff', 'morestuff']}
+          httpClient.get.mockResolvedValueOnce({
+              status: 200,
+              data: { results: expectedResults}
+          })
+
+          // work
+          const searchResults = await search('something')
+
+          // expect
+          expect(searchResults).toEqual(expectedResults)
+          expect(httpClient.get).toHaveBeenCalledOnce()
+      })
+
+      test('returns null when not status 200', async () => {
+          // setup
+          httpClient.get.mockResoledValue({ status: 404 })
+
+          // work
+          const searchResults = await search('something')
+
+          // expect
+          expect(searchResults).toBeNull()
+          expect(httpClient.get).toHaveBeenCalledOnce()
+      })
+  })
+#+end_src
+
+Waarom is dit beter?
+
+1. De test setup is expliciet, het is onmogelijk om, bv door verplaatsen van bestanden, de echte axios ineens in je test te gebruiken
+2. De dependancy graph wordt overzichtelijker, er is precies één module in de codebase afhankelijk van axios.
+3. Omdat de productie code nu afhankelijk is van een interface ipv een library is het mogelijk om de library te vervangen mbv een adapter
+
+* Uitwisselen van afhankelijkheden met een adapter
+
+Omdat de productie code niet meer direct afhankelijk is van een library,
+kun je deze ook voor zien van een andere library via een adapter. In de
+index kun je deze adapter specificeren die de interface, verwacht door
+de productie code, levert boven op een andere library (bv node-fetch)
+Als het goed is hoeft zowel de productiecode als de unit tests niet te
+worden herschreven, deze waren immers niet afhankelijk van axios.
+
+#+begin_src javascript
+  // index.js with node-fetch
+  const fetch = require('node-fetch')
+  const makeSearch = require('./search')
+
+
+  const httpClient = {
+    get: (url, {params}) => {
+      const query = Object.entries(params).map(([k,v])=> k+'='+encodeURIComponent(v)).join('&')
+
+      return fetch(url+'?'+query).then(res => ({status:res.status, data:res.json()}))
+    }
+  }
+
+  search = makeSearch({httpClient})
+
+  async function main() {
+    const result = await search('check this')
+    console.log(result)
+  }
+
+  main()
+#+end_src
+
+* Afhankelijkheden kleiner maken door een adapter
+
+[[id:ce5adb30-44b9-4a9e-bf38-13c5e08659e4][Interface Segregation Principle]]
+Het is overigens NOG beter om de library altijd via een adapter aan te
+bieden, zo kan 1 functie niet ineens een +obscure+ andere
+functionaliteit van axios gaan gebruiken omdat deze niet expliciet in de
+adapter wordt aangegeven.
+
+#+begin_src javascript
+  // index.js with axios adapter
+  const axios = require('axios')
+  const makeSearch = require('./search')
+  const httpClient: {
+    get: (url, {params}) => axios(url, {params}).then(({status, data})=>({status, data}))
+  }
+  module.exports = {
+     search: makeSearch({httpClient})
+  }
+#+end_src
+
+Hoewel axios allerhande opties meer heeft, (headers toevoegen, request
+formatters etc. bieden we hier alleen URL en parameters aan als input en
+alleen status en data als response.

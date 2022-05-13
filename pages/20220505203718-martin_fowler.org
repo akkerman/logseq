@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       971bec89-f3cd-46a1-a2db-795f34c2a9cc
+:END:
+#+title: Martin Fowler
+#+filetags: :person:

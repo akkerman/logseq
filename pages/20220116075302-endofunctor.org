@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       5fc34c24-09c6-47ca-b8fe-8548f9e31ee7
+:END:
+#+title: Endofunctor
+
+An endofunctor is a [[id:7e262c95-c276-4563-b816-efafba7ad42a][Functor]] that maps a [[id:65ef0e5c-8864-4f80-b92f-1c7ec0d560d2][category]] to that same [[id:eb5dc1ed-3c0e-4b9d-aa23-00fa9639f583][category]].

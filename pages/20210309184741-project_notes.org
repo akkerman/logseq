@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       1a57d966-7b6a-4ccf-bfe1-380d4741ad14
+:END:
+#+title: Project notes
+
+Project notities zijn alleen belangrijk voor een specifiek project, ze staan in een aparte directory en kunnen worden weggegooid nadat een project af is.
+
+Project Notities lijken mij een vorm van [[id:00b4999d-f578-4972-9307-efafbbdd81e9][permanente notitities]].

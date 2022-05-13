@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       13e64c35-1f20-4a77-804a-8353b473cf52
+:ROAM_ALIASES: "end-to-end testing"
+:END:
+#+title: E2E testing
+#+filetags: :todo:
+
+
+Testen vanuit een gebruikersperspectief. Hierbij neem je het gehele systeem met
+aanroepen over het netwerk en database interactie. Je valideerd hier of de
+applicatie flow zich gedraagt zoals verwacht.

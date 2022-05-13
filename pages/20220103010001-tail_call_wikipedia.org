@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       7181861f-0733-4c15-a411-6d3e8fca38a4
+:ROAM_REFS: https://en.wikipedia.org/wiki/Tail_call
+:END:
+#+title: Tail call
+#+roam_aliases: "Tail Recursive"

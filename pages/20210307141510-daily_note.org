@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       3d53dfa4-4bc2-4131-b97d-282f81328777
+:END:
+#+title: Daily Note
+#+options: num:nil toc:nil
+
+Elke dag een lege pagina.
+
+Het idee is om elke dag notities te maken die je taken, notities en gedachten samenbrengt, van hieruit kun je doorlinken naar andere notities.

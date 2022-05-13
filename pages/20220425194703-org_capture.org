@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       017f17cd-22cb-429f-af2e-c3da046efe6c
+:END:
+#+title: org capture
+
+In [[id:440c7859-bd16-4919-b105-f6a2fdb18270][orgmode]] kun op verschillende manieren en in verschillende bestanden notities vastleggen.
+
+Voor een template in doom emacs, voeg aan ~/.doom.d/config.el toe:
+
+Ik vond eerst iets met setq maar dat overschreef alle templates die al door doom gezet zijn.
+Op onderstaande manier wordt er een tamplate toegevoegd
+
+#+begin_src elisp
+(after! org
+  (add-to-list 'org-capture-templates
+               '("c" "My Capture" entry
+                 (file+heading "my-capture-file.org" "Some Heading")
+                 "* %U %^{Korte omschrijving}\n%?"
+                 )
+               ))
+#+end_src

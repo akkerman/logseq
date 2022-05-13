@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       e2c3ef0d-6c03-4754-b506-22e90f61550f
+:END:
+#+title: Show nice icons in orgmode
+
+- tags :: [[id:440c7859-bd16-4919-b105-f6a2fdb18270][Org-mode]]
+
+* DONE checkout new package
+CLOSED: [2021-03-18 Thu 13:38]
+https://github.com/integral-dw/org-superstar-mode
+
+#+begin_src elisp
+;; packages.el
+(package! org-superstar)
+;; config.el
+(use-package org-superstar
+  :config
+  (add-hook 'org-mode-hook (lambda () (org-superstar-mode 1))))
+#+end_src
+
+* DONE show nice icons instead of a asterisk
+CLOSED: [2021-02-27 Sat 09:39]
+
+Use package [[https://github.com/sabof/org-bullets][sabof/org-bullets: utf-8 bullets for org-mode]]
+
+#+begin_src elisp
+;; packages.el
+(package! org-bullets)
+;; config.el
+(use-package org-bullets
+  :config
+  (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1))))
+#+end_src

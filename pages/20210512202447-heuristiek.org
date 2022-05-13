@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       062ba253-f61e-428c-997e-cdd21e98ac53
+:ROAM_REFS: https://nl.wikipedia.org/wiki/Heuristiek
+:END:
+#+title: Heuristiek
+
+Heuristiek is de wetenschap, de leer of de kunst van het vinden.
+
+In de [[id:889a9282-2b0a-4366-a5e8-ccdad8e4f8d9][informatica]] een heuristiek een techniek om een probleem bij benadering op te lossen als andere oplossingen te langzaam blijken.

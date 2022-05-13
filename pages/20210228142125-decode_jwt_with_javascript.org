@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       6f703811-ca11-493a-bf74-1669738ac121
+:END:
+#+title: Decode JWT with javascript
+#+filetags: :how_to:
+
+- tags ::  [[id:765becc4-511c-411e-bb1b-13fe94539ce9][jwt]] [[id:4aad8986-2a12-4877-ab70-345ab5614c66][JavaScript]] [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+
+~npm install jsonwebtoken~
+
+#+begin_src javascript
+#!/usr/bin/env node
+const jwt = require('jsonwebtoken')
+
+console.log(JSON.stringify(jwt.decode(process.argv[2])))
+#+end_src

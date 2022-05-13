@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       01979a53-1825-4f0a-a82f-28555f2fb466
+:ROAM_REFS: https://roamresearch.com/
+:END:
+#+title: Roam Research
+#+options: toc:nil num:nil
+
+- Co-Founder: [[roam:Conor White-Sullivan]]
+- Core of Roam Research is [[id:3d53dfa4-4bc2-4131-b97d-282f81328777][Daily Notes]].
+- Zoals ik het begrijp is het een implementatie van [[id:c91fec83-5759-41a6-9702-6478d2f7f197][Zettelkasten method]]

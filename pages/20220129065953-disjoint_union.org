@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       99fa4a22-b1a0-4a57-b28d-0d8313565301
+:ROAM_REFS: https://en.wikipedia.org/wiki/Disjoint_union
+:END:
+#+title: disjoint union
+
+One creates a disjoint union of two sets by creating a set of tuples from two other sets where one element of the tuple is the original value from the original set and the other element of the tuple is a tag so it can be traced back to the original set.
+
+
+#+begin_quote
+Consider the sets A_0 = {5, 6, 7} and A_1 = {5, 6}, it is possible to index the set elements according to set origing by forming the associated sets
+A*_0 = {(5,0), (6,0), (7,0)}
+A*_1 = {(5,1), (6,1)}
+where the second element in each pair matches the subscript of the origin set. The disjoint union A_0 ⨆ A_1 can then be calculated as follows
+
+A_0 ⨆ A_1 = A*_0 ∪ A*_1 = {(5,0), (6,0), (7,0), (5,1), (6,1)}
+#+end_quote

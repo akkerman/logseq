@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       ab4aa53a-c62f-49a4-9e76-8083b8834406
+:END:
+#+title: GUI Testing
+
+Test gebruikersinteractie en werkstromen door de schermen.
+Valideer layout, gedrag, toestand, bruikbaarheid, consistentie en naleving van huisstijl.
+
+Types:
+  - Manual Based Testing
+  - Model-Based Testing
+  - Record and Replay
+  - Hybrid Tests
+  - Code-based Testing

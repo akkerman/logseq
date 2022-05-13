@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       10036a34-bc0d-48af-ac41-ab45ac015be2
+:END:
+#+title: Principles of object-oriented design
+#+filetags: :moc:
+
+- tags :: [[id:889a9282-2b0a-4366-a5e8-ccdad8e4f8d9][Computer Science]] · [[id:e3ba0d13-1e68-4a29-9104-21d3ec2a41de][Software Architecture]] · [[id:e594e54f-1b3a-4ec7-919c-7237451ac048][Software Design]]
+
+- [[id:00d61bb1-b6c7-4c42-a4fd-d3e2d2b93ae4][Program to an interface, not an implementation]]
+- [[id:f1a4d703-5700-452a-a514-2c154ab43d7b][Favor object composition over class inheritance]]

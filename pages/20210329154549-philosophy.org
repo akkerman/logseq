@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       dde81736-7aa2-4d43-bdd0-de363bd0f78b
+:ROAM_ALIASES: Filosofie
+:END:
+#+title: Philosophy
+#+filetags: :moc:
+
+* Stromingen
+
+- [[id:0eb5a80e-df5d-4647-8a59-833ca15436ea][Existentialisme]] :: Individuele vrijheid, verantwoordelijkheid en subjectivtieit zijn het meest belangrijk.
+- [[id:1eee7741-5307-41fc-a7cf-3754e84aed6c][Rationalisme]] :: Kennis en waarheid kunnen alleen verkregen worden door middel van de rede.
+- [[id:1cde1661-dc77-4789-bda5-e9aef6cb1e3d][Empirisme]] :: Kennis komt voornamelijk voort uit ervaring.
+- [[id:630c748a-b6d0-42d8-ad65-0d99c5fee475][Fenomenology]] :: Ga uit van ervaring van fenomenen, zonder veronderstellingen over causale verbanden er tussen.

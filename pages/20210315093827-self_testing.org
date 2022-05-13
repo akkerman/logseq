@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       5e3d2701-65f0-4173-8cff-9062c4d180a7
+:END:
+#+title: Self Testing
+- tags :: [[id:67ccdc6b-0708-4282-963f-a8056d4cb11d][Learning]]

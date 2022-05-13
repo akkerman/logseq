@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       0e723fa6-4831-4a12-b47d-c9b442f5beb5
+:END:
+#+title: Specification based testing
+#+filetags: :todo
+#+CAPTION: image-caption
+#+options: toc:nil num:nil
+#+NAME:    fig:image-name
+
+* Beschrijving
+
+Gebruik de specificatie van een programma, functie, module om tests te
+schrijven. Beschouw het test object als een black box, focus op het verwachte
+gedrag. Wat doet het (moet het doen) niet hoe doet ie het.
+
+
+* Stappenplan
+
+In het boek Effective Software Testing worden onderstaande iteratieve stappen voorgesteld. [cite:@aniche_effective_2022]
+
+[[./20220328154825-specification_based_testing.org_scrot-20220401210554.png]]
+
+
+1. Begrijpen van de requirement
+2. Bekijken van het progamma doet, m.n. als niet zelf geschreven
+3. Kijk naar mogelijke input en identificeer input waarbij je wel/niet soortgelijk gedrag verwacht.
+4. Zoek de grensvlakken op. Denk bv aan het verschil tussen > en >=
+5. Bedenk wat je gaat testen
+6. Automatiseer de tests
+7. obv van ervaring en creativiteit kun je bepaalde diepere tests bedenken of
+   triviale tests die niet voorkomen achterwege laten

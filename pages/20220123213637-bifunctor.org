@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       e1d834f5-d956-4b0b-89d1-48fbde7301f2
+:END:
+#+title: BiFunctor
+
+In [[id:eb5dc1ed-3c0e-4b9d-aa23-00fa9639f583][Category Theory]] a Bifunctor, or binary [[id:7e262c95-c276-4563-b816-efafba7ad42a][functor]], is a mapping defined on the [[roam:Cartesian product]] of two [[id:65ef0e5c-8864-4f80-b92f-1c7ec0d560d2][categories]].

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       60327c8c-4c49-4867-bf95-69714d9714e0
+:ROAM_REFS: https://www.gnu.org/software/emacs/
+:ROAM_ALIASES: "GNU Emacs"
+:END:
+#+title: Emacs
+#+options: toc:nil num:nil
+
+- [[https://www.gnu.org/software/emacs/][GNU Emacs - GNU Project]] :: An extensible, customizable, free/libre text editor — and more.

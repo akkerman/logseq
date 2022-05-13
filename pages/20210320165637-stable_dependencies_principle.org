@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       b2ab7a34-1b20-47c0-8d89-e27f49ce7c60
+:ROAM_ALIASES: SDP
+:END:
+#+title: Stable Dependencies Principle
+
+/Depend in the direction of stability./
+
+
+- uitgaande afhankelijkheden :: Een component is zelf ergens van afhankelijk. \\
+    Heeft een component alleen uitgaande afhankelijkheden dan is deze:
+    - unstable
+    - irresponsible
+    - independent
+
+- binnenkomende afhankelijkheden :: Er zijn anderen afhankelijk van het component. \\
+    Heeft een component alleen binnenkomende afhankelijkheden dan is deze:
+    - unstable
+    - responsible to other components (heeft een verplichting)
+    - dependent
+
+- /I = out / ( in + out )/ :: Stability Metric een getal tussen 0 (max instabiel) en 1 (max stabiel).
+
+
+- Violation :: Als een stabiel component afhankelijk wordt van een, volgens ontwerp, flexibel (veranderlijk) component.\\
+  Het flexible component wordt daardoor toch ineens moeilijker aanpasbaar omdat deze nu een verplichting heeft om stabiel(er) te zijn.\\
+  *Oplossing*: maak een stabiele interface waarvan beide componenten afhankelijk kunnen zijn.

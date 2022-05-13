@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       6cd60b3b-98bc-4dde-a89f-4fe6b2838ca0
+:ROAM_REFS: https://nl.wikipedia.org/wiki/Edmund_Husserl
+:END:
+#+title: Edmund Husserl
+#+filetags: :person:
+
+Uitspraak: hoesèl met klemtoon eerste lettergreep
+
+Edmund Gustav Albrecht Husserl  was een Oostenrijks-Duitse filosoof en wordt beschouwd als de grondlegger van de [[id:630c748a-b6d0-42d8-ad65-0d99c5fee475][fenomenologie]].
+
+check ook [[https://www.youtube.com/watch?v=mlpTuRuibrQ][Husserl anno nu | Lezing door filosoof Gert-Jan van der Heiden - YouTube]]
+
+Terug naar de dingen zelf.
+Iemand die een filosoof wil zijn, zei Husserl, moet iig een keer proberen zoals [[roam:Descartes]] deed: `in zichzelf terugtrekken`
+#+begin_quote
+/Do not wish to go out; go back into yourself. Truth dwells in the inner man./ --St. Augustine
+#+end_quote

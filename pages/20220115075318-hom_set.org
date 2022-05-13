@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       01cea5fa-5ac2-41d7-87ae-d1077a0d68ec
+:END:
+#+title: Hom-set
+
+A set of morphism from object a to object b in a [[id:65ef0e5c-8864-4f80-b92f-1c7ec0d560d2][category]] C is called a Hom-set and id written as C(a,b).
+
+Every hom-set in a [[id:3c9abfe5-e888-4e6f-ac8b-035c222fabe8][preorder]] is either empty or a singleton. (there is at most one arrow from a to b)

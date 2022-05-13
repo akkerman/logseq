@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       44c94e6e-24bd-4365-94a8-4b1d23b898f8
+:END:
+#+title: Trap signals in javascript to ensure clean shutdown
+
+Trap [[id:e0e32a5b-c760-458f-ad08-6515699e0e6a][Signals]] in [[id:4aad8986-2a12-4877-ab70-345ab5614c66][JavaScript]] and do other cleanup:
+
+#+begin_src javascript
+process.on('SIGINT', shutdown)
+process.on('SIGTERM', shutdown)
+
+// start some long running process, e.g. a server
+
+function shutdown () {
+    log.info('shutting down')
+
+    // cleanup
+    // e.g. shotdown server
+    // e.g. disconnect from database
+
+    process.exit()
+}
+#+end_src

@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       3d08521f-8577-4257-951e-28efe13af07f
+:END:
+#+title: Update array in MongoDB
+#+options: num:nil toc:nil
+
+- tags :: [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+* Update array in [[id:45c21cd1-78b9-4f5b-9b09-80eea8e150b7][MongoDB]]
+
+[[https://docs.mongodb.com/manual/reference/method/db.collection.update/index.html#examples][db.collection.update() — MongoDB Manual]]
+
+Voorbeelden hier beneden gaan over activiteten met een ~assignedTo~ array met 0 of meerdere organisatie namen.
+
+** add to array
+
+#+begin_src javascript
+db.activiteit.updateMany({ /* some arbitrary query */ }, { $push: { "assignedTo": "GRONDG"  } })
+#+end_src
+
+** replace element in array
+
+#+begin_src javascript
+db.activiteit.updateMany({ "assignedTo": "NoNed" }, { $set: { "assignedTo.$": "GRONDG"  } })
+#+end_src

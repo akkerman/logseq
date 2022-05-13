@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       76cdb25c-7e79-452f-9fd9-834adc638d64
+:ROAM_REFS: https://agilemanifesto.org/
+:END:
+#+title: Manifesto for Agile Software Development
+
+* Authors
+- [[roam:Kent Beck]]
+- [[roam:Mike Beedle]]
+- [[roam:Arie van Bennekum]]
+- [[roam:Alistair Cockburn]]
+- [[roam:Ward Cunningham]]
+- [[id:971bec89-f3cd-46a1-a2db-795f34c2a9cc][Martin Fowler]]
+- [[roam:James Grenning]]
+- [[roam:Jim Highsmith]]
+- [[roam:Andrew Hunt]]
+- [[roam:Ron Jeffries]]
+- [[roam:Jon Kern]]
+- [[roam:Brian Marick]]
+- [[id:2e72fd86-0756-4d4f-b93c-1eba43c3e5cd][Robert C. Martin]]
+- [[roam:Steve Mellor]]
+- [[roam:Ken Schwaber]]
+- [[roam:Jeff Sutherland]]
+- [[roam:Dave Thomas]]

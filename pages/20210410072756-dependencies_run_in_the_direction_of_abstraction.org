@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       edaa9ef7-c63d-4c8e-a552-fa5079c5cb24
+:END:
+#+title: Dependencies run in the direction of abstraction
+#+options: toc:nil num:nil
+
+
+- /[[id:8b7fb2bd-08ba-468b-93eb-04965aabe246][SAP]] + [[id:b2ab7a34-1b20-47c0-8d89-e27f49ce7c60][SDP]] = [[id:50395419-1f76-4c50-98dd-d9645d0b6b61][DIP]]/ :: Stable Abstractions and Dependencies yield Dependency Inversion for components.

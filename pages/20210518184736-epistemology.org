@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       029d4608-81fc-4897-b18a-1a239e9bfe07
+:ROAM_ALIASES: Epistemologie Kennistheorie
+:END:
+#+title: Epistemology
+
+Kennistheorie of epistemologie, is de tak van de [[id:dde81736-7aa2-4d43-bdd0-de363bd0f78b][filosofie]] die de aard, oorsprong, voorwaarden voor en reikwijdte van kennis en het weten onderzoekt.
+
+Ook bij [[id:630c748a-b6d0-42d8-ad65-0d99c5fee475][Fenomenologie]] komt het probleem van menselijke kennis aan de orde.

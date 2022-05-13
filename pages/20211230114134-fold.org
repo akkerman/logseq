@@ -1,0 +1,103 @@
+:PROPERTIES:
+:ID:       56181a64-54de-47d0-b0eb-4652b5357a4c
+:END:
+#+title: fold
+#+OPTIONS: num:nil toc:nil
+
+
+How to implement the behaviour of the [[id:857ff32f-0fe9-42cb-b72a-70d7aeaff7bd][Haskell]] fold functions
+
+#+begin_src haskell
+arr = [1,2,3,4,5,6,7,8,9,10]
+
+foldr (+) 0 arr
+foldl (+) 0 arr
+
+foldr (-) 0 arr
+foldl (-) 0 arr
+#+end_src
+
+* [[id:126a1e03-1dcd-4fa3-80dd-59fd6e07ab56][Python]] adding numbers with fold
+
+#+begin_src python
+arr = [1,2,3,4,5,6,7,8,9,10]
+
+# foldr way of adding the numbers
+def foldr(lst):
+  if lst == []: return 0
+  return lst[0] + foldr(lst[1:])
+
+return foldr(arr)
+#+end_src
+
+#+RESULTS:
+: 55
+
+#+begin_src python
+arr = [1,2,3,4,5,6,7,8,9,10]
+
+# foldl way of adding the numbers
+def foldl(lst, result=0):
+  if lst == []: return result
+  return foldl(lst[1:], lst[0] + result)
+
+return foldl(arr)
+#+end_src
+
+#+RESULTS:
+: 55
+
+* [[id:126a1e03-1dcd-4fa3-80dd-59fd6e07ab56][Python]] generic fold
+
+Fold right, the entire list is first deconstructed. When the list is exhausted
+the addition the functions are applied. The name comes from the fact that the first
+elements dat are fed to the function at run time are the element at the right
+(end) of the list.
+
+#+begin_src python
+arr = [1,2,3,4,5,6,7,8,9,10]
+
+def foldr(fn, start, lst):
+    if lst == []: return start
+    return fn(lst[0], foldr(fn, start, lst[1:]))
+
+def add(a,b):
+    return a+b
+
+def sub(a,b):
+    return a-b
+
+
+return foldr(add, 0, arr), foldr(sub, 0, arr)
+
+#+end_src
+
+#+RESULTS:
+| 55 | -5 |
+|    |    |
+
+Fold left the function is applied to the head of the list and passed to the
+recursive function. Making this [[id:7181861f-0733-4c15-a411-6d3e8fca38a4][Tail Recursive]]. The name comes from the
+fact that the first elements that are fed to the function are the elements at
+the left (begin) of the list.
+
+#+begin_src python
+arr = [1,2,3,4,5,6,7,8,9,10]
+
+def foldl(fn, start, lst):
+    if lst == []: return start
+    return foldl(fn, fn(start, lst[0]), lst[1:])
+
+def add(a,b):
+    return a+b
+
+def sub(a,b):
+    return a-b
+
+
+return foldl(add, 0, arr), foldl(sub, 0, arr)
+
+#+end_src
+
+#+RESULTS:
+| 55 | -55 |

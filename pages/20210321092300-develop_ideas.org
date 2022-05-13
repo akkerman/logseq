@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       0a0649db-cb5e-42ba-83a2-c366846f6ed6
+:END:
+#+title: Develop Ideas
+
+We halen ideeen uit hun originele context (extract & abstract) en weiden (elaborate & concrete) ze uit.
+
+We halen informatie uit verschillende geordende bronnen, we gooien het doorelkaar en verbinden het totdat er nieuwe patronen ontstaan.
+
+Het aanbrengen van structuur in een onderwerp gebeurt in een [[id:73f1d83b-f636-4749-9389-942a467435ef][Structure Note]].
+
+Wijs tags aan [[id:00b4999d-f578-4972-9307-efafbbdd81e9][Permanent notes]] toe op basis van onderwerpen die je interesseren nooit vanuit één notitie.
+
+Wees er zeker van dat wat je denkt te zien er werkelijk is ([[id:b4e91f57-229e-4feb-bbb5-2a1010c1c570][You see what expect to see]]) door zo eenvoudig mogelijk, op feiten gebasserd ipv op interpretaties, te beschrijven wat er is.

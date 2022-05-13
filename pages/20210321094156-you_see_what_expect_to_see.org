@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       b4e91f57-229e-4feb-bbb5-2a1010c1c570
+:END:
+#+title: You see what expect to see
+#+filetags: :todo:
+
+Om waar te nemen wat is, in plaats van wat je denk of verwacht te zien is een vaardigheid en niet een karaktereigenschap behorende bij [[id:099b25de-3a71-410f-90b1-87f8bb1e28a8][open-minded]] zijn.

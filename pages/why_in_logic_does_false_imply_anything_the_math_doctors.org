@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       fa337659-e83e-42d1-8359-c927a2eb037b
+:ROAM_REFS: https://www.themathdoctors.org/why-in-logic-does-false-imply-anything/
+:END:
+#+title: Why, in Logic, Does “False” Imply Anything?
+
+- tags :: [[id:c24f193e-a83b-4253-aba8-d5bef70a96c9][Math]]
+
+False implies True, True implies True
+
+If you translate to set theory and think of implies as 'is a subset of'.
+Then when you say: 'if it rains' -> 'the grass gets wet' you mean
+
+The set of time that it rains is a subset of times the grass is wet.
+Since the empty set is a subset of any set, a false statement implies any statement.

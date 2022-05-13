@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       db15260d-5bdb-45fb-9ee5-e9d83de79d69
+:END:
+#+title: flashcards
+
+Origineel is een flashcard een kaart met informatie aan beide zijden. Een vraag aan de ene kant en het antwoord aan de andere kant. Flashcards kunnen gebruikt worden om de dingen die erop staan te onthouden.
+
+Software voor flashcards is o.a. [[https://apps.ankiweb.net/][Anki - powerful, intelligent flashcards]]
+
+Het lijkt mogelijk om flashcards met [[https://apps.ankiweb.net/][Anki]] in [[id:60327c8c-4c49-4867-bf95-69714d9714e0][Emacs]] te gebruiken met [[id:440c7859-bd16-4919-b105-f6a2fdb18270][Org mode]] door het volgende te installeren:
+ + [[https://github.com/FooSoft/anki-connect][GitHub - FooSoft/anki-connect: Anki plugin to expose a remote API for creatin...]]
+ + [[https://github.com/louietan/anki-editor][GitHub - louietan/anki-editor: Emacs minor mode for making Anki cards with Org]]

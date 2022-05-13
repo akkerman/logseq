@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       f475a741-2ea4-4eca-81db-bcedbe626342
+:ROAM_ALIASES: Pre-Reading
+:END:
+#+title: Inspectional Reading
+#+options: toc:nil num:nil
+
+Twee stapen die de beginner afzonderlijk en de gevorderde tegelijk uitvoert.
+
+* Systematic Skimming or Pre-reading
+   1. Kijk naar de titel pagina en het voorwoord om een beeld te krijgen waar het boek over gaat en evt hoe diep deze erop in gaat.
+   2. Bestudeer de inhoudsopgave om een beeld van de structuur van het boek te krijgen en welke onderwerpen aan bod komen.
+   3. Neem de index door om een beeld te kijgen van de diversiteit van onderwerpen. Lees enkele onderwerpen die eruit springen obv van aantal verwijzingen.
+   4. Als het boek een [[https://nl.wikipedia.org/wiki/Stofomslag][stofomslag]] heeft lees dan de wervende text van de uitgever. Wanneer geschreven door de auteur staan hier mogelijk kort en bondig de hoofdpunten genoemd.
+   5. Lees de start en afsluit argumenten uit de hoofstukken die het meest belangrijk zijn.
+   6. Blader het boek door. Lees af en toe iets maar lees met name de laatste paar bladzijden, waar vaak een samenvatting staat.
+
+* Superficial Reading
+Het idee is om een boek door te lezen, een algemeen beeld te krijgen de zaken die je begrijpt tot je te nemen en de de punten die je niet direct begrijpt over te slaan. Pas leessnelheid aan aan de aard van de tekst. Je moet het nog wel kunnen opnemen. (zie [[id:26447ea4-6bd7-4fbf-b9a2-b07dc1e19326][Simple tips on improving reading speed]])
+
+Het heeft voordelen om een boek te skimmen ook als je van plan bent het boek aandachtig te gaan lezen. Je bent beter voorbereid voor een tweede doorlees sessie.

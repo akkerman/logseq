@@ -1,0 +1,58 @@
+:PROPERTIES:
+:ID:       ee0cd98a-4d86-4f2e-b8d0-00b6fae9e4f9
+:END:
+#+title: Trap signals in python to ensure clean shutdown
+
+Trap [[id:e0e32a5b-c760-458f-ad08-6515699e0e6a][Signals]] in [[id:126a1e03-1dcd-4fa3-80dd-59fd6e07ab56][Python]] and do other cleanup:
+
+#+begin_src python
+import signal
+import time
+
+continue_loop = True
+def on_signal_received(*args):
+    global continue_loop
+    continue_loop = False
+
+    print('shutting down')
+
+signal.signal(signal.SIGINT, on_signal_received)
+signal.signal(signal.SIGTERM, on_signal_received)
+
+while continue_loop:
+    time.sleep(1)
+    print('...')
+
+# cleanup
+#+end_src
+
+Using a schedular
+
+#+begin_src python
+import signal
+import asyncio
+
+continue_loop = True
+scheduler = asyncio.get_event_loop()
+def on_signal_received(*args):
+    global continue_loop
+    continue_loop = False
+
+    print('shutting down')
+
+signal.signal(signal.SIGINT, on_signal_received)
+signal.signal(signal.SIGTERM, on_signal_received)
+
+async def the_loop():
+    global continue_loop
+    while continue_loop:
+        await asyncio.sleep(1)
+
+    print('cleanup')
+    scheduler.stop()
+
+scheduler.add_signal_handler(signal.SIGINT, on_signal_received)
+scheduler.add_signal_handler(signal.SIGTERM, on_signal_received)
+scheduler.create_task(the_loop())
+scheduler.run_forever()
+#+end_src

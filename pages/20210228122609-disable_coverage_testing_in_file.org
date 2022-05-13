@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       2277ddb5-798b-4264-8575-0385554683bc
+:END:
+#+title: Disable coverage testing in file
+#+options: toc:nil num:nil
+
+- tags :: [[id:4aad8986-2a12-4877-ab70-345ab5614c66][JavaScript]] [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+When testing with [[https://istanbul.js.org/][Istanbul, a JavaScript test coverage tool]], the whole file or parts of it can be ignored for coverage. This useful for when it is tested by other means.
+
+An indepth description is available at [[https://github.com/gotwarlost/istanbul/blob/master/ignoring-code-for-coverage.md][istanbul/ignoring-code-for-coverage.md at master · gotwarlost/istanbul · GitHub]]
+
+The general form is: ~/* istanbul ignore <word>[non-word] [optional-docs] */~
+
+
+* Disable whole file
+Put this at the top of the file
+
+#+begin_src javascript
+/* istanbul ignore file - this will be tested by e2e */
+#+end_src
+
+* Disable a part
+
+#+begin_src javascript
+/* istanbul ignore next - authentication will be tested by e2e */
+const jwtChecker = () => {
+  const client = jwks(jwksOptions)
+  const getKey = secretProvider(client)
+
+  return (token, callback) => jwt.verify(token, getKey, null, callback)
+}
+#+end_src

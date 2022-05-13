@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       57bc2ec1-f515-4a74-abe3-aaaefe64fd53
+:END:
+#+title: quickly commit and/or push
+
+Voor documentatie, notities en wiki pagina's die onder [[id:00f182c8-814f-4400-b072-270f528dcd42][git]] versie beheer staan
+is het wellicht onnodig om betekenisvolle commits te hebben. Een snelle manier
+om je werk onder versie beheer te brengen is met een alias die gebruikmaakt van
+een timestamp.
+
+[[id:ff1bbefd-5e17-4a4f-ae5a-22118565a0cc][Edit global git config]]
+
+#+begin_src
+[alias]
+    now = !git add -A && git commit -am $(date +%Y%m%d%H%M)
+    nowp = !git now && git push
+#+end_src
+
+Type nu ~git now~ als je alle openstaande wijzigingen (of nieuwe bestanden) direct aan versie beheer wilt toevoegen.
+
+Type ~git nowp~ om ook direct alles naar een remote te pushen.

@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       3014af35-d27b-4115-8e9a-0539cca78e91
+:END:
+#+title: Client authentication with nodejs and axios
+
+* Client authentication with [[id:3125d530-3156-4c44-bfaf-19e8dbb40f47][nodejs]] and [[id:baac98aa-086c-4a2a-9ad8-24b2f0535341][axios]]
+
+#+begin_src javascript
+const https = require('https')
+const fs = require('fs')
+const axios = require('axios')
+const data = require('./roadwork-probe.json')
+
+const httpsAgent = new https.Agent({
+  cert: fs.readFileSync('./certificate.pem'),
+  key: fs.readFileSync('./key.pem')
+})
+
+const url = 'https://wstrust.acc.wowportaal.nl/api/Roadwork/Probe'
+
+async function main() {
+
+  const response = await axios({
+    url,
+    method: 'POST',
+    headers: {
+      ClientID: '55b27826-4fdf-46f4-8292-36293084e31e',
+      UserName:'enxmaos-capo',
+    },
+    data,
+    httpsAgent,
+  })
+  console.log(response.data)
+}
+
+main()
+#+end_src

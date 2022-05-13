@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       5141717d-3279-40a6-bdb0-a01601fdf9ae
+:END:
+#+title: Punten die gemaakt kunnen worden bij onenigheid
+
+Vier punten die gemaakt kunnen worden bij onenigheid
+1. je bent ongeïnformeerd, onwetend
+2. je bent verkeerd geinformeerd
+3. je redeneringen zijn onlogisch
+4. je analyse is incompleet
+
+[cite:@adler1972]

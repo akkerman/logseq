@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       f1a4d703-5700-452a-a514-2c154ab43d7b
+:ROAM_ALIASES: "Verkies objectsamenstelling boven klasseovererving"
+:END:
+#+title: Favor object composition over class inheritance
+#+options: num:nil toc:nil
+
+Met overerving is de interne werking van een parent class vaak zichtbaar voor subclasses. (white box)
+
+Compositie is een alternatief voor overerving waarbij je meerdere objecte
+samenstelt tot nieuwe functionaliteit zonder de interne werking zichtbaar te
+hebben. (black box)
+
+
+* Overerving / Inheritance
+
+*Voordelen*
+- directer (eenvoudiger) te gebruiken
+- beschikbaar tijdens compilatie
+- gemakkelijk in hergebruik; je hoeft bv slechts een deel vd methodes te implementeren om het gedrag aan te passen (vgl [[roam:template method]])
+
+*Nadelen*
+- Op runtime kun je de implementatie van de parent niet aanpassen
+- Omdat sub-classes details van de parent kunnen zien (eigenlijk breken ze
+  encapsulation), zijn ze vaak zo met elkaar verbonden dat een wijziging aan de
+  parent een wijziging aan de sub-class behoeft.
+
+
+* Samensteling / Composition
+
+*Voordelen*
+- breekt encapsulatie niet, helpt je op 1 taak te focussen
+- kleine handzame klasse hiërargie
+- beduidend minder implementatie afhankelijkheden
+
+*Nadelen*
+- Er zijn mogelijk meer objecten en het gedrag van het systeem hangt af van de interactie ipv dat alles in 1 klasse staat.

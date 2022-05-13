@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       4fd89689-33c9-4f83-a827-4e0b07a6808c
+:ROAM_ALIASES: food
+:END:
+#+title: voedsel
+#+filetags: :tag:
+
+- tags :: [[id:d039e34c-bec4-4b44-bbaa-76e7aa5ef7a9][Health]]

@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       c04ad12a-fd38-4280-96ec-2f9fe278ab2c
+:ROAM_ALIASES: shortcut
+:END:
+#+title: Shortcuts

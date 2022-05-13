@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       2d71009c-a13f-4a9a-a548-c3ac84d38779
+:END:
+#+title: Viktor Frankl
+#+filetags: :person:
+
+Viktor Frankl was a neurologist, [[id:4c2c32b1-ab0e-4d70-8ed1-82c5b6900181][psychiatrist]] and [[id:dde81736-7aa2-4d43-bdd0-de363bd0f78b][philosopher]] he developed [[id:b1c15bf2-c324-4773-8e3c-313c008c4481][Logotherapy]].

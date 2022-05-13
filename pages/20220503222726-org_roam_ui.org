@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       a5941fcb-5819-4019-aeda-01cbb103d86b
+:END:
+#+title: org-roam-ui
+
+#+begin_quote
+org-roam-ui: a graphical frontend for your [[id:2103e6b5-7f31-4ee2-aafd-ab49f85fbc83][org-roam]] [[id:c91fec83-5759-41a6-9702-6478d2f7f197][Zettelkasten]]
+#+end_quote

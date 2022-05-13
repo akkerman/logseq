@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       7c5074a6-20fa-4c4a-836b-454349783195
+:END:
+#+title: git force vs git force with lease
+
+Gebruik ~git push --force-with-lease~ als pushen naar een remote [[id:df92f84f-a09b-4fff-89b5-4ad28a0a62ff][Git Branch]] faalt.
+
+Als  het pushen van een branch faalt kun je het forceren met ~git push --force~ er is echter een gevaar dat je werk kwijt raakt.
+
+In de meeste gevallen is het echter beter om ~git push --force-with-lease~ te gebruiken.
+Dit is met name als je hetzelfde werk pushed met iets andere meta data (b.v. na een rebase)
+
+
+[[id:ff1bbefd-5e17-4a4f-ae5a-22118565a0cc][Edit global git config]]
+
+#+begin_src
+[alias]
+    enforce = push --force-with-lease
+#+end_src

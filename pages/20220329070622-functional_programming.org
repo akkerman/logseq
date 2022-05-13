@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       f54faa7b-1102-4ff4-8060-c195d26c48f6
+:END:
+#+title: functional programming
+#+filetags: :tag:

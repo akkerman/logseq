@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       669414d0-1acd-422e-b30f-af4b32982866
+:END:
+#+title: Separate Constructing a system from using it
+#+options: toc:nil num:nil
+
+* Wat
+/Software systems should separate the startup process, when the application objects are constructed and the dependencies are “wired” together, from the runtime logic that takes over after startup./
+[cite:@martin_clean_code_2008]
+
+* Waarom
+
+Als het inititializeren van afhankelijkheden door de hele applicatie verweven zit is het lastigiger om de code te testen.
+
+Afhankelijkheden maken/geven en ze gebruiken zijn twee verschillende belangen. zie [[roam:Separation of Concerns]]
+
+* Hoe
+
+Verplaats alle setup code naar één main of naar modules die direct aangreopen door main.
+Zorg ervoor dat main afhankelijk is van de gebruikende de code en niet anders om (de rest van de app weet niets van main).
+
+[[roam:Dependancy Injection]] is het mechenisme waarop een main de afhankelijkheden aan de gebruikende code kan geven.
+
+Als de main niet weet *wanneer* bepaalde objecten objecten moeten worden gemaakt kan de gebruikende code een [[id:a90dcd9a-129e-416c-857f-8b761c34c0a6][Abstract Factory]] gegeven worden. Nu kan de gebruikende code het *wanneer* bepalen zonder de details van *hoe* te weten.
+
+Doe [[roam:Dependecy Injection]], een toepassing van [[roam:Inversion of Control]] in de context van afhankelijkheden.

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       80ddbad7-b149-4919-a230-2b02edbbe71f
+:END:
+#+title: spaced repetition
+#+options: toc:nil num:nil
+
+Een techniek om te [[id:67ccdc6b-0708-4282-963f-a8056d4cb11d][leren]] die gebruik maakt van [[id:db15260d-5bdb-45fb-9ee5-e9d83de79d69][flashcards]]. Je krijgt de kaarten
+herhaaldelijk te zien en de tijd tussen wanneer je een kaart terugziet hangt af
+van of het antwoord correct was en hoe lang het geleden is dat de kaart is
+getoond.

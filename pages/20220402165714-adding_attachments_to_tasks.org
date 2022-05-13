@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       6cab3cfc-4f4e-4235-8df1-a06432ab0ec4
+:END:
+#+title: Adding attachments to tasks
+
+Add an attachment to [[id:29865eda-9304-42b5-b974-125fa020254a][todo items]] type the ~SPC m a a~ then select a way to add it (copy, move, link etc).
+A tag ~:ATTACH:~ is added to the task, to open the attachment type ~SPC m a a~, ~o~

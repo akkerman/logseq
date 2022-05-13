@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       e01222cd-3468-4ef5-a9ab-37a831535ada
+:END:
+#+title: Tension of Component Cohesion
+
+In Figuur [[fig:component_cohesion_tension]]  beschrijft de text naast de lijn de gevolgen van het nalaten van de principle in de cirkel er tegenover.
+
+Een architect die teveel nadruk legt op hergebruik ([[id:6d3fa176-0755-4dbf-a7ab-57e57f31f256][REP]]) en onderhoud ([[id:be168716-081f-4f52-b4a2-db6b43d6d09b][CCP]]) zorgt voor teveel onnodige releases ([[id:dd390142-9537-4080-bc84-250d04575d38][CRP]]).
+
+Een architect die teveel nadruk legt op hergebruik ([[id:6d3fa176-0755-4dbf-a7ab-57e57f31f256][REP]]) en het voorkomen van meerdere releases ([[id:dd390142-9537-4080-bc84-250d04575d38][CRP]]) komt erachter dat zijn systeem moeilijker te onderhouden is ([[id:be168716-081f-4f52-b4a2-db6b43d6d09b][CCP]]). Te veel componenten gaan wijzigen bij eenvoudige wijzigingen .
+
+
+#+CAPTION: Tension Diagram for Component Cohesion.
+#+NAME: fig:component_cohesion_tension
+[[./img/clean_architecture_component_cohesion_tension_diagram.png]]
+
+
+---
+
+Het is de bedoeling dat je, als architect, niet zozeer balans zoekt in deze spanning tussen de drie princiepes maar kunt geen *schuiven* afhankelijk van de behoefte van het development team.
+
+Als je aan een project begint ga je voor het een focus op onderhoud en voorkomen van meerdere releases.
+
+Als je project een afhankelijkheid wordt voor andere projecten dan schuif je meer naar links evt ten koste van onderhoud.
+
+---
+
+
+Deze release kun je volgens mij ook interpreteren als rebuilds in het geval de componenten gezamenlijk gereleased worden.
+
+Hoe vertaal ik dit naar dynamic languages zoals javascript?

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       cd30b10d-0059-404b-a92f-31d5246fbfd4
+:END:
+#+title: coproduct
+
+The coproduct in set theory is given by "disjoint" union / tagged union. A [[id:99fa4a22-b1a0-4a57-b28d-0d8313565301][disjoint union]] in set theory, Tagged Union in [[id:889a9282-2b0a-4366-a5e8-ccdad8e4f8d9][Computer Science]]

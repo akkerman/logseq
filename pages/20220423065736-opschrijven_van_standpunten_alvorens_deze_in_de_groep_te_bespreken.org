@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       f5dccda7-ee85-4464-9947-353d6df3eea8
+:END:
+#+title: Schrijf standpunten op alvorens deze in de groep te bespreken
+
+Laat de deelnemers aan een vergadering eerst hun punten op schrijven zodat je gebruik maakt van de verscheidenheid aan kennis[fn:1] en voorkomt dat de laatste spekers alleen meegaan met de eerste[fn:2].
+
+* Footnotes
+[fn:2] [roam:anchoring]
+[fn:1] [[id:27cb960d-8b38-48ec-b348-7017d9f29ad7][Beoordelingsfouten tussen mensen zijn verschillend van elkaar en middelen elkaar uit]]

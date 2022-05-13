@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       a90dcd9a-129e-416c-857f-8b761c34c0a6
+:END:
+#+title: Abstract Factory
+#+org_roam: "design pattern"
+#+options: toc:nil num:nil
+
+/Provide an interface for creating families of related or dependent objects without specifiying their contrecte classes./ [cite:@gamma_design_1995] p.87

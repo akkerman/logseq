@@ -1,0 +1,67 @@
+:PROPERTIES:
+:ID:       a107ee75-8637-4d9a-86b7-a60f33b6ccbf
+:END:
+#+title: Org-mode shortcuts
+#+options: toc:nil num:nil
+
+Some usefull [[id:440c7859-bd16-4919-b105-f6a2fdb18270][Org-mode]] [[id:c04ad12a-fd38-4280-96ec-2f9fe278ab2c][shortcuts]]
+
+* Focus on something
+
+- C-x n s · narrow tree
+- C-x n w · widen tree
+
+- SPC m s n · narrow tree
+- SPC m s N · widen tree
+
+Something you want different views/ folds/ visibility/ narrowing between two buffers.
+This can be established by ~clone-indirect-buffer~
+- SPC b c
+
+* Move stuff around
+
+- SPC m s r · move to another header
+- SPC m A   · archive
+
+* Notes
+
+- C-c C-z · add note to current entry
+- C-'     · org-cycle-agenda-files
+- SPC X   · org capture, notes, todo etc
+
+* todo items
+:PROPERTIES:
+:ID:       29865eda-9304-42b5-b974-125fa020254a
+:END:
+
+- SPC X   · org capture, notes, todo etc
+- SPC m t · change todo state
+- SPC n t · show a list of all global todo items
+- SPC p t · show a list of all todos in a git repo
+
+* Fast insert
+
+- SPC m l c · [[https://github.com/rexim/org-cliplink][GitHub - rexim/org-cliplink: Insert org-mode links from clipboard]]
+- SPC m d T · insert date
+
+* Roam
+
+- SPC m I     · Create an ID for the current entry (roam node at point or section)
+- SPC n r f   · org-roam-node-find
+- SPC n r n   · org capture
+- C-M-j       · [[https://www.orgroam.com/manual.html#How-do-I-create-a-note-whose-title-already-matches-one-of-the-candidates_003f][How do I create a note whose title already matches one of the candidates?]]
+- SPC n r d T · Dailies capture today
+
+* Tags
+
+- SPC m q      · Add tag to header at point
+- SPC u C-c C- · Align tags to specific column
+
+Opnemen in config.el
+#+begin_src elisp
+(setq org-tags-column 75)
+#+end_src
+
+* Run command
+
+ - alt shift !

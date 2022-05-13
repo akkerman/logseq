@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       19559dee-fa6f-4587-8843-62b665b0efa5
+:END:
+#+title: Decode JWT with Python
+
+- tags ::  [[id:765becc4-511c-411e-bb1b-13fe94539ce9][jwt]] [[id:126a1e03-1dcd-4fa3-80dd-59fd6e07ab56][Python]] [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+
+~pip install --user jwt simplejson~
+
+#+begin_src python
+#!/usr/bin/env python
+import jwt
+import simplejson
+import sys
+
+print(simplejson.dumps(jwt.decode(sys.argv[1], options={"verify_signature":False})))
+#+end_src

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       6d3fa176-0755-4dbf-a7ab-57e57f31f256
+:ROAM_ALIASES: REP
+:END:
+#+title: Reuse/Release Equivalence Principle
+
+/The granule of reuse is the granule of release./
+
+- De classes en modules, binnen een component, moeten een samenhangend geheel vormen.
+- Classes en modules die in een component gegroupeert zijn, moeten gezamenlijk vrijgegeven (released) kunnen worden.
+- Ze hebben allemaal hetzelfde versienummer en bijbehorende documentatie en dit moet een logische geheel vormen.
+- Gebruikers zullen doorhebben als je componenten onlogisch zijn (don't make sense).

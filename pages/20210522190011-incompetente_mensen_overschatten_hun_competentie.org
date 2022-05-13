@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       42332796-aa5d-45ff-98e4-eb28a12d38de
+:ROAM_ALIASES: dunning-krugereffect
+:END:
+#+title: Incompetente mensen overschatten hun competentie
+
+Het dunning-krugereffect is een [[id:426a3dda-aeaf-4d3c-b9cc-80b1635e4840][psychologisch]] verschijnsel. Het treed op bij incompetente mensen die juist door hun incompetentie onvoldoende kennis hebben van hun eigen kunnen en daardoor niet (kunnen) inzien dat hun keuzes en conclusies soms verkeerd zijn.

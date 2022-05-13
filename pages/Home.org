@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       9be3ea40-46d8-4916-9826-35074da11d2a
+:END:
+#+TITLE: Home
+#+filetags: :moc:

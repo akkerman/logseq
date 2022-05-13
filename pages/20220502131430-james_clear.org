@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       f3e7fe90-6676-4044-84d8-df3be86e1527
+:ROAM_REFS: https://jamesclear.com/
+:END:
+#+title: James Clear
+#+filetags: :person:

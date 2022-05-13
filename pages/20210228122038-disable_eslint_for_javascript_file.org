@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       be3d74b2-d108-4232-baf7-e3adfb30b2fd
+:END:
+#+title: Disable eslint for javascript file
+#+options: toc:nil num:nil
+
+- tags ::  [[id:4aad8986-2a12-4877-ab70-345ab5614c66][JavaScript]] [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+
+
+[[https://eslint.org/docs/2.13.1/user-guide/configuring#configuring-rules][Configuring ESLint - ESLint - Pluggable JavaScript linter]]
+
+#+begin_src
+/* eslint some-rule:0 */
+//       ↑ omit semicolon here
+#+end_src

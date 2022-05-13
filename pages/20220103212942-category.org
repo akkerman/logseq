@@ -1,0 +1,61 @@
+:PROPERTIES:
+:ID:       65ef0e5c-8864-4f80-b92f-1c7ec0d560d2
+:END:
+#+title: Category
+#+options: toc:nil num:nil
+
+- tags :: [[id:eb5dc1ed-3c0e-4b9d-aa23-00fa9639f583][Category Theory]]
+
+* Samenvatting
+
+- Een categorie bestaat uit punten en pijlen (functies, [[id:3bd99c8f-a291-465d-88c0-b6fbddcf3548][morfismen]]) tussen die punten.
+- Tussen elk punt bestaan 0 tot n functies.
+- Elke punt heeft iig 1 (identiteits) functie naar zichzelf.
+- Als je via een aantal functies van 1 punt naar een andere kan gaan, dan bestaat ook de compositie om er in 1 keer te komen.
+
+* Parts of a category
+:PROPERTIES:
+:ID:       4401853f-5e54-469e-b08b-bc60c227789b
+:END:
+
+
+A category C has the following parts
+
+1. a set Ob(C), elements of which are called "objects"
+
+2. for every two objects c,d ∈ Ob(C), there is a set C(c,d), elements of which are called "morphism from c to d" \\
+   the set of all functions from c to d \\
+
+   f ∈ C(c,d) has the same meaning as f: c → d
+
+3. For each object c, a chosen element id_c ∈ C(c,c), id_c : c → c
+
+4. for any three objects c,d,e and morphism f: c → d,  g: d → e \\
+   there is a chosen morphism g ∘ f: c → e
+
+
+* Rules/ constraints for a category
+:PROPERTIES:
+:ID:       14e7467d-fe70-41b1-9023-7d382cf6462c
+:END:
+
+- Unital Law
+
+For any morphism f:c → d
+
+For every object c there is a [[id:3bd99c8f-a291-465d-88c0-b6fbddcf3548][morphism]] which is the unit of composition. \\
+Also called the identity function \\
+f∘id_c = f  and  id_d ∘ f = f
+
+#+begin_src haskell :exports both
+id x = x -- id3 AND id4
+f x = x + 1
+f 3 == (f.id) 3
+(id.f) 3 == f 3
+#+end_src
+
+#+RESULTS:
+: True
+
+Composition is associative \\
+   h∘(g∘f) = (h∘g)∘f = h∘g∘f

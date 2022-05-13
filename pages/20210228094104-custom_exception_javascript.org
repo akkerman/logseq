@@ -1,0 +1,59 @@
+:PROPERTIES:
+:ID:       6834532e-4ede-422a-876f-c3aa26d3d1fa
+:END:
+#+title: Custom Exception JavaScript
+#+options: toc:nil num:nil
+
+- tags :: [[id:4aad8986-2a12-4877-ab70-345ab5614c66][JavaScript]] [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+* Aanleiding
+
+Ik zou graag customs errors willen hebben in onze code b.v. ValidationError en MissingDependencyError.
+
+- [[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error][Error - JavaScript | MDN]]
+- [[https://stackoverflow.com/questions/1382107/whats-a-good-way-to-extend-error-in-javascript][exception - What's a good way to extend Error in JavaScript? - Stack Overflow]]
+
+* Een aantal mogelijkheden met nadelen:
+
+#+begin_src javascript
+// requires parsing of the text, has no stack trace
+throw "Validation Error: Activiteit moet een userid hebben"
+
+// still requires parsing of th error.message
+throw new Error("[validation] Combievent moet een deelnemer hebben")
+
+// stacktrace is missing, but no text parsing
+throw { message: 'Versie verwacht een omschrijving', type: 'validation error' }
+#+end_src
+
+* Werkbare implementatie
+
+
+#+begin_src javascript
+class ValidationException extends Error {
+  constructor(...params) {
+    super(...params)
+
+    if (Error.captureStackTrace) {
+      Error.captureStackTrace(this, ValidationException)
+    }
+
+    this.name = 'ValidationException'
+  }
+}
+
+function postSomeStuff (request) {
+  try {
+    throw new ValidationException('Activiteit verwacht een userid')
+  } catch (e) {
+    if (e instanceof ValidationException) {
+      return { statusCode: 400, message: e.message }
+    }
+    if (e instanceof AuthorizationException) {
+      return { statusCode: 403, message: e.message }
+    }
+    log.error(e)
+    return { statusCode: 500, message: e.message }
+  }
+}
+#+end_src

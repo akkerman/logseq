@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       8baa5e48-0c30-46a7-9454-ef67e469b88a
+:END:
+#+title: Chilli con Carne
+#+options: num:nil toc:nil
+
+- tags :: [[id:d199560e-df54-4a43-bac5-ebd5709e9d0c][recept]]
+
+Dit recept is, volgens mij ooit, geinspireerd door Black Bean Chilli con Carne.
+[cite:@milton_2005] p. 244
+
+* Ingredienten
+
+- [[id:3de368e3-93c2-4bd2-b413-9e1908269f10][Stoofvlees]] met [[id:03859df5-77cb-4ee2-b8b8-17bbae4b1b81][Chilli con Carne Kruiden]]
+- rode paprika
+- pak/blik tomaten blokjes a 400g
+- kidneybonen 2 blik a 400g (uitlek 240g)
+- zwartebonen 1 blik a 200g
+- bruinebonen 1 blik a 200g
+- mais 1 blik a 150g
+- geraspte kaas
+- tortilla chips
+
+opties
+
+- [[id:442caf2a-aba3-4b63-b7a1-34eaa0003e26][Guacemole]]
+- rijst ipv chips
+
+* Bereiding
+
+- paprika in blokjes
+- bonen en mais afgieten
+- paprika, bonen en mais bij stoofvlees in de pan
+
+  serveren met geraspte kaas en tortilla chips

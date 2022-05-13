@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       df92f84f-a09b-4fff-89b5-4ad28a0a62ff
+:ROAM_ALIASES: branch
+:END:
+#+title: Git Branch
+
+- tags :: [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+To create [[id:00f182c8-814f-4400-b072-270f528dcd42][Git]] branch from the current branch: ~git switch -c <new-branch-name>~

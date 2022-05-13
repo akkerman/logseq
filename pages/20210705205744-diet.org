@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       54ba9bc5-38ac-41b7-bede-2188fb47bf66
+:ROAM_ALIASES: Dieet
+:END:
+#+title: Diet
+#+filetags: :tag:
+
+- tags :: [[id:4fd89689-33c9-4f83-a827-4e0b07a6808c][food]]

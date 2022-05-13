@@ -1,0 +1,55 @@
+:PROPERTIES:
+:ID:       b061df21-e09d-450d-8fc4-5855d1a341b6
+:END:
+#+title: Hardlink in Linux
+#+OPTIONS: toc:nil num:nil
+#+PROPERTY: header-args:sh :results verbatim :exports both
+
+To create a hardlink in [[id:aab00e98-0b99-4c6e-b291-62bde9c0091d][Linux]] type: ~ln source_file target_file~
+
+Check the number of links either do ~ls -li file~ or ~stat file~
+
+
+see [[https://linuxhandbook.com/hard-link/][Everything Important You Need to Know About Hard Link in Linux]]
+
+* using ls command
+For ~ls -li~ its the number between the permissions and the username
+
+
+#+begin_src sh
+ln 20220106132531-hardlink_in_linux.org testfile-1.org
+ln 20220106132531-hardlink_in_linux.org testfile-2.org
+ls -li 20220106132531-hardlink_in_linux.org
+#+end_src
+
+
+#+RESULTS:
+: 14313983 -rw-r--r-- 4 akkerman users 1542 Jan  6 13:50 20220106132531-hardlink_in_linux.org
+
+
+The source and target will have the same inode number. ~ls -ai~ shows this number
+
+#+begin_src sh
+ls -ai 20220106132531-hardlink_in_linux.org
+#+end_src
+
+#+RESULTS:
+: 14313983 20220106132531-hardlink_in_linux.org
+
+* using stat command
+
+Just read the output to figure it out!
+
+#+begin_src sh
+stat 20220106132531-hardlink_in_linux.org
+#+end_src
+
+#+RESULTS:
+:   File: 20220106132531-hardlink_in_linux.org
+:   Size: 1405      	Blocks: 8          IO Block: 4096   regular file
+: Device: 8,4	Inode: 14313983    Links: 1
+: Access: (0644/-rw-r--r--)  Uid: ( 1000/akkerman)   Gid: (  985/   users)
+: Access: 2022-01-06 13:37:15.068715953 +0100
+: Modify: 2022-01-06 13:42:22.917977688 +0100
+: Change: 2022-01-06 13:42:22.917977688 +0100
+:  Birth: 2022-01-06 13:26:12.163148493 +0100

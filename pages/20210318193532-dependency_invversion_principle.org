@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       50395419-1f76-4c50-98dd-d9645d0b6b61
+:ROAM_ALIASES: DIP
+:END:
+#+title: Dependency Inversion Principle
+
+Definieer je afhankelijkheden in termen van interfaces in plaats van concrete implementaties.
+Alleen interfaces gebruiken betekend dat de mogelijkheden waar je concrete classes instantieerd beperkt wordt en stimuleerd daardoor het gebruik van [[id:a90dcd9a-129e-416c-857f-8b761c34c0a6][abstract factories]].
+
+
+Vraag: hoe verhoud dit principle zich tot [[roam:Inversion of Control]] en [[roam:Dependency Injection]]

@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       f3515ce2-e56f-4f48-9c30-b078b6fa334f
+:END:
+#+title: OverloadedStrings GHC extension
+
+After enabling the OverloadedString [[id:8dd9522c-356f-4d6a-849b-a91c87f84c56][GHC]] extension types for ~String~ literals becomse more generic:
+
+#+begin_example haskell
+Prelude> :type "Hello"
+"hello" :: [Char]
+
+Prelude> :set -XOverloadedStrings
+Prelude> :type "Hello"
+"hello" :: Data.String.IsString p => p
+#+end_example
+
+~Data.String.IsString~ is a [[id:6d1ba0eb-505f-4e6f-9c2a-af30c0a579d5][type class]] defining method ~fromString :: IsString a => String -> a~
+
+#+begin_src haskell :exports both
+:info Data.String.IsString
+#+end_src
+
+#+RESULTS:
+: type IsString :: * -> Constraint
+: class IsString a where
+:   fromString :: String -> a
+:   {-# MINIMAL fromString #-}
+:   	-- Defined in ‘Data.String’
+: instance (a ~ Char) => IsString [a] -- Defined in ‘Data.String’
+: instance IsString Text -- Defined in ‘Data.Text’
+
+Each string literal is replaced with a call to ~fromString~. That we we can do things like:
+
+#+begin_src haskell :exports both
+:set -XOverloadedStrings
+:set prompt "> "
+import Data.Text
+h = "hello" :: Text
+c = ", " :: Text
+w = "world" :: Text
+h <> c <> w
+#+end_src
+
+#+RESULTS:
+: > > > > > "hello, world"

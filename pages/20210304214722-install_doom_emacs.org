@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       2f6ff072-17e7-4e5a-a7c0-83c7e4d62e6c
+:END:
+#+title: Install Doom Emacs
+#+tags: emacs
+
+To get started quickly and have some plugins in stalled I installed [[https://github.com/hlissner/doom-emacs][Doom Emacs]].
+Doom emacs is a configuration framework for [[id:60327c8c-4c49-4867-bf95-69714d9714e0][Emacs]].
+
+#+name: 2 step installation
+#+begin_src sh
+git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
+~/.emacs.d/bin/doom install
+#+end_src

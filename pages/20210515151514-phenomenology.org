@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       630c748a-b6d0-42d8-ad65-0d99c5fee475
+:ROAM_ALIASES: Fenomenologie
+:END:
+#+title: Phenomenology
+
+De fenomenologie is een [[id:dde81736-7aa2-4d43-bdd0-de363bd0f78b][filosofische]] stroming die uitgaat van de directe en
+intuïtieve ervaring van fenomenen, en hieruit de essentiële eigenschappen van
+ervaringen en de essentie van wat men ervaart probeert af te leiden.
+
+Fenomenologie: de leer van hoe dingen en wereld aan ons verschijnen.
+
+Fenomenologie is een methode.
+
+Terug naar de zaken zelf: geen theorieën vooronderstellen.
+
+De manier waarop Husserl werkte was de definitie van de fenomenologie.
+- een nieuwe manier om naar de dingen te kijken is nodig
+- zie wat er voor je is, maak verschil, beschrijf.
+
+Fenomenologie is niet zozeer een theorie maar een methode, simpel gezegd: 'beschrijf fenomenen'.
+
+Het woord 'fenomeen' heeft, voor fenomenologen, een speciale betekenis: ze
+bedoelen het doodgewone ding, voorwerp of gebeurtenis zoals deze zich aan mijn
+ervaring presenteert in plaats van zoals het in werkelijkheid is (of niet is)
+
+- epoché :: DE: /Einklammerung/, EN: /Bracketing/ \\
+  Het opschorten van oordeel over de natuurlijke wereld om, in plaats daarvan, te focussen op analyse van ervaring.
+
+Fenomelogie kan nuttig zijn als je over [[id:724add81-6d31-4997-ab28-04d74bc0e2dc][religieuze]] of mystieke ervaringen wilt
+spreken. We kunnen ze beschrijven zoals ze, van binnenuit, voelen zonder bewijs
+of het de wereld nauwkeurig beschrijft.
+
+Fenomenologen geloofden dat we niet moesten proberen wat de menselijke geest is
+maar dat we moeten overwegen wat het doet, hoe het zijn ervaring begrijpt.

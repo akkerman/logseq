@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       401f4906-bcb0-4cda-9427-3e3f0a82ba70
+:END:
+#+title: Syntopical Reading
+
+- [[id:4f9464b8-ab8b-4f4b-882c-4156bad976cb][Adler, J. (1972). How to Read a Book: The Classic Guide to Intelligent Reading]]

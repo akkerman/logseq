@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       53b6b8d0-f49f-4758-9330-07eabbedefeb
+:END:
+#+title: Applicative
+
+Applicative is a [[id:7e262c95-c276-4563-b816-efafba7ad42a][Functor]]
+
+#+CAPTION: Annotated type signature for the =<*>= operator
+[[./img/Applicative.png]]
+
+Image source: [cite:@kurt_get_programming_with_Haskell_2018]

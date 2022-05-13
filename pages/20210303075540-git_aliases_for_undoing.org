@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       02a266a6-73a2-41bb-9108-7139dec0500e
+:END:
+#+title: Git aliases for undoing
+#+options: toc:nil num:nil
+#+filetags: :how_to:
+
+- tags :: [[id:00f182c8-814f-4400-b072-270f528dcd42][Git]] · [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]] · [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+
+[[id:ff1bbefd-5e17-4a4f-ae5a-22118565a0cc][Edit global your git config]]
+
+#+begin_src
+[alias]
+    uncommit = reset --soft HEAD^
+    unstage = reset HEAD --
+    amend = commit --amend
+#+end_src

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       dc88088c-af27-4066-83d4-4f3e9ffd1851
+:END:
+#+title: Priming effect
+
+
+- [[https://webcreationz.nl/blog/wat-is-priming/][Wat is priming? - Webcreationz]]
+- [[https://nl.wikipedia.org/wiki/Priming_(geheugen)][Priming (geheugen) - Wikipedia]]
+- [cite:@kahneman2012]

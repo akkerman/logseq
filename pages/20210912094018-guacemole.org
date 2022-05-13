@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       442caf2a-aba3-4b63-b7a1-34eaa0003e26
+:END:
+#+title: Guacemole
+
+- tags :: [[id:d199560e-df54-4a43-bac5-ebd5709e9d0c][recept]]
+
+* ingredienten
+
+- 2 avocados
+- 1 trostomaat
+- 1 uitje
+- 10g verse koriander
+- tl zeezout
+
+* bereiden
+- avocados snijden, ontpitten en uitscheppen
+- avocados prakken of stampen (niet blenden)
+- snipper ui
+- snij tomaat in parten, verwijder zaad
+- snij tomaat in heel kliene blokjes
+- snij koriander in heel fijne stukjes
+- roer avocados, ui, tomaat, koriander en zout doorelkaar

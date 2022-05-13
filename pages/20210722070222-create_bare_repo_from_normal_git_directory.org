@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       90e0ec5e-68b9-481b-9072-9dc263dfdfab
+:END:
+#+title: Create bare repo from normal git directory
+
+To create a bare repository from a normal [[id:00f182c8-814f-4400-b072-270f528dcd42][Git]] directory you must set the variable =core.bare= to =true=.
+
+assuming your working directory is called `project`:
+
+#+begin_src shell
+cd project
+cp -R .git ../project-repo.git
+cd ../project-repo.git
+git config --bool core.bare true
+#+end_src

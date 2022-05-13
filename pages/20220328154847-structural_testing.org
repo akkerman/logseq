@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       0fb2de60-12f8-4cf2-aa46-029219cbf4bd
+:END:
+#+title: Structural testing
+
+Zodra je [[id:0e723fa6-4831-4a12-b47d-c9b442f5beb5][Specification based testing]] klaar is, is het tijd om de test aan te vullen op basis van de broncode.
+Als je de code bekijkt kan het maar zo zijn dat je ziet dat je wat dingen vergeten bent, m.n. als je ziet dat er code coverage ontbreekt.
+
+Mogelijkheden waarom code coverage niet volledig is obv specificatie
+- er zit een fout in de code die niet in de requirements staat
+- de requirements waren onvolledig
+- andere redenen die niets met functionele specificatie te maken hebben (performance, persistance)

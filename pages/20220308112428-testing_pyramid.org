@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       23373aca-1ea2-45be-a995-d66f568b2b74
+:END:
+#+title: Testing Pyramid
+
+De test priramide is een manier van het organiseren van tests waarbij de onderkant staat voor snellere, kleinere, degelijke tests waarbij je evt bugs eerder vind dan hoger in de de piramide waar test groter, langzamer en breekbaarder zijn.
+
+
+ [[https://martinfowler.com/articles/practical-test-pyramid.html][The Practical Test Pyramid]]

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       73f1d83b-f636-4749-9389-942a467435ef
+:END:
+#+title: Structure notes
+
+
+Elke overweging over structuur is gewoon een wijziging in een notitie en kan veranderen bv doordat je begrip van het onderwerp veranderd.
+
+Je kunt één structure note maken die de volgorde aangeeft van meerdere [[id:00b4999d-f578-4972-9307-efafbbdd81e9][permanent notes]] als je idee over dit onderwerp wijzigd kun je deze notitie wijzigen en de volgorde aanpassen.
+
+Dit idee lijkt nogal op een [[id:d1085546-b0c0-45f6-8efe-389ca96c936c][Map of Contents]].

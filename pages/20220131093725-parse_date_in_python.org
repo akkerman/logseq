@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       21edd41d-563c-401f-a30d-a0bc970dcf3a
+:END:
+#+title: Parse/format date in Python
+
+** Parse date
+Use package iso8601 to parse a date in [[id:126a1e03-1dcd-4fa3-80dd-59fd6e07ab56][Python]]
+
+#+begin_src python :results verbatim
+import iso8601
+cet = "2022-02-01T10:09:00+01:00"
+utc = "2022-02-01T09:09:00Z"
+
+return [iso8601.parse_date(utc), iso8601.parse_date(cet)]
+#+end_src
+
+#+RESULTS:
+: [datetime.datetime(2022, 2, 1, 9, 9, tzinfo=datetime.timezone.utc), datetime.datetime(2022, 2, 1, 10, 9, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600), '+01:00'))]
+
+** Format date
+
+Use ~datetime.strftime~ to format a date in [[id:126a1e03-1dcd-4fa3-80dd-59fd6e07ab56][Python]]
+
+#+begin_src python :results verbatim
+import datetime
+import iso8601
+from dateutil import tz
+
+CET = tz.gettz('Europe/Amsterdam')
+
+stringformat = "2022-09-01T09:09:00Z"
+as_utc = iso8601.parse_date(stringformat)
+as_cet = as_utc.astimezone(CET)
+
+# return str(as_cet)[11:16]
+return as_cet.strftime("%H:%M")
+#+end_src
+
+#+RESULTS:
+: 11:09

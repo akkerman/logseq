@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       768115db-a5a1-42de-8aa0-f1427038bd3f
+:ROAM_ALIASES: Taxonomie
+:END:
+#+title: Taxonomy
+
+Taxonomie wordt, binnen [[id:4391b5be-9d86-4599-8f25-3283d8d062da][wetenschap]] en [[id:1e1fe295-c4c0-45dc-91e9-f2a905aef584][technologie]], gebruikt om individuen en objecten in te delen in groepen.
+
+Grieks:
+- τάξις , táxis :: ordening / schikking / arrangement / klasse / class
+- νόμος , nómos :: wet / law / science

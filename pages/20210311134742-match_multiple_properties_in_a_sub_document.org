@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       18100157-90b0-401f-ba9b-f76a6d6561f8
+:END:
+#+title: Match multiple properties in a sub document
+
+- tags :: [[id:45c21cd1-78b9-4f5b-9b09-80eea8e150b7][MongoDB]] [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+
+Gegeven collectie ~fruit~ met de volgende inhoud:
+
+#+begin_src json
+{ "naam": "Jan Klaassen", "fruit": [ { "kleur": "groen", "type": "appel", "favorite": true }, { "kleur": "bruin", "type": "banaan" } ] }
+{ "naam": "Piet", "fruit": [ { "kleur": "groen", "type": "peer" }, { "favorite": true, "kleur": "rood", "type": "appel" } ] }
+{ "naam": "Kees", "fruit": [ { "kleur": "rood", "type": "appel", "favorite": true }, { "kleur": "groen", "type": "banaan" } ] }
+{ "naam": "Katrijn", "fruit": [ { "type": "appel", "kleur": "groen" }, { "favorite":true, "kleur": "geel", "type": "banaan" } ] }
+#+end_src
+
+Hierin Lusten zowel Jan Klaasen als Katrijn een groene appel. Met welke query krijgen we ook inderdaad dat antwoord?
+
+#+begin_src javascript
+db.fruit.find({fruit: {$elemMatch: {kleur:'groen', type:'appel'}}})
+#+end_src
+
+[[https://docs.mongodb.com/manual/reference/operator/query/elemMatch/#op._S_elemMatch][$elemMatch (query) — MongoDB Manual]]

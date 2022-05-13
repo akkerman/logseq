@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       02d48a2b-7a3c-4b68-8379-1e0abdc71802
+:ROAM_ALIASES: LSP
+:END:
+#+title: Liskov Substitution Principle
+
+Derived classes must be substitutable for their base classes.
+

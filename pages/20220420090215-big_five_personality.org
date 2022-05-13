@@ -1,0 +1,57 @@
+:PROPERTIES:
+:ID:       6def6b80-b1a2-4123-ba33-5633e22c1d65
+:END:
+#+title: Big Five Personality
+#+STARTUP: align
+
+- tags :: [[id:74dc6320-a69b-4fb3-a2dd-1f65b1d31fe4][Administratie]]
+
+
+* Hoog over scores Marvia
+
+  Meer op de website [[https://www.understandmyself.com/][Understand Myself]]
+
+| persoonlijkheids trek                                      |   Marcel |    Silvia |
+|------------------------------------------------------------+----------+-----------|
+|                                                            |      <r> |       <r> |
+| Vriendelijkheid versus antagonisme                         | very low | very high |
+| medeleven       / compassion                               |      low | very high |
+| politeness      / beleefdheid                              | very low | very high |
+|------------------------------------------------------------+----------+-----------|
+| Consciëntieusheid (zorgvuldigheid) versus laksheid         |     high |      high |
+| industriousness / ijverig                                  |  average |      high |
+| orderlyness     / ordelijkheid                             |     high |      high |
+|------------------------------------------------------------+----------+-----------|
+| Extraversie versus introversie                             |  average |   average |
+| enthusiasm     / enthousiasme                              | very low |   average |
+| assertiveness  / assertiviteit                             |     high |       low |
+|------------------------------------------------------------+----------+-----------|
+| Neuroticisme versus stabiliteit                            |  average |      high |
+| withdrawal    / teruggetrokken                             |  average |      high |
+| volatility    / wisselvalligheid                           |  average |   average |
+|------------------------------------------------------------+----------+-----------|
+| Openheid voor ervaring (ook intellect) versus geslotenheid |     high |       low |
+| intellect                                                  |     high |   average |
+| openness                                                   |  average |  very low |
+
+
+* Synoniemen
+
+|    | Vriendelijkheid  | Consciëntieusheid | Extraversie  | Neuroticisme           | Openheid voor ervaring  |
+|----+------------------+-------------------+--------------+------------------------+-------------------------|
+| EN | Agreeableness    | Conscientiousness | Extraversion | Neuroticism            | Openness to Experience  |
+|    | Mildheid         | Ordelijkheid      |              |                        |                         |
+|    | Aanvaardbaarheid | Zorgvuldigheid    |              | Emotionele Stabiliteit | Intellectuele autonomie |
+|    | Altruisme        |                   |              |                        |                         |
+
+* Voorbeelden
+
+| Vriendelijkheid   | Consciëntieusheid | Extraversie   | Neuroticisme  | Openheid voor ervaring |
+|-------------------+-------------------+---------------+---------------+------------------------|
+| vertrouwen        | doelmatigheid     | hartelijkheid | angst         | fantasie               |
+| oprechtheid       | ordelijkheid      | sociabiliteit | ergernis      | esthetiek              |
+| zorgzaamheid      | betrouwbaarheid   | dominantie    | depressie     | gevoelens              |
+| inschikkelijkheid | ambitie           | energie       | schaamte      | veranderingen          |
+| bescheidenheid    | zelfdiscipline    | avonturisme   | impulsiviteit | ideeën                 |
+| medeleven         | bedachtzaamheid   | vrolijkheid   | kwetsbaarheid | waarden                |
+| empatie           |                   |               |               | creativiteit           |

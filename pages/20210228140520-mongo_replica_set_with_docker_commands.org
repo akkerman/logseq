@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       0a9884c7-99ee-4219-b4b9-95fd958c11b9
+:END:
+#+title: Mongo Replica Set with Docker commands
+#+options: toc:nil num:nil
+
+- tags :: [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+* Create [[id:45c21cd1-78b9-4f5b-9b09-80eea8e150b7][MongoDB]] replica with [[id:c51d6f17-7f89-4a07-9e8f-12df4b053175][Docker]] commands in its own network
+
+#+begin_src sh
+
+docker network create --subnet=172.100.0.0/16 mongors
+docker run --restart=unless-stopped --net mongors --ip 172.100.0.100 -d -v mongo0:/data/db -m 3G --name mongo0 mongo:4.2.11 --replSet rs0 --wiredTigerCacheSizeGB 2 && \
+docker run --restart=unless-stopped --net mongors --ip 172.100.0.101 -d -v mongo1:/data/db -m 3G --name mongo1 mongo:4.2.11 --replSet rs0 --wiredTigerCacheSizeGB 2 && \
+docker run --restart=unless-stopped --net mongors --ip 172.100.0.102 -d -v mongo2:/data/db -m 3G --name mongo2 mongo:4.2.11 --replSet rs0 --wiredTigerCacheSizeGB 2 && \
+
+export mongoUris="mongodb://172.100.0.100,172.100.0.101,172.100.0.102/analytics?replicaSet=rs0"
+
+docker exec -i mongo0 mongo --eval 'rs.initiate({ _id : "rs0", members: [ { _id: 0, host: "172.100.0.100:27017" }, { _id: 1, host: "172.100.0.101:27017" }, { _id: 2, host: "172.100.0.102:27017" } ] })'
+
+#+end_src
+
+** Create agendash container in mongo cluster
+
+#+begin_src sh
+docker run --net mongors --ip 172.100.0.200 -d -m 1G --name agendash node npx github:akkerman/agendash --db=mongodb://172.100.0.100,172.100.0.101,172.100.0.102/agenda?replicaSet=rs0 --port=80
+#+end_src

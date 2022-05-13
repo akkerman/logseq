@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       e594e54f-1b3a-4ec7-919c-7237451ac048
+:END:
+#+title: Software Design
+#+filetags: :tag:

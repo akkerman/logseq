@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       440c7859-bd16-4919-b105-f6a2fdb18270
+:ROAM_REFS: https://orgmode.org/
+:ROAM_ALIASES: "org mode" orgmode
+:END:
+#+title: Org-mode
+#+options: num:nil toc:nil
+
+- tags :: [[id:25f24494-0032-4d8f-8dce-a938d27fc556][Note taking]] [[id:60327c8c-4c49-4867-bf95-69714d9714e0][GNU Emacs]]
+
+Markup van org mode lijkt heel erg veel op [[id:535d2d5c-205f-44b3-beda-3d1efc0f018a][Markdown]]. De grootste voordelen voor mij zijn:
+- veel gemakkelijker verplaatsen van nivos, zowel horizontaal als vertikaal
+- de bullits zijn meer dan alleen hoofdstukken, je kan ze direct omzetten in een TODO
+- inline images
+- Table support! Hoewel je in [[id:3e18bba2-0f35-4987-9b24-01e9007feea2][vim]] wel iets kan doen met een plugin genaamd Tabularize moet je in veel editors de layout in [[id:535d2d5c-205f-44b3-beda-3d1efc0f018a][Markdown]] met de hand doen.

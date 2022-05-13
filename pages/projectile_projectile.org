@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       7a5d2cad-294f-402c-9f06-e57bf1be47c5
+:ROAM_REFS: https://docs.projectile.mx/projectile/index.html
+:END:
+#+title: Projectile
+
+Projectile is a project interaction library for [[id:60327c8c-4c49-4867-bf95-69714d9714e0][Emacs]].

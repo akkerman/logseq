@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       32f6562b-ed7a-4757-9da6-d927a89c8912
+:END:
+#+title: Dubbelzinnigheid verwaarlozen en twijfel onderdrukken
+
+Overhaaste conclusies trekken is efficient als:
+- de conclusies waarschijnlijk correct zijn
+- de kosten van af en toe een fout maken laag zijn
+- het veel tijd en moeite bespaard
+
+- [[id:8a70eadc-2383-4fb2-8dad-5c56b89edcb3][Overhaaste conclusies trekken is efficient en bespaard moeite]]
+- [[id:ba3137d1-7dda-4a63-b587-25dec6fb848d][Dubbelzinnigheid niet opmerken en onbewust een (de juiste) keuze maken.]]

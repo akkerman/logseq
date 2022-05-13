@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       42233942-e766-4252-b2cc-fc4097dda7c8
+:END:
+#+title: Prune a Docker Swarm
+#+options: toc:nil num:nil
+
+- tags :: [[id:e8c20c3a-54dc-4ee9-8cde-785a5492dca7][Docker Swarm]] · [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+Run the script below to remove everything from the swarm except images
+
+#+begin_src sh
+echo "Removing stacks"
+for s in $(docker stack ls --format {{.Name}}); do
+  docker stack rm $s
+done
+
+echo "Removing secrets"
+for s in $(docker secret ls --format {{.Name}}); do
+  docker secret rm $s
+done
+
+echo "Removing configs"
+for s in $(docker config ls --format {{.Name}}); do
+  docker config rm $s
+done
+
+echo "Removing networks"
+docker network rm proxy
+#+end_src
+
+Run the following on each node
+
+#+begin_src sh
+# remove everything
+docker system prune -af --volumes
+#+end_src

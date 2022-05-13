@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       71d99838-5881-47e2-a92f-90fef49c5623
+:END:
+#+title: Take notes to counteract confirmation bias
+
+[[id:25f24494-0032-4d8f-8dce-a938d27fc556][Note taking]] forces you to make your tinking more explicit.
+If your thinking evolves, you will be able to confront yourself with different opinions overtime.
+
+Because your thinking is more explicit, you challenge yourself, and you will be able to avoid [[id:7551debd-fe45-40a7-b2ba-a6dc72769a86][confirmation bias]].

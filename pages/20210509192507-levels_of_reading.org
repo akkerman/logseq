@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       a3df2d58-a5f8-4c7d-b88f-51e6f78092d0
+:END:
+#+title: Levels of Reading
+
+- tags :: [[id:0bede2b9-9c51-454a-ab27-b833ab5314f9][Reading]]
+
+- *Reading Level 1.* [[id:2d448823-d243-41f8-9256-9558557f69f3][Elementary Reading]] :: Leer de letters en woorden herkennen en de letterlijke betekenis van een zin begrijpen. Dat wat je op de lagere school leert.
+- *Reading Level 2.* [[id:f475a741-2ea4-4eca-81db-bcedbe626342][Inspectional Reading]] :: Blader, in korte tijd, de text of het boek door om een idee te krijgen over de inhoud en de structuur.
+- *Reading Level 3.* [[id:e6e68b6d-bdee-4fdd-8000-f4e1896cb5fa][Analytical Reading]] :: Het boek bestuderen en je begrip vergroten.
+- *Reading Level 4. [[id:401f4906-bcb0-4cda-9427-3e3f0a82ba70][Syntopical Reading]]* :: Meerdere boeken over hetzelfde onderwerp bestuderen en tot conclusies komen die in geen van de boeken zelf staan. Vergelijkend lezen.
+
+
+all according to [cite:@adler1972]

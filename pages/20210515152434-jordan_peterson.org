@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       be308973-4611-486a-91aa-34bda0f9dec6
+:END:
+#+title: Jordan Peterson
+#+filetags: :person:
+
+Jordan Bernt Peterson is een Canadees klinisch psycholoog, schrijver, cultuurcriticus en hoogleraar in de [[id:426a3dda-aeaf-4d3c-b9cc-80b1635e4840][psychologie]] aan de Universiteit van Toronto.

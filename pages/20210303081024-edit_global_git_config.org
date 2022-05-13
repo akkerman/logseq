@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       ff1bbefd-5e17-4a4f-ae5a-22118565a0cc
+:END:
+#+title: Edit global git config
+
+- tags :: [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+To edit your global [[id:00f182c8-814f-4400-b072-270f528dcd42][Git]] config type ~git config --edit --global~

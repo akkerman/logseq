@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       00d61bb1-b6c7-4c42-a4fd-d3e2d2b93ae4
+:END:
+#+title: Program to an interface, not an implementation
+
+Als je tegen een interface programmeert reduceer je de implementatie afhankelijkheden tussen sub-systemen.
+
+Bijvoorbeeld
+- variabelen niet als een concrete type maar als interface definieren
+- afhankelijkheden in constructors definieren als interface
+
+Er zijn twee voordelen om objecten te behandelen via een interface.
+
+1. Clients weten niets van het specifieke type van een object zolang deze maar aan de verwachte interface voldoet.
+2. Clients weten niets van de classes welke de interface implementeren, ze kennen alleen de interface/abstracte class welke de interface definieerd.
+
+Zodra je een concrete implementatie nodig hebt doe je dat via o.a. factories en builders.

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       00b4999d-f578-4972-9307-efafbbdd81e9
+:END:
+#+title: Permanent notes
+
+Een permanente notitie gooi je niet meer weg. In tegenstelling tot een [[id:41ab37ae-b6c6-4205-9828-694601495d2d][Fleeting note]] bevat deze notitie de informatie op een zodanige manier dat, ook veel veel later, nog begrepen kan worden wat er bedoeld wordt.
+
+Permanente notities zouden op dezelfde manier op dezelfde plaats (directory) opgeslagen moeten zijn.
+
+Één of meer permanents notes komen voort uit het schrijven van [[id:7f327c4c-e773-4078-a26e-e5a424540266][Literature Notes]]
+
+Het schrijven van permanent notes is een form van zelftest ([[id:5e3d2701-65f0-4173-8cff-9062c4d180a7][self testing]]).

@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       807d9612-3e0d-4047-a080-b3bc3bfb3b8e
+:END:
+#+title: Principles in Software design and architecture
+#+options: toc:nil num:nil
+#+filetags: :moc:
+
+- tags :: [[id:889a9282-2b0a-4366-a5e8-ccdad8e4f8d9][Computer Science]] · [[id:e3ba0d13-1e68-4a29-9104-21d3ec2a41de][Software Architecture]] · [[id:e594e54f-1b3a-4ec7-919c-7237451ac048][Software Design]]
+
+* Design Principles (SOLID)
+
+Hoe structureer je je software componenten uit o.a. functies en classes.
+- [[id:2cbfd8a1-06f9-44ba-9141-96dac0b40794][SRP]]: Single Responsibility Principle :: Each software module has one, and only one, reason to change.
+- [[id:48226ded-ee42-4870-9c41-19a1ae6b8021][OCP]]: Open-Closed Principle :: Change a system by adding new code rather than changing existing code.
+- [[id:02d48a2b-7a3c-4b68-8379-1e0abdc71802][LSP]]: Liskov Substitution Principle ::  In order to build systems from interchangable parts, those parts must adhere to a contract that allows those parts to be substituted one for another.
+- [[id:ce5adb30-44b9-4a9e-bf38-13c5e08659e4][ISP]]: Interface Segregation Principle :: Avoid depending on things that you don't use.
+- [[id:50395419-1f76-4c50-98dd-d9645d0b6b61][DIP]]: Dependency Inversion Principle :: Details should depend on policies.
+
+* Component Principles
+
+Hoe structureer je je software componenten in software systemen.
+
+** Principles of Package/Component cohesion
+
+- [[id:6d3fa176-0755-4dbf-a7ab-57e57f31f256][REP]]: Reuse/Release Equivalence Principle :: The granule of reuse is the granule of release.
+- [[id:be168716-081f-4f52-b4a2-db6b43d6d09b][CCP]]: Common Closure Principle :: Gather into components those classes that change for the same reasons and at the same times. Separate into different components those classes that change at different times and for different reasons.
+- [[id:dd390142-9537-4080-bc84-250d04575d38][CRP]]: Common Reuse Principle :: Don’t force users of a component to depend on things they don’t need.
+
+
+** Principles of Package/Component coupling
+
+- [[id:a2a69177-50c1-4dee-ad4d-c14d61006db5][ADP]]: Acyclic Dependencies Principle :: Allow no cycles in the component dependency graph.
+- [[id:b2ab7a34-1b20-47c0-8d89-e27f49ce7c60][SDP]]: Stable Dependencies Principle :: Depend in the direction of stability.
+- [[id:8b7fb2bd-08ba-468b-93eb-04965aabe246][SAP]]: Stable Abstractions Principle :: A component should be as abstract as it is stable.
+
+
+* Links
+- [[http://www.butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod][ArticleS.UncleBob.PrinciplesOfOod]]
+- [cite:@martin_clean_architecture_2017]

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       a4822873-ecb7-48b2-a5f6-9500010741d3
+:END:
+#+title: Python Virtualenv
+#+filetags: :todo:
+
+- tags :: [[id:126a1e03-1dcd-4fa3-80dd-59fd6e07ab56][Python]] [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+
+* TODO How to create and activate virtual env

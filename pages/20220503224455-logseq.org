@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       259bc675-a4b7-4160-9603-a528fc4f5e1f
+:ROAM_ALIASES: https://logseq.com/
+:END:
+#+title: logseq
+
+#+begin_quote
+A privacy-first, open-source knowledge base
+#+end_quote
+
+Is een outliner en kan met [[id:535d2d5c-205f-44b3-beda-3d1efc0f018a][Markdown]] en [[id:440c7859-bd16-4919-b105-f6a2fdb18270][org]] bestandsformaat soortgelijke dingen als [[id:01979a53-1825-4f0a-a82f-28555f2fb466][Roam Research]] en [[roam:Obsidian]].

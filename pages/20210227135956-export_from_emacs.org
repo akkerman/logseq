@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       c1efddcf-ff6a-4cde-8720-4647ffa69dbc
+:END:
+#+title: Export from Emacs
+#+options: toc:nil num:nil
+#+filetags: :todo:
+
+- tags :: [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+* How to export [[id:440c7859-bd16-4919-b105-f6a2fdb18270][Org-mode]] files from [[id:60327c8c-4c49-4867-bf95-69714d9714e0][Emacs]] with custom templates
+** DONE Have one or more HTML templates to export to
+[[https://github.com/fniessen/org-html-themes][GitHub - fniessen/org-html-themes: How to export Org mode files into awesome ...]]
+Put one of there lines in the header of the org file
+#+begin_example
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-bigblow.setup
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+end_example
+** TODO Have one or more PDF templates to export to

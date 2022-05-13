@@ -1,0 +1,173 @@
+:PROPERTIES:
+:ID:       d876108a-8f67-4442-a154-75f120c92c75
+:ROAM_REFS: https://archlinux.org
+:ROAM_ALIASES: "Arch Linux" arch
+:END:
+#+title: Install Arch Linux
+#+date: <2019-01-20 Sun>
+#+date: <2020-05-23 Sat>
+#+date: <2021-03-04 Thu>
+#+options: toc:nil num:nil
+
+[[https://archlinux.org/][Arch Linux]] :: A lightweight and flexible [[id:aab00e98-0b99-4c6e-b291-62bde9c0091d][Linux]]® distribution that tries to Keep It Simple.
+
+
+* USB flash installation media
+
+Check the [[https://wiki.archlinux.org/index.php/USB_flash_installation_medium][USB flash installation medium - ArchWiki]] at the Arch wiki.
+
+- Download iso
+- Check what the usb device is `lsblk` and `dmesg`
+- create usb stick thing
+
+#+begin_src sh
+dd bs=4M if=archlinux-2019.01.01-x86_64.iso of=/dev/sdb status=progress oflag=sync
+#+end_src
+
+* Enable Wifi
+
+#+begin_src sh
+
+# run following command, and use easy profile name
+wifi-menu
+#
+netctl start <profile>
+#+end_src
+
+* Pre-Installation
+
+- Follow [[https://wiki.archlinux.org/index.php/Installation_guide][Installation guide - ArchWiki]]
+- Maybe check Luke Smith's [[https://youtu.be/4PBqpX0_UOc][Full Arch Linux Install (SAVAGE Edition!) - YouTube]]
+
+* Disk partitioning
+
+| Device    | Type       | Size | Mount point |
+|-----------+------------+------+-------------|
+| /dev/sda1 | Linux      | 550M | /boot       |
+| /dev/sda2 | Linux      | 32G  | /           |
+| /dev/sda3 | Linux Swap | 12G  |             |
+| /dev/sda4 | Linux      | ...  | /home       |
+
+Table: layout for Dell Studio 1745
+
+
+| Device    | Type  | Size | Mount point | remarks                             |
+|-----------+-------+------+-------------+-------------------------------------|
+| /dev/sda1 | Linux | 550M | /boot       |                                     |
+| /dev/sda2 | Linux | 64G  | /           |                                     |
+| /dev/sda3 | Linux | 32G  | /var        | docker and plex too large --> 128G? |
+| /dev/sda4 | Linux | 256  | /home       |                                     |
+| /dev/sda5 | Linux | 96   | /ubuntu     |                                     |
+
+Table: layout for octotron
+
+| Device         | Type  | Size | Mount point |
+|----------------+-------+------+-------------|
+|                |       |      |             |
+| /dev/nvme0n1p1 | Linux | 600M | /boot       |
+| /dev/nvme0n1p2 | Linux | 64G  | /           |
+| /dev/nvme0n1p3 | Linux | 128G | /var        |
+| /dev/nvme0n1p4 | Linux | 32G  | /swap       |
+| /dev/nvme0n1p5 | Linux | ...  | /home       |
+
+Table: layout for xtron (dell xps 13)
+
+* Installation
+
+** Selecting mirrors
+
+Just put stuff from Netherlands on top.
+#+begin_src sh
+vim /etc/pacman.d/mirrorlist
+#+end_src
+
+** Install packages
+
+Use pacstrap to install base package group and everyting else you already know you wanna have
+
+#+begin_src sh
+pacstrap /mnt base linux linux-firmware neovim networkmanager grub
+#+end_src
+
+** Network configuration
+
+#+begin_src sh
+pacman -S networkmanager
+systemctl enable NetworkManager
+#+end_src
+
+** Boot loader
+
+*** GRUB
+
+#+begin_src sh
+pacman -S grub
+grub-install --target=i386-pc /dev/sda
+grub-mkconfig -o /boot/grub/grub.cfg
+#+end_src
+
+*** systemd
+
+** reboot
+
+Login with root
+
+** User setup
+
+*** Add user
+
+#+begin_src sh
+useradd -m -g wheel akkerman
+passwd akkerman
+#+end_src
+
+*** Add sudo access
+
+#+begin_src sh
+pacman -S sudo
+visudo
+#+end_src
+
+Uncomment: `%wheel ALL=(ALL) NOPASSWD: ALL` to allow members of group wheel to execute any command without a password.
+
+Or fine tune by adding specific commands.
+
+[[./img/20210304194706-install_arch_sudo.png]]
+
+Optionally add a line that keeps you from needing to reinsert password in each different terminal
+#+begin_src sh
+Defaults !tty_tickets
+#+end_src
+
+** Window manager
+
+*** i3-gaps
+
+#+begin_src sh
+pacman -S xorg-server xorg-xinit i3-gaps i3status dmenu noto-fonts xterm
+#+end_src
+
+In =~/.xinitrx= put =exec i3=
+
+> install nm-applet  ???
+
+Optionally install nvidia drivers:
+
+#+begin_src sh
+pacman -S nvidia
+#+end_src
+
+*** polybar
+
+** Remote accesss
+*** SSH
+
+#+begin_src sh
+pacman -S openssh
+#+end_src
+
+** Misc packages
+
+- git
+- make
+- gcc

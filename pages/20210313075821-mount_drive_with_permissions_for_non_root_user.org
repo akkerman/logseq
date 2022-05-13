@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       2b2dd6a5-9870-467e-86a0-674610663744
+:END:
+#+title: Mount drive with permissions for non-root user
+
+- tags :: [[id:aab00e98-0b99-4c6e-b291-62bde9c0091d][Linux]] · [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+#+begin_src sh
+sudo mount /dev/sdb1 /mnt -o umask=000
+#+end_src

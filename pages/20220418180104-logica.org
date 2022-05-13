@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       4f637b02-d87b-4a60-9b9d-e9b4a142a386
+:ROAM_ALIASES: logic
+:END:
+#+title: Logica
+
+Een [[id:4391b5be-9d86-4599-8f25-3283d8d062da][Wetenschap]] die zich bezighoudt met formele regels van redeneren. Wordt zowel vanuit [[id:dde81736-7aa2-4d43-bdd0-de363bd0f78b][Filosofie]] als vanuit de [[roam:wiskunde]] bestudeerd.
+
+* Logisch redeneren
+
+** Deductie
+:PROPERTIES:
+:ID:       14b91386-7db9-4279-8af2-e567c4fe4c6c
+:ROAM_ALIASES: "Deductive Reasoning"
+:END:
+
+[[id:bd24e977-8a66-4c39-8c51-168143faae93][Deduction follows a set of rules about specific statements to come to a conclusion based only on those statements]]
+
+** Abductie
+:PROPERTIES:
+:ID:       a91e8c06-81fd-4464-bb6d-3b7e8b35f265
+:ROAM_ALIASES: "Inductive Reasoning" "Abductive Reasoning"
+:END:
+
+** Inductie
+:PROPERTIES:
+:ID:       86782db6-bf41-4394-a940-d516aecd27eb
+:END:

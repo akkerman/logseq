@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       3b60c874-9fb0-441d-bb2d-f963d0bd21e4
+:END:
+#+title: polarized running workouts for maximum gains
+
+De beste methode van 80/20 hardlooptraining is om 80% van je training op lage
+intensiteit te doen en een groot deel van de overige 20% op hoge intensiteit,
+hierbij train je dus niet of zeer weinig op gemiddelde intensiteit.
+
+De reden hiervoor is dat je sneller hersteld bij lage intensiteit en daardoor
+meer kan halen uit de hoge intensiteit training. Zie [[id:3c6d4de5-299b-4c09-b616-fd138e815c40][80/20 secret sauce]], voor
+iets meer wetenschappelijke achtergrond.
+
+[[id:288b655d-4239-4221-83a8-526b0b93b068][Low intensity is all about heart rate]]
+
+[[id:f5d2a7d8-1dd7-42a2-80c7-c7d0e6ac1e9e][High intensity is all about pace]]
+

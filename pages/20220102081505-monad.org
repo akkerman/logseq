@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       a9136d69-27ce-4e18-914b-a73cb597afab
+:END:
+#+title: Monad
+
+Monad is an [[id:53b6b8d0-f49f-4758-9330-07eabbedefeb][Applicative]].
+
+
+The ~>>~ function is a convenience operator that is used to bind a monadic computation that does not require input from the previous computation. It is defined in terms of bind ~>>=~:
+
+#+begin_src haskell
+(>>) :: m a -> m b -> m b
+m >> k = m >>= (\_ -> k)
+
+#+end_src
+
+#+Caption: The ~>>~ function
+[[./img/Monad-gtgt.png]]

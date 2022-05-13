@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       7e960478-36bb-498b-941d-6a6353723151
+:END:
+#+title: Integration Testing
+
+Neem meerdere units/modules, die reeds door [[id:f64cdd81-9f54-4ae2-a44b-39f088e02290][unittests]] getest zijn, bijeen en test ze gezamenlijk als 1 geheel.
+
+#+begin_quote
+Integration tests determine if independently developed units of software work
+correctly when they are connected to each other. [fn:3]
+#+end_quote
+
+#+begin_quote
+The point of integration testing, as the name suggests, is to test whether many
+separately developed modules work together as expected. [fn:3]
+#+end_quote
+
+#+CAPTION: Different uses of integration testing
+#+SOURCE:  [fn:3]
+#+NAME:    fig:integration-testing-usages
+[[./refs/automatic-testing-types.org_scrot-20220312094520.png]]
+
+#+begin_quote
+A test written by architects and/or technical leads for the purpose of ensuring
+that a sub-assembly of system components operates correctly. These are plumbing
+tests. They are not business rule tests. Their purpose is to confirm that the
+sub-assembly has been integrated and configured correctly. [fn:14]
+#+end_quote

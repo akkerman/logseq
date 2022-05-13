@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID:       fe096389-75d4-4e63-84a1-fe969d34711c
+:ROAM_ALIASES: moc
+:END:
+#+title: Gewoontes veranderen in 4 stappen
+#+filetags: :moc:
+#+options: toc:nil num:nil
+
+Dit zijn de 4 stappen in het boek elementaire gewoontes. [cite:@clear_atomic_2018]
+
+| Stap       | Maak een goede gewoonte | Breek een slechte gewoonte |
+|------------+-------------------------+----------------------------|
+| aanwijzing | maak het zichtbaar      | maak het onzichtbaar       |
+| verlangen  | maak het aantrekkelijk  | maak het onaantrekkelijk   |
+| actie      | maak het gemakkelijk    | maak het moeilijk          |
+| beloning   | maak het bevredigend    | maak het onbevredigend     |
+
+* Aanwijzing
+
+Een aanwijzing zet je hersenen ertoe de gewoonte in gang te zetten. \\
+Denk aan een tijd, locatie, visuele aanwijzing, geur etc.
+
+#+transclude: [[id:281093d3-cd98-4191-94bc-8281cb6f7a44][Leer een slechte gewoonte af door je gedrag uit te spreken]]
+#+transclude: [[id:6e37980e-254d-4be5-952c-10ed51475d50][Koppel nieuw gedrag aan bestaand gedrag of gebeurtenis]]
+#+transclude: [[id:45cf582b-169a-4399-acf1-743cf2c6b94b][Verander je omgeving zodat jouw beste gewoonte de gemakkelijkste wordt]]
+#+transclude: [[id:0f13b146-5d82-47ca-a29c-43cd3e7084d7][In een nieuwe omgeving start je sneller een goede gewoonte]]
+
+* Verlangen
+
+Het verlangen zorgt ervoor dat je actie wilt ondernemen. \\
+Je verlangt naar de verandering die de gewoonte met zich meebrengt.
+
+#+transclude: [[id:db79a69b-b764-4a9f-b74e-598b64572166][Maak gedrag aantrekkelijk om een gewoonte te vormen]]
+#+transclude: [[id:921622d5-91f6-457e-bc73-7ced1d2e19f8][Sluit je aan bij een groep die je gewenste gedrag al heeft]]
+#+transclude: [[id:c555e8f9-1544-45d0-a70f-ba1fe5830355][Benadruk de voordelen van het nalaten van een slechte gewoonte]]
+
+* Actie
+
+Het uitvoeren van de daadwerkelijke gewoonte.
+
+* Beloning
+
+Dit is het doel van de gewoonte; wat we ermee willen bereiken. \\
+Ze geven voldoening en zo leer je om de actie te herhalen.

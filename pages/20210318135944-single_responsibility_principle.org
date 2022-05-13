@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       2cbfd8a1-06f9-44ba-9141-96dac0b40794
+:ROAM_ALIASES: SRP
+:END:
+#+title: Single Responsibility Principle
+
+Het wordt vaak verkeerd geinterpreteerd als 'een module doet slechts één ding'.
+Het word dan verward met [[roam:A function should do one thing]]
+
+De originele beschrijving van SRP is:
+/A module should have one, and only one, reason to change./
+
+De redenen voor wijziging is om de gebruikers tevreden te stellen. Eigenlijk gaat het hier niet om een willekeure gebruiker maar over een groep gebruikers die het system willen wijzigen op soortgelijke manier. Aan deze groep kunnen we referen onder de naam *actor*.
+
+/Een module zou verantwoordelijk moeten zijn voor één actor./ ([1] hfdst 7)
+
+De definitie van een module in deze kan uiteenlopen van 1 bestand tot een verzameling functies en data structuren die bijelkaar horen.

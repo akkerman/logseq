@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       02b930f6-698b-4d3e-a11d-8842bc36168e
+:END:
+#+title: Factory Function

@@ -1,0 +1,58 @@
+:PROPERTIES:
+:ID:       6d1ba0eb-505f-4e6f-9c2a-af30c0a579d5
+:END:
+#+title: Type Class
+
+
+A [[id:6d1ba0eb-505f-4e6f-9c2a-af30c0a579d5][Type Class]] is an interface that defines some behaviour.
+
+A type class in [[id:857ff32f-0fe9-42cb-b72a-70d7aeaff7bd][Haskell]] enables a programmer to write code while avoiding specific types and use a variable instead.
+
+If you create a type and let that type be an instance of a [[id:6d1ba0eb-505f-4e6f-9c2a-af30c0a579d5][Type Class]] you will
+have to specify what the functions, defined by the type class mean for your
+type.
+
+A [[id:6d1ba0eb-505f-4e6f-9c2a-af30c0a579d5][Type Class]] defines an abstract interface, thus one type can be an instance of multiple type classes.
+
+For some type classes you can only create an instance after being an instance of a specific other typeclass. e.g. ~Ord~ requires a type to be an instance of ~Eq~.
+
+
+example:
+
+#+begin_src haskell
+data RN = I | II | III | IV | V
+
+instance Eq RN where
+    I == I     = True
+    I == _     = False
+    II == II   = True
+    II == _    = False
+    III == III = True
+    III == _   = False
+    IV == IV   = True
+    IV == _    = False
+    V == V     = True
+    V == _     = False
+
+instance Ord RN where
+    compare I x = case x of
+        I   -> EQ
+        _   -> LT
+    compare II x = case x of
+        I   -> GT
+        II  -> EQ
+        _   -> LT
+    compare III x = case x of
+        III -> EQ
+        _   -> GT
+        _   -> LT
+    compare IV x = case x of
+        V   -> LT
+        IV  -> EQ
+        _   -> GT
+    compare V x = case x of
+        V   -> EQ
+        _   -> GT
+#+end_src
+
+https://stackoverflow.com/questions/7079465/how-to-implement-ord-for-algebraic-data-types-in-haskell

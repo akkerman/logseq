@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       6da33da3-feb8-420a-99ee-4e3aac45ff00
+:END:
+#+title: Smoothie Kruiden
+
+- tags :: [[id:b3fd4cb2-9a94-4cf1-8b35-64c6a50928c2][Kruiden]] · [[id:d199560e-df54-4a43-bac5-ebd5709e9d0c][recept]]
+
+* Verhoudingen
+- 1 peper
+- 2 gember
+- 4 kurkuma
+- 2 kaneel

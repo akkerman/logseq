@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       8b7fb2bd-08ba-468b-93eb-04965aabe246
+:ROAM_ALIASES: SAP
+:END:
+#+title: Stable Abstractions Principle
+
+/A component should be as abstract as it is stable./
+
+- /A = Na / Nc/ :: Abstractie nivo van een component = (aantal abstract classes + interfaces) / (totaal aantal classes)\\
+NB: ik neem ff aan dat het totaal ook de interfaces bevat anders kun je delen door nul krijgen...
+
+#+CAPTION: Zones of exclusion
+#+NAME: fig:zones_of_exclusion
+[[file:./img/clean_architecture_zones_of_exclusion.png]]
+
+- Zone of Pain :: Een Volledig stabiel en concreet component. Kan heel moeilijk worden aangepast of uitgebreid. \\
+  Een voorbeeld hier is een database schema welke eigenlijk WEL vaak veranderd maar waar heel veel vanaf hangt.
+
+- Zone of Uselessness :: Volledig abstract maar zonder afhankelijkheden. Ooit aangemaakt maar nooit geïmplementeerd.
+
+
+Je wilt je componentnen zo ver mogelijk uit die zones hebben, op of bij /The Main Sequence/.
+
+- /D = |A+I-1|/ :: De afstand vanaf de /The Main Sequence/. Bij 0 zit je er precies op.
+
+Deze metric is op twee manieren te gebruiken.
+1. Geef elk component een waarde en maak er een scatter plot van om een beeld te krijgen van het algehele design van het systeem.
+2. Meet de waarde van de componenten per release om trends te zien in de verschuiving naar/van de lijn.

@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       2c0f4b26-bfb0-414e-a65d-c91a65b9dbe7
+:ROAM_ALIASES: kind
+:END:
+#+title: Kinds are the labels of types
+
+In [[id:857ff32f-0fe9-42cb-b72a-70d7aeaff7bd][Haskell]] there is a concept called kind, denoted as =*= which is the label of a type like a type is a label of a value.
+
+Check the kind of a type in the [[id:59d56f9d-b76e-468e-9899-33709f11756e][repl]] by typeing =:k <the_type>=
+
+#+begin_src haskell :exports both
+:k Int
+#+end_src
+
+#+RESULTS:
+: Int :: *
+
+The =*= indicates that =Int= is a concrete type, a type without type parameters.
+
+#+begin_src haskell :exports both
+:k Maybe
+#+end_src
+
+#+RESULTS:
+: Maybe :: * -> *
+
+#+begin_src haskell :exports both
+:k Maybe Int
+#+end_src
+
+#+RESULTS:
+: Maybe Int :: *

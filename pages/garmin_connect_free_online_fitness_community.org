@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       20979cfb-6b9b-40a3-bca9-d6d9ae0bcede
+:ROAM_REFS: https://connect.garmin.com/
+:END:
+#+title: Garmin Connect

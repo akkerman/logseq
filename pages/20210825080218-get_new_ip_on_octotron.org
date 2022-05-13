@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       574567a3-7fed-49e4-aa29-29b861405109
+:END:
+#+title: Get new IP on octotron
+
+ - tags :: [[id:d876108a-8f67-4442-a154-75f120c92c75][Arch Linux]]
+
+#+begin_src sh
+nmcli connection down id 'Wired connection 1'
+nmcli connection up id 'Wired connection 1'
+#+end_src

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       d1085546-b0c0-45f6-8efe-389ca96c936c
+:ROAM_ALIASES: MOC
+:END:
+#+title: Map of Contents
+
+Een Map of Contents is een outline van meerdere permantent notes.

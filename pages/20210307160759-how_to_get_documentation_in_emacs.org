@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       e5a9d770-ea51-4579-ab25-ea04eab2ed7a
+:END:
+#+title: How to get documentation in Emacs
+#+date: [2021-02-24 Wed 07:51]
+
+- tags :: [[id:60327c8c-4c49-4867-bf95-69714d9714e0][Emacs]] [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+
+for example to figure out what stuff in configuration file does.
+and to figure out which key is bound to that
+
+Looks like this shortuct wil do it: M-x describe...
+most likely =describe-function= will describe what is in the configuration
+
+- [[https://opensource.com/article/20/3/variables-emacs][What you need to know about variables in Emacs]]
+- [[https://www.gnu.org/software/emacs/manual/html_node/elisp/][Emacs Lisp]]
+
+Algemeen: type =M-x describe= of =space :describe= voor een lijst met mogelijkheden

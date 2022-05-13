@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       e7880d3a-26ae-48e2-981f-748ae0ba6918
+:END:
+#+title: What is the difference between Ontology and Phenomenology
+
+[[id:086fba9c-50a0-4435-9424-779a1a3de1d8][Ontology]] is the study of what is, [[id:630c748a-b6d0-42d8-ad65-0d99c5fee475][Phenomenology]] is the study of what appears.

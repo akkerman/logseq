@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       cb468892-d1fd-4b5c-9e28-344c21bc4152
+:ROAM_ALIASES: "flow state" flow
+:END:
+#+title: Een taak gaat gemakkelijk als je het met onverdeelde aandacht kunt doen
+
+Je kunt in een flow state geraken als je een taak of activiteit kunt uitvoeren
+als je er alle aandacht aan kunt geven. Momenten waarop dat niet kan is
+bijvoorbeeld als je moeite moet doen om te concentreren omdat je je tot de taak
+moet zetten (motivatie, interupties). Het kan ook dat je bepaalde delen nog niet
+begrpen hebt en eigenlijk eerst daar aandacht aan moet geven. Het medium (text,
+beeld, geluid) is onduidelijk of iig lastig te volgen. Als je wisselt van taak
+is je aandacht ook verdeeld en gaat er aandacht verloren aan het wisselen tussen
+de taken.
+
+- [[id:208906a4-cd14-4bab-bd92-fc9ec729217c][In een flow state steek je meer energie in de taak omdat je niets verbruikt aan zelfdiscipline om je te concentreren.]]
+- [[id:29a61ff0-0d9c-459e-8d56-9bfa5e313be2][Wisselen van de ene taak naar de andere kost moeite.]]
+- [[id:65bc6aaa-41c7-4b1f-a9cc-06f69c18f202][Mentale inspanning komt door wat je aan het doen bent en onvervulde eisen.]]

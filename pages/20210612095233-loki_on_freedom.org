@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       87b2566d-25ef-4ab0-bebb-00ab57d6464d
+:END:
+#+title: Loki on freedom
+
+Loki S1 E1 Glorious Purpose
+
+Mooi hoe deze quotes in relateren aan het [[id:0eb5a80e-df5d-4647-8a59-833ca15436ea][Existentialisme]] van [[id:07b35e91-af59-4bc5-86ee-71ceb7ecb4eb][Jean-Paul Sartre]].
+
+#+begin_quote
+“The first and most oppressive lie ever uttered was the song of freedom.”
+
+“For nearly every living thing, choice breeds shame and uncertainty, and regret. There’s a fork in every road, yet the wrong path always taken.”
+#+end_quote
+

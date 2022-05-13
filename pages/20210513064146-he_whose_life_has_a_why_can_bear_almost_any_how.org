@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       91f301fd-fd17-41c1-8e4f-1c7d3d48a20d
+:END:
+#+title: He whose life has a why can bear almost any how
+
+This quote is attributed to [[id:190c5fad-f5ca-445b-9ce9-1c5e16f4ebf1][Friedrich Nietzsche]]:  /Hat man sein warum? des Lebens, so verträgt man sich fast mit jedem wie?/
+
+[cite:@peterson_12_rules_2018] Treat yourself like someone you are responsible for helping.
+
+[[id:2d71009c-a13f-4a9a-a548-c3ac84d38779][Viktor Frankl]] screef in [[id:07442142-9426-4186-a654-4b0204c3ac76][Man's search for meaning.]]
+#+begin_quote
+As we said before, any attempt to restore a man’s inner strength in the camp had first to succeed in showing him some future goal. Nietzsche’s words, “He who has a why to live for can bear with almost any how,” could be the guiding motto for all psychotherapeutic and psychohygienic efforts regarding prisoners.
+#+end_quote

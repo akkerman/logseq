@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       288b655d-4239-4221-83a8-526b0b93b068
+:END:
+#+title: Low intensity is all about heart rate
+
+blijven. Als ze een tempo doel krijgen willen ze er doorgaans overheen gaan.
+
+Hartslagmeting is minder nuttig bij hoge intensitteit omdat je hart iets
+achterloopt in de reactie om sneller te kloppen als er sneller gerend wordt.
+
+Bij [[id:f30b65bd-4ee3-4528-8632-beee8e58fe84][80/20 running]] zit je harslag in zone 1 en 2

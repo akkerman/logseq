@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       d8630e9f-5bb0-4baa-9317-08a98dc2b679
+:ROAM_ALIASES: "sematische illusie" "moses illusion"
+:END:
+#+title: Fouten met gelijke betekenis bijven onopgemerkt
+
+Als een woord (zin of vraag) wordt vervangen door een andere die bijna dezelfde betekenis heeft dan hebben mensen moeite om deze afwijking te ontdekken.
+
+- [[id:2bf0f5de-17e8-40ca-aa2d-b0785bbd35eb][Niet verrast zijn door onverwachte dingen die binnen de norm lijken te vallen]]

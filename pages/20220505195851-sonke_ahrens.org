@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       5edbab0c-8679-497a-bb76-50fbe9f64e75
+:ROAM_ALIASES: "Sonke Ahrens"
+:END:
+#+title: Sönke Ahrens
+#+filetags: :person:

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       a28969a3-ac03-4210-9355-5d53b229f41e
+:ROAM_REFS: https://en.wikipedia.org/wiki/Niklas_Luhmann
+:END:
+#+title: Niklas Luhmann
+#+options: toc:nil num:nil
+#+filetags: :person:
+
+Niklas Luhmann was een Duitse Socioloog en bedenker van de [[id:c91fec83-5759-41a6-9702-6478d2f7f197][Zettelkasten Method]].

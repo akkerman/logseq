@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       1515a9a2-3a00-4a1c-8967-2340e878a56f
+:END:
+#+title: When is a directed graph a category
+
+A [[roam:Graph]] is a [[id:65ef0e5c-8864-4f80-b92f-1c7ec0d560d2][Category]] when it has all identity and composition arrows.
+
+- it is a directed graph
+- the graph is [[id:b4330dd3-d7f2-4fe0-b262-e75e7ef3549c][reflexive]], each vertice has an edge to itself
+- the graph is [[id:95e4a941-5ea0-4dcb-a18e-c133e60db46f][transitive]], if a → b and b → c then there is also a → c \\
+
+#+begin_src mermaid :file /tmp/graph-category.png :exports result
+graph LR;
+a((a))-->a;
+b((b))-->b;
+c((c))-->c;
+
+a-->b;
+a-->c;
+b-->c;
+#+end_src

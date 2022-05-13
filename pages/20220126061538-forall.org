@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       429291ec-09fd-4e59-b6f0-d592db78bf41
+:END:
+#+title: forall
+
+The keyword forall in [[id:857ff32f-0fe9-42cb-b72a-70d7aeaff7bd][Haskell]]...
+
+https://stackoverflow.com/questions/3071136/what-does-the-forall-keyword-in-haskell-ghc-do

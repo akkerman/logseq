@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       8801870e-b23f-4b92-a149-ece642eb4d68
+:END:
+#+title: Connect to different docker nodes
+
+- tags :: [[id:c51d6f17-7f89-4a07-9e8f-12df4b053175][Docker]]
+
+[[https://docs.docker.com/engine/reference/commandline/context_create/][docker context create | Docker Documentation]]
+
+
+#+begin_src bash
+docker context create --docker host=ssh://prd-analytics-0.dsplatform.nl dsp-prd0
+#+end_src

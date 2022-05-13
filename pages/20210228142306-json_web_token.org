@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       765becc4-511c-411e-bb1b-13fe94539ce9
+:ROAM_ALIASES: "bearer token" jwt
+:END:
+#+title: JSON Web Token
+
+[[https://jwt.io/][JSON Web Tokens - jwt.io]]
+
+#+begin_quote
+JSON Web Tokens are an open, industry standard [[https://tools.ietf.org/html/rfc7519][RFC 7519]] method for representing claims securely between two parties.
+#+end_quote
+
+Een JSON web token bevat data (claims) welke gesigned is met een private key.
+De private key is in bezit van een server die deze tokens uitgeeft.
+Omdat de public key beschikbaar is kan de validiteit van een token worden gecontroleerd.
+De data in het token zegt iets over wat degene die het token heeft (bearer) mag op een api server
+
+De data die ik meestal tegen kom:
+#+begin_src javascript
+{
+    "iss": "https://dspanalytics.eu.auth0.com/",
+    "sub": "auth0|5ba1e0a27dc7232e1aec56ee",
+    "iat": 1614892097,
+    "exp": 1614899297,
+    "scope": "read:stuff create:stuff"
+}
+#+end_src
+
+
+
+- iss :: issued by, partij/url die t token genereerde
+- sub :: client_id of userid
+- iat :: issued at, datum van uitgifte
+- exp :: expires at, datum wanneer token verloopt
+- scope :: de claims waar de bearer recht op heeft

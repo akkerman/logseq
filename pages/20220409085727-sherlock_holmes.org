@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       3bbb2fae-50c4-4b29-9d9a-9ad8be6698a8
+:END:
+#+title: Sherlock Holmes
+
+Sherlock holmes is een fictieve detective. Bedacht en beschreven door [[roam:Sir Arthur Conan Doyle]]
+
+Hij noemt zich een consulting detective, en dat bestond op dat moment in de tijd
+nog helemaal niet na 1880. Hoewel
+
+Wat mij aanspreekt zijn zijn een aantal manieren die hij hanteert om tot conclusies te komen.
+
+Sherlock Holmes is er niet op uit om een theorie bekrachtigt te krijgen maar hij zoekt naar
+aanwijzingen om obv daarvan af te leiden wat er is gebeurt. [[id:a91e8c06-81fd-4464-bb6d-3b7e8b35f265][Abductie]]
+
+
+* Quotes
+** When you have eliminated all which is impossible, then whatever remains, however improbable, must be the truth.
+:PROPERTIES:
+:ID:       26176221-2d52-4ed3-9b47-d82b90cf1266
+:END:
+
+― Arthur Conan Doyle, The Case-Book of Sherlock Holmes
+** I am a brain, Watson. The rest of me is a mere appendix
+:PROPERTIES:
+:ID:       cf8b3e02-7e73-4c70-b116-429d4ba0b5dd
+:END:
+― Arthur Conan Doyle, The Adventure of the Mazarin Stone

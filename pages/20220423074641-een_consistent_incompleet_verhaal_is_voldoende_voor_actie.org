@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       f0be0e3e-944e-4f70-9f68-dcfe0e5395a0
+:END:
+#+title: Een consistent incompleet verhaal is voldoende voor actie
+
+Als je een verhaal of situatie wordt verteld en deze is nog niet compleet maar wel consistent dan ga je al over to aannames maken over juistheid.
+
+Als je herinnering logisch lijkt maar incompleet is kun je daar al actie op ondernemen.
+
+- [[id:1dfa67f3-39cf-4c02-8497-9ebb13dc3b60][Een herinnering is het verhaal van de gebeurtenis]]
+- [[id:6baba554-41d2-48e3-9bf0-c81c11d7a6ea][Mensen geven niet perse om de inhoud van het verhaal]]
+- [[id:d5258b38-bc5b-47fd-90e7-0be9f5db9986][Wij denken in verhalen]]
+- [[id:f21b6b01-a063-4235-b063-27e88b04a5a3][Voor een goed verhaal is consistentie belangrijk, niet het compleet zijn van informatie.]]

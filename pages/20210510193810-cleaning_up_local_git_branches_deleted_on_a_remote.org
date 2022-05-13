@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       b9544981-8956-45bf-a0c1-ba7b0328f798
+:ROAM_REFS: https://www.erikschierboom.com/2020/02/17/cleaning-up-local-git-branches-deleted-on-a-remote/
+:END:
+#+title: Cleaning up local git branches deleted on a remote
+
+
+The following script removes local [[id:df92f84f-a09b-4fff-89b5-4ad28a0a62ff][branches]] that have been deleted on the remote [[id:00f182c8-814f-4400-b072-270f528dcd42][Git]] repository
+
+#+begin_src
+git fetch -p && git for-each-ref --format '%(refname:short) %(upstream:track)' | awk '$2 == "[gone]" {print $1}' | xargs -r git branch -D
+#+end_src
+
+
+[[id:ff1bbefd-5e17-4a4f-ae5a-22118565a0cc][Edit global git config]]
+
+#+begin_src
+[alias]
+    gone = ! "git fetch -p && git for-each-ref --format '%(refname:short) %(upstream:track)' | awk '$2 == \"[gone]\" {print $1}' | xargs -r git branch -D"
+
+#+end_src

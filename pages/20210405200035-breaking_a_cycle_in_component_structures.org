@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       3f1734e0-a064-402a-9818-97ad4c29a257
+:END:
+#+title: Breaking a cycle in component structures
+#+options: toc:nil
+
+Volgens [[id:a2a69177-50c1-4dee-ad4d-c14d61006db5][ADP]] moet je cycles in je component structuur voorkomen, als je er toch één hebt dan heb je de volgende twee methodes om de cycle weg te halen.
+
+* Invert the dependency
+:PROPERTIES:
+:ID:       ca49c8ac-c555-4f1d-a3f7-282601f40710
+:END:
+
+In het component dat de afhankelijkheid heeft, maak een interface die geimplementeerd wordt door de component waarvan je afhankelijk bent. Nu is de afhankelijkheid omgedraait en de cycle weg.
+
+    #+CAPTION: Inverting the dependency between =Entities= and =Authorizer=
+    #+NAME: fig:component_cycle_inversion
+    [[file:~/org/slip-box/img/clean_architecture_component_cycle_invert_1.png]]
+
+* Move the dependency to a new component
+:PROPERTIES:
+:ID:       69297339-4126-46d9-8419-3ebf75ee993c
+:END:
+
+Maak een nieuw component waar zowel waar beide andere componenten van afhankelijk zijn.

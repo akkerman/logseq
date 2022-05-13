@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       535d2d5c-205f-44b3-beda-3d1efc0f018a
+:END:
+#+title: Markdown
+#+options: toc:nil num:nil
+
+* Resources
+- [[https://daringfireball.net/projects/markdown/][Daring Fireball: Markdown]] :: The original project
+- [[https://www.markdownguide.org/][Markdown Guide]] :: Comprehensive guide
+- [[https://guides.github.com/features/mastering-markdown/][Mastering Markdown · GitHub Guides]] :: Quick intro, includes GitHub Flavored Markdown
+- [[https://docs.gitlab.com/ee/user/markdown.html][GitLab Markdown | GitLab]] :: Intro, includes GitLab Flavored Markdown
+
+* Software
+- [[https://dillinger.io/][Online Markdown Editor - Dillinger, the Last Markdown Editor ever.]] :: One of the best online editors
+- [[https://typora.io/][Typora — a markdown editor, markdown reader.]] :: No frills, but feature packed. Cross platform desktop app.
+- [[https://www.vim.org/][vim]] :: Editor, comes with default plugin for syntax highlighting fences languages and navigating

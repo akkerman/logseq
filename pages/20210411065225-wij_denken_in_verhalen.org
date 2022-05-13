@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       d5258b38-bc5b-47fd-90e7-0be9f5db9986
+:ROAM_ALIASES: "Our brains are hardwired for narrative" "Onze hersenen hebben een speciale aanleg voor verhalen"
+:END:
+#+title: Wij denken in verhalen
+
+Wij [[id:af39148d-f229-4fab-8f70-5276338df78e][denken]] in verhalen.
+
+of: Onze hersenen hebben een speciale aanleg voor verhalen
+of: Our brains are hardwired for narrative
+
+Dit is één van de redenen waarom [cite:@kahneman2012] fictieve personen (System 1 and System 2) introduceerd om over denken te kunnen redeneren.
+
+Jordan Peterson benadrukt eveneens, volgens mij in zijn lectures (maps of meaning??), de belangrijkheid van verhalen in onze geschiedenis, m.n de wijze waarop we de wereld interpreteerden voordat we de wetenschap hadden.
+
+
+- [[id:3829aa82-ec94-4e94-a21a-c27c827e9729][Rule 2.  Imagine who you could be, and then aim single-mindedly at that]]
+- [[id:05926a38-7e70-4426-aee9-498003197dee][Brains Love Stories]]

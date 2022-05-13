@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       c24f193e-a83b-4253-aba8-d5bef70a96c9
+:ROAM_ALIASES: Math
+:END:
+#+title: Mathematics
+#+filetags: :tag:

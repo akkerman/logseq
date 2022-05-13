@@ -1,0 +1,68 @@
+:PROPERTIES:
+:ID:       1f2da4e3-fe9e-4f52-98c0-a08e668bc18b
+:ROAM_ALIASES: uncurrying
+:END:
+#+title: currying
+
+In [[id:c24f193e-a83b-4253-aba8-d5bef70a96c9][Mathematics]] and [[id:889a9282-2b0a-4366-a5e8-ccdad8e4f8d9][Computer Science]], currying is a technique of converting a function, taking multiple arguments into a sequence of functions that takes one argument and return a function.
+
+Going from  ~f :: (a, b) -> c~ to ~f' :: a -> (b -> c)~
+
+Functions in [[id:857ff32f-0fe9-42cb-b72a-70d7aeaff7bd][Haskell]] are always curried.
+
+
+Manually currying in javascript:
+
+#+begin_src js  :results verbatim
+function add(a, b) {
+    return a + b
+}
+
+function add2 (a) {
+    return function (b) {
+        return a + b
+    }
+}
+
+return [
+    add(2,3),
+    add2(2)(3),
+]
+#+end_src
+
+#+RESULTS:
+: [ 5, 5, 5 ]
+
+
+A [[id:857ff32f-0fe9-42cb-b72a-70d7aeaff7bd][Haskell]] function written in [[id:be3d74b2-d108-4232-baf7-e3adfb30b2fd][javascript]]:
+
+#+begin_src haskell :results verbatim :exports both
+:set +m
+chuncklist :: Int -> [a] -> [[a]]
+chuncklist n xs = chunk xs
+    where chunck [] = []
+          chunk xs = take n xs : chunck (drop n xs)
+
+chunk3 = chunklist 3
+chunk3 [1,2,3,4,5,6,7,8,9]
+#+end_src
+
+#+RESULTS:
+: [[1,2,3],[4,5,6],[7,8,9]]
+
+
+#+begin_src js :results verbatim :exports both
+const chunkArray = n => arr => {
+    const chunk = arr => {
+        if (arr.length === 0) return []
+        return [arr.slice(0,n), ...chunk(arr.slice(n))]
+    }
+    return chunk(arr)
+}
+
+chunk3 = chunkArray(3)
+return chunk3([1,2,3,4,5,6,7,8,9])
+#+end_src
+
+#+RESULTS:
+: [ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ] ]

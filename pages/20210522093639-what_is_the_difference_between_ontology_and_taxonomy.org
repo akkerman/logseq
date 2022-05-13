@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       19d34318-245e-42e2-97c6-00af236aefe7
+:END:
+#+title: What is the difference between Ontology and Taxonomy
+#+filetags: :todo:
+
+* TODO What is the difference between [[id:086fba9c-50a0-4435-9424-779a1a3de1d8][Ontology]] and [[id:768115db-a5a1-42de-8aa0-f1427038bd3f][Taxonomy]]
+
+Read [[https://www.earley.com/blog/what-difference-between-taxonomy-and-ontology-it-matter-complexity][What is the Difference between Taxonomy and Ontology? It is a Matter of Compl...]]

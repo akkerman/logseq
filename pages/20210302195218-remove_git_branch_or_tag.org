@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       8467364e-c892-4c2d-8d86-62f9316890da
+:END:
+#+title: Remove Git branch or tag
+
+- tags :: [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+Remove [[id:df92f84f-a09b-4fff-89b5-4ad28a0a62ff][branch]] or tag from [[id:00f182c8-814f-4400-b072-270f528dcd42][Git]]
+
+#+begin_src sh
+# remove local tag or merged branch
+git tag -d v1.0
+git branch -d feature/my-stuff
+
+# remove local UN MERGED branch
+git branch -D feature/my-stuff
+
+# remove remote tag or branch
+git push -d origin v1.0
+git push -d origin feature/my-stuff
+#+end_src

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       2103e6b5-7f31-4ee2-aafd-ab49f85fbc83
+:ROAM_REFS: https://www.orgroam.com/
+:END:
+#+title: org-roam
+#+roam_alias "Org Roam"
+#+options: toc:nil num:nil
+
+#+begin_quote
+Org-roam is a tool for network thought. It reproduces some of [[id:01979a53-1825-4f0a-a82f-28555f2fb466][Roam Research]]’s features within the all-powerful [[id:440c7859-bd16-4919-b105-f6a2fdb18270][Org-mode]].
+#+end_quote

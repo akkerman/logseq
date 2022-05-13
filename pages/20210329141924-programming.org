@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       12f99272-16fd-4ade-984a-ff58926e176b
+:END:
+#+title: Programming
+#+filetags: :moc:
+
+- tags :: [[id:9be3ea40-46d8-4916-9826-35074da11d2a][Home]]
+
+* Programming Languages
+
+- [[id:857ff32f-0fe9-42cb-b72a-70d7aeaff7bd][Haskell]]
+- [[id:4aad8986-2a12-4877-ab70-345ab5614c66][JavaScript]]
+- [[id:126a1e03-1dcd-4fa3-80dd-59fd6e07ab56][Python]]
+- [[id:582d4973-103b-4d74-90c5-96902b85a161][bash]]
+
+* Paradigms
+
+- [[roam:imperative programming]]
+- [[roam:logical programming]]
+- [[id:f54faa7b-1102-4ff4-8060-c195d26c48f6][functional programming]]
+- [[roam:object-oriented programming]]
+
+* Editor
+
+- [[id:60327c8c-4c49-4867-bf95-69714d9714e0][Emacs]]
+- [[id:3e18bba2-0f35-4987-9b24-01e9007feea2][vim]]
+
+* Theory
+
+- [[id:7b793ae6-dae4-4c19-bb91-8527aead15fd][Clean Architecture]]
+- [[id:10036a34-bc0d-48af-ac41-ab45ac015be2][Principles of object-oriented design]]
+- [[id:807d9612-3e0d-4047-a080-b3bc3bfb3b8e][Principles in Software design and architecture]]
+- [[id:eb5dc1ed-3c0e-4b9d-aa23-00fa9639f583][Category Theory]]
+
+* Related
+
+- [[id:3edb75fa-8a5d-42d3-b3b2-0c132e51123a][Testing]]

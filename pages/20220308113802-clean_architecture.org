@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       7b793ae6-dae4-4c19-bb91-8527aead15fd
+:ROAM_REFS: https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
+:END:
+#+title: Clean Architecture
+
+[[./img/CleanArchitecture.jpg]]

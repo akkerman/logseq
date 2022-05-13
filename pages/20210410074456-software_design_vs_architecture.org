@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       c50a63b1-4481-4029-b8db-efa55d05dcfd
+:END:
+#+title: Software Design vs Architecture
+
+- tags :: [[id:e3ba0d13-1e68-4a29-9104-21d3ec2a41de][Software Architecture]] · [[id:e594e54f-1b3a-4ec7-919c-7237451ac048][Software Design]]
+
+
+Er is een overlap maar algemeen:
+
+*Architectuur* gaat over de structuur, relaties tussen componenten. (high-level)
+*Design* gaat over de implementatie, data structuren en algorithmes. (low_level)
+
+
+#+begin_quote
+For starters, I'll assert that there is no difference betwen them. /None at all./
+#+end_quote
+[cite:@martin_clean_architecture_2017]
+
+De low-level details en de high-level structuur zijn delen van hetzelfde geheel.
+
+#+begin_quote
+The goal of software architecture is to minimize the human resources required
+to build and maintain the required system.
+#+end_quote
+[cite:@martin_clean_architecture_2017]

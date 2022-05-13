@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       8674d761-fec0-45ed-9ebb-e0f621863b56
+:END:
+#+title: product
+
+A product is a record of types, in it simplest form it is a tuple.

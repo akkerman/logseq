@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       3bd99c8f-a291-465d-88c0-b6fbddcf3548
+:END:
+#+title: morphism
+
+In [[id:eb5dc1ed-3c0e-4b9d-aa23-00fa9639f583][Category Theory]] is een morphisme een pijltje tussen twee objecten.
+
+Het equivalent van een morphisme in [[id:889a9282-2b0a-4366-a5e8-ccdad8e4f8d9][Computer Science]] is een [[id:576528d3-57c4-48eb-8957-ae28f88314c6][functie]] tussen types.

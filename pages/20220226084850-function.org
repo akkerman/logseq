@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       576528d3-57c4-48eb-8957-ae28f88314c6
+:ROAM_ALIASES: functie function
+:END:
+#+title: Function

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       2a2c7971-5069-472a-b0cc-23ded4631cab
+:ROAM_ALIASES: Productiviteit
+:END:
+#+title: Productivity
+#+options: toc:nil num:nil
+#+filetags: :tag:

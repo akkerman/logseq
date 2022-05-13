@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       5070516e-6dc7-4c8b-b69e-45db03c10be2
+:END:
+#+title: binary operation
+
+An operation that works on two operands.
+When you want to apply the operation on more operands you specify the operation
+multiple times e.g:
+
+a + b + c

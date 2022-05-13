@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       aab00e98-0b99-4c6e-b291-62bde9c0091d
+:END:
+#+title: Linux
+#+tags: nil
+#+options: toc:nil num:nil

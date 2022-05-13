@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       82665142-874b-4440-a367-8fb117007feb
+:END:
+#+title: How are philosophy and psychology related?
+
+[[id:426a3dda-aeaf-4d3c-b9cc-80b1635e4840][Psychology]] is both [[id:dde81736-7aa2-4d43-bdd0-de363bd0f78b][Philosophy]] and [[id:4391b5be-9d86-4599-8f25-3283d8d062da][Science]]. It's roots lie in philosophy, but it has, and continues to evolve into a science, as advancements are made. The two disciplines are related because they both use theoretical concepts to explain behavior and thought. -- [[https://www.reddit.com/r/askphilosophy/comments/73zdec/how_is_philosophy_and_psychology_related_to_each/][reddit]]

@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       446f57c0-e00b-4035-89cf-326d46cde847
+:END:
+#+title: MC/DC Coverage
+#+language: nl
+
+- MC/DC :: Modified condition / decision coverage
+
+Het MC/DC Coverage criterium zegt dat er bij n condities n+1 tests te vinden zijn ipv n^3. Er wordt geprobeerd om het aantal bugs dat de testen kunnen vinden gemaximaliseerd wordt terwijl de moeite en kosten van het bouwen geminimalizeerd wordt.
+
+
+Als je, tijdens [[id:0fb2de60-12f8-4cf2-aa46-029219cbf4bd][Structural testing]] kijkt naar coverage, dan kun je tot de conclusie komen dat het aantal combinaties van een conditie heel hoog is.
+
+Het idee is dat je een truth table maakt voor alle mogelijke combinaties en elke combinatie een ID geeft.
+Vervolgens ga je voor elke conditie af welke twee tests voldoen aan:
+
+    /Wijzig alleen de conditie en houd de overige gelijk, de output is verschillend voor elk van de gekozen tests./
+
+
+Zodra je voor elk van de conditities de test paren hebt geidentificeerd neem de je paren met overlappende tests en dat is je te implementeren test set.
+
+
+Onderstaande voorbeeld is van [[https://www.youtube.com/watch?v=HzmnCVaICQ4][MC/DC coverage - YouTube]]
+
+#+CAPTION: MC/DC coverage
+#+NAME:    fig:mcdc-coverage
+[[./20220402084555-mc_dc_coverage.org_scrot-20220402090352.png]]
+
+
+De test waarbij 1 conditie wijzigt en ook de output:
+
+A: {1,5}, *{2,6}*, {3,7} \\
+B: *{2,4}* \\
+C: *{3,4}* \\
+
+De te implementeren test set is dan: {2,3,4,6}

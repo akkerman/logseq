@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       6cba5898-6f13-4ccd-9de8-94c14e260b00
+:END:
+#+title: Dependencies Grow
+
+
+Afhankelijkheden, beschreven in [[id:a2a69177-50c1-4dee-ad4d-c14d61006db5][ADP]], hebben niets te maken met hoe de applicatie werkt. Het zegt iets over /onderhoudbaarheid/ en /bouwbaarheid/.
+
+Het is lastig tot onmogelijk, om op voorhand, afhankelijkheden te bedenken omdat je nog helemaal geen idee hebt van component closure.
+
+Dat je code het niet meer doet omdat een afhankelijkheid is gewijzigd kun je tegengaan door, tijdens development, goed aandacht te geven aan [[id:be168716-081f-4f52-b4a2-db6b43d6d09b][CCP]] en [[id:dd390142-9537-4080-bc84-250d04575d38][CRP]] door classes die vermoedelijk gezamenlijk veranderen bijelkaar te plaatsen.

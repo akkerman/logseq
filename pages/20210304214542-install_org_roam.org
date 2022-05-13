@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       0856450c-2871-440b-98fe-f965e28272fb
+:END:
+#+title: Install Org Roam
+#+options: toc:nil num:nil
+
+* Configure [[id:2103e6b5-7f31-4ee2-aafd-ab49f85fbc83][Org Roam]] in [[id:60327c8c-4c49-4867-bf95-69714d9714e0][Emacs]]
+
+- [[https://youtu.be/gDAbpz98ooU][A Tour of Org Roam - YouTube]]
+- [[https://youtu.be/rH3ZH95zjKM][Org Roam Setup · Emacs Doomcasts 25 - YouTube]]
+
+#+begin_src elisp
+;; init.el
+;; uncomment org, replace with
+(org +roam)
+
+;; config.el
+(setq org-roam-directory "~/org-roam")
+(setq org-roam-index-file "~/org-roam/Index.org")
+#+end_src
+
+
+* Additionally installed
+- [[https://github.com/org-roam/org-roam-server][org-roam/org-roam-server]] :: A Web Application to Visualize the Org-Roam Database
+- [[https://www.orgroam.com/manual.html#Roam-Protocol][org-roam-protocol]] :: Opens the  path specified by the file key (e.g. org-protocol://roam-file?file=/tmp/file.org)

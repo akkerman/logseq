@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       8dd84229-13c2-4745-9944-49868ec32a2b
+:END:
+#+title: Test Double
+Mock, Stub en Fake zijn allen een type test double
+
+* Mock
+:PROPERTIES:
+:ID:       649cb2a4-feee-424a-b332-d337c2e5d47b
+:END:
+bijhouden van aanroepen zodat er asserties op gedaan kunnen worden
+
+~jest.fn()~
+* stub
+:PROPERTIES:
+:ID:       22ff1f3b-f752-4da4-9e64-015dff1dbf82
+:END:
+bevat, vooraf gedefinieerde, data zodat er geen echte data wordt geraadpleegd met de nodige zijeffecten zoals b.v. een database call
+
+~jest.fn().mockResolvedValue({…})~
+* fake
+:PROPERTIES:
+:ID:       6bc2c8b8-f7f3-45c4-91c6-75a9aa3b2bd1
+:END:
+
+een werkende implementatie maar met veel eenvoudigere logica dan de productie code
+
+~jest.fn().mockImplementation(someCustomFunction)~

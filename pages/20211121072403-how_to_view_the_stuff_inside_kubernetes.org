@@ -1,0 +1,87 @@
+:PROPERTIES:
+:ID:       015f62a2-f43c-47ec-a7da-faba788ec075
+:END:
+#+title: How to view the stuff inside Kubernetes
+
+
+* View pods within [[id:d83fb7dc-2921-4392-a24d-e7dfccc2e5f2][Kubernetes]]
+
+All Pods
+#+begin_src sh :results verbatim
+kubectl get pods
+#+end_src
+
+#+RESULTS:
+#+begin_example
+NAME                       READY   STATUS    RESTARTS   AGE
+httpenv-6fdc8554fb-6cjfq   1/1     Running   0          38m
+httpenv-6fdc8554fb-7brpw   1/1     Running   0          38m
+httpenv-6fdc8554fb-bswxx   1/1     Running   0          38m
+httpenv-6fdc8554fb-dqlcr   1/1     Running   0          38m
+httpenv-6fdc8554fb-f2dkq   1/1     Running   0          38m
+httpenv-6fdc8554fb-kqt2x   1/1     Running   0          38m
+httpenv-6fdc8554fb-mrmmm   1/1     Running   0          40m
+httpenv-6fdc8554fb-q4j68   1/1     Running   0          38m
+httpenv-6fdc8554fb-wbknk   1/1     Running   0          38m
+httpenv-6fdc8554fb-xg78d   1/1     Running   0          38m
+nginx-6799fc88d8-nkk2s     1/1     Running   0          54s
+nginx-6799fc88d8-pl8wg     1/1     Running   0          48s
+nginx-6799fc88d8-scg5x     1/1     Running   0          48s
+pingpong                   1/1     Running   0          73s
+#+end_example
+
+All pods of a deployments
+#+begin_src sh :results verbatim
+kubectl get pods --selector=app=httpenv
+#+end_src
+
+#+RESULTS:
+#+begin_example
+NAME                       READY   STATUS    RESTARTS   AGE
+httpenv-6fdc8554fb-6cjfq   1/1     Running   0          39m
+httpenv-6fdc8554fb-7brpw   1/1     Running   0          39m
+httpenv-6fdc8554fb-bswxx   1/1     Running   0          39m
+httpenv-6fdc8554fb-dqlcr   1/1     Running   0          39m
+httpenv-6fdc8554fb-f2dkq   1/1     Running   0          39m
+httpenv-6fdc8554fb-kqt2x   1/1     Running   0          39m
+httpenv-6fdc8554fb-mrmmm   1/1     Running   0          41m
+httpenv-6fdc8554fb-q4j68   1/1     Running   0          39m
+httpenv-6fdc8554fb-wbknk   1/1     Running   0          39m
+httpenv-6fdc8554fb-xg78d   1/1     Running   0          39m
+#+end_example
+
+
+* View all in [[file:kubernetes.org][Kubernetes]].
+#+begin_src sh :results verbatim
+kubectl get all
+#+end_src
+
+#+RESULTS:
+#+begin_example
+NAME                           READY   STATUS    RESTARTS   AGE
+pod/httpenv-6fdc8554fb-6cjfq   1/1     Running   0          39m
+pod/httpenv-6fdc8554fb-7brpw   1/1     Running   0          39m
+pod/httpenv-6fdc8554fb-bswxx   1/1     Running   0          39m
+pod/httpenv-6fdc8554fb-dqlcr   1/1     Running   0          39m
+pod/httpenv-6fdc8554fb-f2dkq   1/1     Running   0          39m
+pod/httpenv-6fdc8554fb-kqt2x   1/1     Running   0          39m
+pod/httpenv-6fdc8554fb-mrmmm   1/1     Running   0          42m
+pod/httpenv-6fdc8554fb-q4j68   1/1     Running   0          39m
+pod/httpenv-6fdc8554fb-wbknk   1/1     Running   0          39m
+pod/httpenv-6fdc8554fb-xg78d   1/1     Running   0          39m
+pod/nginx-6799fc88d8-nkk2s     1/1     Running   0          2m4s
+pod/nginx-6799fc88d8-pl8wg     1/1     Running   0          118s
+pod/nginx-6799fc88d8-scg5x     1/1     Running   0          118s
+pod/pingpong                   1/1     Running   0          2m23s
+
+NAME                 TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
+service/kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   5d21h
+
+NAME                      READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/httpenv   10/10   10           10          42m
+deployment.apps/nginx     3/3     3            3           2m4s
+
+NAME                                 DESIRED   CURRENT   READY   AGE
+replicaset.apps/httpenv-6fdc8554fb   10        10        10      42m
+replicaset.apps/nginx-6799fc88d8     3         3         3       2m4s
+#+end_example

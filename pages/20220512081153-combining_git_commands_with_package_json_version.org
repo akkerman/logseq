@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       00c244f0-0a82-4507-ba05-6fe057c4fce3
+:END:
+#+title: Combining git commands with package.json version
+
+- tags :: [[id:00f182c8-814f-4400-b072-270f528dcd42][Git]] · [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+3 dezelfde tags:
+
+#+begin_src sh
+for prefix in tst- prd- v; do
+git tag $prefix$(jq -r .version < package.json)
+done
+#+end_src
+
+commit after version bump
+
+#+begin_src sh
+git commit -am "Bump version to $(jq -r .version < api/package.json)"
+#+end_src

@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       c7aa52e9-58fa-4350-bbe3-69a0181b6219
+:END:
+#+title: Copy Window to all desktops
+#+filetags: :todo:
+
+- tags :: [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+[[id:83121686-d6de-4621-a56f-93fbf72a5254][xmonad]]
+
+* TODO Doornemen .xmonad van anderen
+[[https://github.com/altercation/dotfiles-tilingwm][GitHub - altercation/dotfiles-tilingwm: Tiling window manager related files (...]]
+* TODO Noteren mogelijke packages
+[[https://hackage.haskell.org/package/xmonad-contrib-0.15/docs/XMonad-Actions-CopyWindow.html][XMonad.Actions.CopyWindow]]

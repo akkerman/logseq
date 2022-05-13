@@ -1,0 +1,93 @@
+:PROPERTIES:
+:ID:       08e58f63-bf42-4c6e-9449-9da11250eb98
+:END:
+#+title: Working with types in a context
+
+A function transforms one type into another e.g. =Int -> Double=, =String -> Text=, =Name -> FirstName=
+
+#+NAME: halve
+#+begin_src haskell
+halve :: Int -> Double
+halve n = fromIntegral n / 2.0
+
+halve 5
+#+end_src
+
+#+RESULTS[c7d65ea4635161ddc91c2a9c6e0e79d2518f56cc]: halve
+: 2.5
+
+If this function needs to be in the context of a Maybe, we can write the following wrapper:
+
+#+begin_src haskell
+halve :: Int -> Double
+halve n = fromIntegral n / 2.0
+
+halveMaybe :: Maybe Int -> Maybe Double
+halveMaybe Nothing  = Nothing
+halveMaybe (Just n) = Just (halve n)
+
+halveMaybe (Just 5)
+#+end_src
+
+#+RESULTS[0ec1b4e56b47d865d18132317b887f8ba36cf639]:
+: Just 2.5
+
+
+The [[id:7e262c95-c276-4563-b816-efafba7ad42a][Functor]], [[id:53b6b8d0-f49f-4758-9330-07eabbedefeb][Applicative]] and [[id:a9136d69-27ce-4e18-914b-a73cb597afab][Monad]] type classes can be thought of as adapters
+for mismatches of contexts.
+
+[[id:7e262c95-c276-4563-b816-efafba7ad42a][Functor]] solves the case where both input and output of a function are in the same context
+
+
+#+begin_src haskell
+halve :: Int -> Double
+halve n = fromIntegral n / 2.0
+
+fmap halve (Just 5)
+#+end_src
+
+#+RESULTS[1c2ea5dbbeabc05d98bb7ee2a1f1dff6e491db90]:
+: Just 2.5
+
+[[id:53b6b8d0-f49f-4758-9330-07eabbedefeb][Applicative]] solves the case where the input of a function is in a context but the result is not.
+
+#+begin_src haskell
+halve :: Maybe Int -> Double
+halve Nothing  = 0.0
+halve (Just n) = fromIntegral n / 2.0
+
+halve $ pure 5
+#+end_src
+
+#+RESULTS[71326e3ce145ba1d5035b7ee89fdb953faa3e10d]:
+: 2.5
+
+[[id:53b6b8d0-f49f-4758-9330-07eabbedefeb][Applicative]] solves the case where the function is in a context.
+
+The situation where the function itself is in a context ~Maybe(f)~
+
+
+#+begin_src haskell
+
+fns _        = Nothing
+fns "double" = Just(\n -> n + n )
+fns "halve"  = Just(\n -> fromIntegral n / 2.0)
+
+fns "double" <*> Just(5)
+fns "halve" <*> Just(5)
+#+end_src
+
+#+RESULTS[6f03f72f9e63884236ec1d0213a6746a7218fdde]:
+: Just 2.5
+
+[[id:a9136d69-27ce-4e18-914b-a73cb597afab][Monad]] solves the case where the result of a function is in a context but the input is not.
+
+#+begin_src haskell
+halve :: Int -> Maybe Double
+halve n = Just (fromIntegral n / 2.0)
+
+Just 5 >>= halve
+#+end_src
+
+#+RESULTS:
+: Prelude> Prelude> Just 2.5

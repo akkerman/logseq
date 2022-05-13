@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       b0087ad9-d553-461a-b5e5-be0510c43814
+:END:
+#+title: Maffetone philosophy regarding endurance
+
+Phil Maffetone's general [[id:dde81736-7aa2-4d43-bdd0-de363bd0f78b][Philosophy]] regarding endurance contains four key points:
+
+1. Build a great aerobic base.
+2. Eat well.
+3. Reduce stress.
+4. Improve brain function.

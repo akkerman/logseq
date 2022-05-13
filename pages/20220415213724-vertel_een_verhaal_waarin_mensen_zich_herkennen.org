@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       eab44222-09e2-453d-9b24-12cbc42f2e40
+:END:
+#+title: Vertel een verhaal waarin mensen zich herkennen
+
+Een verhaal komt beter over als mensen zich erin herkennen, immers [[id:8132cd76-6331-4fea-b7d4-fcaefc0fa3ec][bekendheid kweekt sympathie]].
+
+- [[id:f2a567b1-63dd-49d3-a716-0d8718e46dfc][schrijven voor spreken is anders dan voor lezen]]
+- [[id:dd59397a-5ed9-4b7f-bdfd-cd453306594d][geef mensen gevoel van herkenning]]

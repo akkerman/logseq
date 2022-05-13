@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       44b7647f-f032-4924-9b41-277aab489735
+:END:
+#+title: Simone de Beauvoir
+#+org_key: https://nl.wikipedia.org/wiki/Simone_de_Beauvoir
+#+filetags: :person:
+
+Simone Lucie Ernestine Marie Bertrand de Beauvoir was een Frans filosofe, schrijfster en [[id:22c49287-21ee-4756-82af-eb32aaffbbee][feministe]].
+
+De literatuur van Simone de Beauvoir werd gerekend tot het [[id:0eb5a80e-df5d-4647-8a59-833ca15436ea][existentialisme]].
+
+Somone de Beauvoir was ook bekend door haar levenslange open relatie met [[id:07b35e91-af59-4bc5-86ee-71ceb7ecb4eb][Jean-Paul Sartre]].

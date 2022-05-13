@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       1d5b69d3-56ac-4fdd-bc65-744b89a15910
+:ROAM_REFS: https://minikube.sigs.k8s.io/docs/
+:END:
+#+title: minikube
+
+minikube quickly sets up a local [[file:kubernetes.org][Kubernetes]] cluster on macOS, Linux, and Windows.
+
+It comes with its own [[file:overview_of_kubectl_kubernetes.org][kubectl]] command

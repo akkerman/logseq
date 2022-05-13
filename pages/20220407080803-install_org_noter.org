@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       3f7ee669-d72a-43fb-848a-f712b390e53b
+:ROAM_REFS: https://github.com/weirdNox/org-noter
+:END:
+#+title: org-noter
+#+options: toc:nil num:nil
+
+* org-noter intro
+
+Met org-noter kun je, in [[id:440c7859-bd16-4919-b105-f6a2fdb18270][Org-mode]], notities toevoegen aan documenten.
+Als je door het document scrolt dan opent org-noter de bijbehorende notities.
+
+* org-noter installeren
+
+- voeg =+noter= toe aan [[id:2f6ff072-17e7-4e5a-a7c0-83c7e4d62e6c][Doom Emacs]] =~/.doom.d/init.el=
+#+begin_src elisp
+    (org +roam2 +pretty +noter)        ; organize your plain life in plain text
+#+end_src
+- op de command line doe =~/.emacs.d/bin/doom sync=
+- start emacs en doe =SPC :=  =pdf-tools-install=
+
+* org-noter gebruiken
+
+- Start org-noter sessie met =SPC n e= (doom)
+- Als je op een notitie staat kun je met ~C-M-.~ naar de juiste positie in het document scrollen.
+- Notitie maken met: =M-i=, ff klikken waar ie moet komen en dan schrijven.

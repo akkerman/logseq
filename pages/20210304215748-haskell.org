@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       857ff32f-0fe9-42cb-b72a-70d7aeaff7bd
+:ROAM_REFS: https://www.haskell.org/
+:END:
+#+title: Haskell
+#+options: toc:nil num:nil
+
+An advanced, purely [[roam:functional programming]] language.

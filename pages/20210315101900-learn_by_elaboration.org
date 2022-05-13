@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       b10e24ba-84d6-48cb-b0dc-4c354df15e31
+:END:
+#+title: Learn by elaboration
+
+- tags :: [[id:67ccdc6b-0708-4282-963f-a8056d4cb11d][Learning]] · [[id:25f24494-0032-4d8f-8dce-a938d27fc556][Note taking]]
+
+Learn by elaboration is een techniek binnen o.a. de [[id:c91fec83-5759-41a6-9702-6478d2f7f197][Zettelkasten method]].
+
+De beste manier om te leren is het geleerde uit te werken. Hiermee wordt bedoeld dat je goed nadenkt over wat het betekend of er andere vragen uit voort komen en hoe je het kunt plaatsten in bestaande kennis.
+
+De eerste stap is dat je over een onderwerp voldoende nadenkt zodat je het in je eigenwoorden kan schrijven.
+De tweede stap is het maken van zinvolle verbindingen met onderwerpen die je al kent (in je zettelkasten hebt staan)

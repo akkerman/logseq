@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       c339b667-ca8f-41de-9b70-af2c3ed0c905
+:END:
+#+title: Luister je om te reageren of om te leren?
+
+Wel doen:
+
+- luisteren
+- aandacht bij het gesprek
+- open vragen stellen
+- hou het kort
+- wees eerlijk, toegeven als je iets niet weet.
+- [[id:b815b900-cb6c-4aa9-be85-fb9ef6b2933d][Maak je vermogen om op (jezelf) te letten belangrijker dan je vermogen tot denken en spreken.]]
+
+Niet doen
+
+- details, (jaartallen, namen)
+- herhalen
+- elke gedachte uiten (gesprek onderbreken)
+- aftroeven (m.n. bij ervaringen, oh ik had ook ...)
+
+
+* Wat kun je doen als:
+
+** TODO Er herhaling (door jezelf door een ander) optreed in een gesprek?
+** TODO Je gesprekspartner alleen luistert om te reageren?
+** TODO Je gesprekspartner aan het aftroeven is?
+
+
+[[id:66b1b771-3c2f-437c-ba26-9f06e87a7c4c][Rule 9.  Assume that the person you are listening to might know something you don’t]]

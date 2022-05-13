@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       6e37980e-254d-4be5-952c-10ed51475d50
+:END:
+#+title: Koppel nieuw gedrag aan bestaand gedrag of gebeurtenis
+
+Je moet het maken van een nieuwe gewoonte zichtbaar maken. Je doet dit door
+het te koppelen aan iets anders, zodat je zeker weet dat de aanwijzing, om het
+gedrag te kunnen gaan uitvoeren, ook plaat vind. Je doet een intentie verklaring
+door je gewenste gedrag aan plaats en tijd, een gebeurtenis, te koppelen of door
+deze te stapelen (habit stacking) op een bestaande gewoonte.
+
++ Als [een voorspelde gebeurtenis] dan [gewenste reactie]
++ Ik ga [nieuw gedrag] op [tijd] en [locatie]
++ Na [bestaande gewoonte] doe ik [nieuwe gewoonte]
+
+Omdat je ze koppelt aan aanwijzingen die je al doet, of al beleeft, geloof ik
+dat je sneller gewoontes [[id:58e0bff1-6f29-4075-9109-e4d33ff2c272][opneemt in je eigen identiteit voor een blijvende
+verandering]].
+
+- [[roam:Diderot Effect]]
+- [[id:d1c732e4-c0fb-437d-9522-e39269274f0c][Koppel een nieuwe gewoonte aan een tijd en een locatie]]
+- [[id:41654069-a774-4877-b25d-b984f8682be8][Koppel een nieuwe gewoonte aan een bestaande gewoonte]]

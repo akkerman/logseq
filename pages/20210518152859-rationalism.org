@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       1eee7741-5307-41fc-a7cf-3754e84aed6c
+:ROAM_REFS: https://en.wikipedia.org/wiki/Rationalism
+:END:
+#+title: Rationalism
+
+Het rationalisme is een [[id:dde81736-7aa2-4d43-bdd0-de363bd0f78b][filosofische]] stroming die vertrekt vanuit het idee dat de rede de enige of voornaamste bron van kennis is.
+

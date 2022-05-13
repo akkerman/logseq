@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       5dfbe099-5c9c-4356-a74d-28340c83010f
+:ROAM_REFS: https://github.com/nobiot/org-transclusion
+:END:
+#+title: org-transclusion
+
+* Wat het is
+Met org transclusion kun je in een [[id:440c7859-bd16-4919-b105-f6a2fdb18270][orgmode]] document stukken text opnemen van andere documenten.
+Het leek mij m.n. handig bij een [[id:d1085546-b0c0-45f6-8efe-389ca96c936c][Map of Contents]] het is gebeken dat als je doet
+ook de export van het document deze stukken text bevat en daardoor heb je een
+mooi document dat een overzicht geeft van een onderwerp.
+
+* Toepassing
+Mee begonnen in in [[id:fe096389-75d4-4e63-84a1-fe969d34711c][Gewoontes veranderen in 4 stappen]] en ook [[id:25f24494-0032-4d8f-8dce-a938d27fc556][Note taking]].
+De wijze waarop ik het in note taking gedaan heb lijkt wel de wijze waarop het het duidelijks is.
+Dus per inclusion een headline maken en als enige content van de headline de inclusion
+
+Hoewel, als er in de transcluded nodes geen enkele headers staan dan werkt het ook zoals bij Gewoontes…

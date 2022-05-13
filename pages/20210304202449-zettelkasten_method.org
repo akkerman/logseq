@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       c91fec83-5759-41a6-9702-6478d2f7f197
+:ROAM_REFS: https://zettelkasten.de
+:ROAM_ALIASES: Zettelkasten "Slip-box method" "slip-box" "Slip-box"
+:END:
+#+title: Zettelkasten method
+#+options: toc:nil num:nil
+
+Vertaling EN: Slip-box
+Vertaling NL: notitie doos, notitie vakken,
+
+- korte stukken tekst één concept of één gedachte
+- focus op het maken van links
+- geef een link context, schrijf het in een zin met de reden waarom gelinkt wordt en/of een korte omschrijving wat er in het gelinkte verwacht kan worden.
+
+Het is een persoonlijke werkwijze voor denken en schrijven. Het heeft de mogelijkheid om een netwerk van ideeën en gedachten te maken. De nadruk licht op verbinden niet verzamelen.
+
+Deze werkwijze schrijft niet voor wat je excact op welk moment moet doen maar geeft meer een structuur van gescheiden taken die elk in een afzienbare tijd af te ronden zijn.
+
+Een stappenplan begint met snelle krabbels ([[id:41ab37ae-b6c6-4205-9828-694601495d2d][fleeting notes]]) en notities tijdens het lezen ([[id:7f327c4c-e773-4078-a26e-e5a424540266][literature notes]]) die dagelijks omgezet worden in blijvende specifieke (korte?) notities ([[id:00b4999d-f578-4972-9307-efafbbdd81e9][permanent notes]]).  Verbindingen worden gelegd tussen de nieuwe en bestaande notities. Een groep gerelateerde notities kan op volgorde gelegd worden ([[id:73f1d83b-f636-4749-9389-942a467435ef][structure notes]]) van waaruit een concept artikel geschreven wordt.
+
+Core Concepts
+- ZK is a second brain
+- ZK gives a structure for thinking
+- writing is thinking
+- learn by elaboration
+
+Practice
+- read with pen in hand, write your under standing of the text in your own words
+- distill one or several notes capturing a single concept
+- add notes to your zettelkasten by creating meaningfull links
+
+
+
+- [[https://en.wikipedia.org/wiki/Zettelkasten][Zettelkasten - Wikipedia]]
+- [[https://zettelkasten.de][Zettelkasten knowledge and info management • Zettelkasten Method]]
+
+[[./img/zettelkasten.jpg]]

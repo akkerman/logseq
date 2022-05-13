@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       f64cdd81-9f54-4ae2-a44b-39f088e02290
+:ROAM_ALIASES: unittest
+:END:
+#+TITLE: Unit Testing
+#+OPTIONS: toc:nil number:nil
+
+Geïsoleerd testen van, opzichzelf staande, stukken code. (functies/modules)
+
+* Why
+- Safety Net :: Zekerheid dat je code zich blijft gedragen zoals je wilt tijdens [[id:8a49c22c-dca2-4808-875b-ff1b8eb5e5b0][refactoring]]
+- Documentation :: Een beschrijving van het gedrag van je code. Het mooist is het als een nieuwe developer je tests kan lezen en daaruit kan begrijpen wat je code functioneel doet *zonder* de implemetatie gezien te hebben.
+- write twice, deploy once :: Doodat je twee keer met productie logica bezig bent, een keer tijdens implementatie en een keer tijdens test, verhoog je de kwaliteit ervan. (vgl een plank 2x meten 1x zagen / dubbel boekhouden )
+
+
+* Solitary Unit Test
+:PROPERTIES:
+:ID:       63f8589b-6c51-47cb-9bfa-7df13261441c
+:END:
+
+Test if a class or function is fit for use. Tests should isolate the class or function under test by stubbing all dependencies.
+
+[cite:@fields_working_2014]
+
+* Sociable Unit Test
+:PROPERTIES:
+:ID:       8955db8a-5551-4e73-a109-389ab91302bf
+:END:
+
+Any Unit Test that cannot be classified as a [[id:63f8589b-6c51-47cb-9bfa-7df13261441c][Solitary Unit Test]]

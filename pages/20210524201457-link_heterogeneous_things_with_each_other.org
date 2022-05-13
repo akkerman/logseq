@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       05bd920e-ba72-41c7-8534-af30261b1840
+:END:
+#+title: Link heterogeneous things with each other
+
+Als je [[id:00b4999d-f578-4972-9307-efafbbdd81e9][permanent notes]] aanelkaar verbind moeten we zoeken naar mogelijkheden die resulteren in onverwachte uitkomsten.
+
+Als je een nieuwe [[id:00b4999d-f578-4972-9307-efafbbdd81e9][notitie]] wilt toevoegen aan de slip-box kun je dat doen op onderwerp maar het helpt om een stelling/vraag te formuleren die verschillende/diverse/hetrogene zaken verbind.

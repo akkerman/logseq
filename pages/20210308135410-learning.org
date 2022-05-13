@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       67ccdc6b-0708-4282-963f-a8056d4cb11d
+:ROAM_ALIASES: leren
+:END:
+#+title: Learning
+#+options: toc:nil num:nil
+#+filetags: :tag:
+

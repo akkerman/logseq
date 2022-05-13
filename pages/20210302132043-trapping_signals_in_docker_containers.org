@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       84d7d14e-31c0-4ad6-9fe7-e77780e726a4
+:ROAM_REFS: https://medium.com/@gchudnov/trapping-signals-in-docker-containers-7a57fdda7d86
+:END:
+#+title: Trapping signals in Docker containers
+#+options: tock:nil num:nil
+
+
+[[id:c51d6f17-7f89-4a07-9e8f-12df4b053175][Docker]] stuurt het SIGTERM [[id:e0e32a5b-c760-458f-ad08-6515699e0e6a][signal]] naar een container als je wilt dat een container stopt of herstart.
+Als de container niet binnen 10 seconden stopt dan stuurt [[id:c51d6f17-7f89-4a07-9e8f-12df4b053175][Docker]] een SIGKILL [[id:e0e32a5b-c760-458f-ad08-6515699e0e6a][signal]]

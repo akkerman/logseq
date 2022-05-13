@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       17045a7d-b79d-4973-954d-5b228c07ff91
+:END:
+#+title: Het doel van uitleggen is een verhaal geaccepteerd te krijgen
+
+Mede omdat [[id:d5258b38-bc5b-47fd-90e7-0be9f5db9986][wij denken in verhalen]] is het doel van uitleggen, na het krijgen van
+een waaromvraag, te komen met een verhaal dat geaccepteerd wordt. De acceptatie
+van het verhaal is belangrijker dan of het verhaal waar is. Als het verhaal ware
+delen bevast is het succes van acceptatie zeker wel groter.
+
+Besef dat [[id:f0be0e3e-944e-4f70-9f68-dcfe0e5395a0][een consistent incompleet verhaal voldoende is voor actie]], dus je
+hoeft niet in teveel detail te treden als het verhaal maar logisch genoeg is.

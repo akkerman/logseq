@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       908adfea-2025-4a09-b102-d96e65b72d7f
+:END:
+#+title: exponential
+#+filetags: :todo:

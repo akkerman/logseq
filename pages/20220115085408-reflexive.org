@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       b4330dd3-d7f2-4fe0-b262-e75e7ef3549c
+:ROAM_ALIASES: reflexive
+:END:
+#+title: reflexive relation
+
+When a relation or [[id:5070516e-6dc7-4c8b-b69e-45db03c10be2][binary operation]] is reflexive it means that operation links an element to itself.
+
+Examples:
+
+| Statement                   |               | Symbol |
+|-----------------------------+---------------+--------|
+| is equal to                 | equality      | =      |
+| is a subset of              | set inclusion | ⊆      |
+| divides                     | divisibility  | ÷ or / |
+| is greater than or equal to |               | ≥      |
+| is less than or equal to    |               | ≤      |
+
+In a [[id:65ef0e5c-8864-4f80-b92f-1c7ec0d560d2][Category]] the identity morphism is reflexive

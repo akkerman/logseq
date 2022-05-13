@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       03859df5-77cb-4ee2-b8b8-17bbae4b1b81
+:ROAM_ALIASES: seasoning
+:END:
+#+title: Mexicaanse Kruiden
+#+options: num:nil
+#+SETUPFILE: refs/theme-readtheorg.setup
+
+- tags :: [[id:d199560e-df54-4a43-bac5-ebd5709e9d0c][recept]] · [[id:466454a9-71b6-4f46-9858-8751940964de][DIY]] · [[id:b3fd4cb2-9a94-4cf1-8b35-64c6a50928c2][Kruiden]]
+
+| ingredient        | taco | taco | fajita | chili con carne |
+|-------------------+------+------+--------+-----------------|
+| paprika           |    1 |  1.5 |      1 |               2 |
+| komijn            |  1.5 |    3 |    0.5 |             2x3 |
+| zeezout           |    1 |    1 |      1 |                 |
+| knoflook          | 0.25 | 0.25 |    0.5 |               1 |
+| uienpoeder        | 0.25 | 0.25 |    0.5 |               1 |
+| rode peper flakes | 0.25 | 0.25 |        |                 |
+| cayenne           |      |    1 |   0.25 |                 |
+| peper             |    1 |    1 |        |                 |
+| oregano           | 0.25 |  1.5 |        |               2 |
+| chilipoeder       |    3 |      |      2 |             2x3 |
+| maizena           |      |      |      1 |                 |
+| suiker            |      |      |      1 |                 |
+| kaneel            |      |      |        |         0.5 - 1 |
+
+Bovenstaande is in theelepels (tsp).  1 tbsp = 3 tsp
+
+Gemalen cayenne peper is eigenlijk een chili poeder. \\
+Chilipoeder kan een mengsel van verschillende pepers met ook komijn, ui en knoflook.
+
+[[https://www.santamariaworld.com/nl/alle-leuke-en-verrassende-recepten/][Recepten op santamariaworld]]
+
+over chili con carne:
+- traditioneel alleen chilies en vlees geen bonen, geen tomaten
+- niet typisch Mexicaans, eerder zelfs Texaans

@@ -1,0 +1,49 @@
+:Properties:
+:ID:       7e262c95-c276-4563-b816-efafba7ad42a
+:END:
+#+title: Functor
+
+In [[id:eb5dc1ed-3c0e-4b9d-aa23-00fa9639f583][category theory]] a functor is a [[id:3bd99c8f-a291-465d-88c0-b6fbddcf3548][morphism]] that maps morphism to morphisms.
+
+A Functor maps a [[id:576528d3-57c4-48eb-8957-ae28f88314c6][function]] to a function.
+
+~fmap :: (a -> b) -> (f a -> f b)~
+
+
+Consider the length function which goes from string to int.
+fmap can make it a function from a list of strings to a list of int.
+
+#+begin_src haskell :results verbatim :exports both
+fmap length ["Maan", "Roos", "Vis"]
+#+end_src
+
+#+RESULTS:
+: [4,4,3]
+
+
+#+begin_src haskell
+data Failure a = Fail | Ok a deriving (Show)
+
+let instance Functor Failure where
+  fmap f (Ok x) = Ok $ f x
+  fmap f Fail = Fail
+
+nok = fmap (+1) Fail
+ok7 = fmap (+1) (Ok 6)
+ok8 = (+2) <$> Ok 6
+#+end_src
+
+
+#+CAPTION: The type signature for the ~fmap~ function
+[[./img/Functor.png]]
+
+
+Image source: [cite:@kurt_get_programming_with_Haskell_2018]
+
+
+Because the functor type class wants types that take only one parameter (a -> b) we
+should partially apply type constructors that take multiple types.
+
+Some type constructors have a [[id:e1d834f5-d956-4b0b-89d1-48fbde7301f2][BiFunctor]] to allow mapping over 2 values.
+
+A mapping between two functors is called a [[id:febff629-b660-4def-9e5f-7ebad6582f54][natural tranformation]].

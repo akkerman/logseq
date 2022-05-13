@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       c0f9d523-56fa-4d21-b8f3-82e6c2d75326
+:END:
+#+title: Isomorphism
+
+In [[id:eb5dc1ed-3c0e-4b9d-aa23-00fa9639f583][Category Theory]] a function f: A→B is called an isomorphism if there exists a function g:B→A such that g.f = id_A and f.g = id_B
+
+
+
+#+begin_src haskell :exports both
+f :: Bool -> Int
+f True  = 1
+f False = 0
+
+g :: Int -> Bool
+g 1 = True
+g 0 = False
+
+(f . g) 0
+(g . f) False
+#+end_src
+
+#+RESULTS:
+: False

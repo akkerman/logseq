@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       e0e32a5b-c760-458f-ad08-6515699e0e6a
+:END:
+#+title: Signals
+
+
+Alias : signal "termination signal"
+
+
+see https://www.man7.org/linux/man-pages/man7/signal.7.html
+
+Een ([[id:aab00e98-0b99-4c6e-b291-62bde9c0091d][Linux]]) operation systeem kan verschillende signals naar een programma of process sturen.
+Meestal nemen die dingen de vorm aan van een getal en er hoort een naam bij.
+
+- Als je een programma wilt vragen om netjes af te sluiten dan stuur je een SIGTERM. Sommige programma's luisteren daar helemaal niet naar en dan kun je SIGKILL sturen.
+- Er zijn ook custom signals SIGUSR1 en SIGUSR2 deze mogen betekenen wat je maar wilt.

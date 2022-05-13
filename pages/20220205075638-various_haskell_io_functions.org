@@ -1,0 +1,54 @@
+:PROPERTIES:
+:ID:       85730136-1cb0-4c89-8c9a-cdaad4588742
+:END:
+#+title: Various haskell IO functions
+
+- tags :: [[id:857ff32f-0fe9-42cb-b72a-70d7aeaff7bd][Haskell]] · [[id:a9136d69-27ce-4e18-914b-a73cb597afab][Monad]]
+
+- ~when~ :: Takes a Bool and an IO action. Returns the IO action only if True.
+    - conditionally perform operation on IO
+
+    #+begin_example haskell
+    import Control.Monad
+    main = do
+        input <- getLine
+        when (input /= "") $ do
+            putStrLn input
+    #+end_example
+
+
+- ~sequence~ :: Takes a list of IO and returns one IO.
+     - combine multiple inputs into a list
+     - print a list one by one
+
+    #+begin_example haskell
+    ghci> sequence $ map print [1,2,3]
+    1
+    2
+    3
+    [(),(),()]
+    #+end_example
+
+
+- ~mapM~ :: Map an IO function over a list.
+
+  #+begin_example haskell
+  ghci> mapM print [1,2,3]
+  1
+  2
+  3
+  [(),(),()]
+  #+end_example
+
+- ~mapM_~ :: Map an IO function over a list, throw away the result. (perform only the IO side effect)
+
+  #+begin_example haskell
+  ghci> mapM_ print [1,2,3]
+  1
+  2
+  3
+  #+end_example
+
+
+- ~forM~ :: Performs an IO operation for each element in a list to get a new List. Like ~mapM~ but with reversed parameters.
+     - use for readability when defining the IO inline (so the list is near forM, with map it would be dangling below)

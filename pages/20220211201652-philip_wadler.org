@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       4b1c65b2-3637-4df2-9316-160cfec6e984
+:END:
+#+title: Philip Wadler
+#+filetags: :person:

@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       310c5994-2604-4754-89da-e4e92e19247a
+:END:
+#+title: Shutdown nodejs with server and database
+#+options: toc:nil num:nil
+
+- tags :: [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+* Shutdown [[id:3125d530-3156-4c44-bfaf-19e8dbb40f47][nodejs]] with server and [[id:45c21cd1-78b9-4f5b-9b09-80eea8e150b7][MongoDB]]
+
+[[id:3125d530-3156-4c44-bfaf-19e8dbb40f47][Node.js]] does not listen to [[id:e0e32a5b-c760-458f-ad08-6515699e0e6a][signals]] out of the box. In a production environment one does want to listen to them to ensure quick restarts and cleanup of resources.
+
+#+begin_src javascript
+process.once('SIGINT', shutdown)
+process.once('SIGTERM', shutdown)
+
+server.listen(port, () => {
+  const { address, port } = server.address()
+
+  log.info('API server listening at http://%s:%s', address, port)
+})
+
+function shutdown (signal) {
+  log.info(`received ${signal}. shutting down`)
+  server.close(function onServerClosed (closeErr) {
+    log.info('server closed')
+    if (closeErr) {
+      log.error(closeErr)
+      process.exitCode = 1
+    }
+    log.info('close database')
+    closeDb()
+
+    log.info('exit')
+    process.exit()
+  })
+}
+#+end_src

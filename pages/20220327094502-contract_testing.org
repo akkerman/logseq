@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       d4fb1ea4-d151-4fff-9c5f-562b5ee0b4ff
+:END:
+#+title: Contract Testing
+
+Sla een response van externe services op en gebruik een [[id:8dd84229-13c2-4745-9944-49868ec32a2b][test double]] om eigen code hier tegen te testen. Test periodiek of de response nog overeenkomt met je test double. Uitdaging hierbij is dat je er structureel naar moet kijken zonder vast te lopen in het verschil in waarden.
+
+#+begin_quote
+Use test doubles for external services to test your own code. But periodically
+test if the actual external service returns the same results as the test
+double. [fn:17]
+#+end_quote
+
+#+begin_quote
+Contract tests check the contract of external service calls, but not necessarily
+the exact data. Often a stub will snapshot a response as at a particular date,
+since the format of the data matters rather than the actual data. In this case
+the contract test needs to check that the format is the same, even if the actual
+data has changed. [fn:17]
+#+end_quote
+
+[fn:17] Martin Fowler -- [[https://martinfowler.com/bliki/ContractTest.html][ContractTest]]

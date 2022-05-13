@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       10dddbb0-7009-4d95-93b3-f6f597de22f7
+:END:
+#+title: Martin Heidegger
+#+filetags: :person:
+
+Duitse filosoof, bijdragen in [[id:630c748a-b6d0-42d8-ad65-0d99c5fee475][Phenomenology]] en [[id:0eb5a80e-df5d-4647-8a59-833ca15436ea][Existentialism]]

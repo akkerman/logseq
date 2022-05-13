@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       190c5fad-f5ca-445b-9ce9-1c5e16f4ebf1
+:END:
+#+title: Friedrich Nietzsche
+#+filetags: :todo:person:
+
+Friedrich Wilhelm Nietzsche was a German [[id:dde81736-7aa2-4d43-bdd0-de363bd0f78b][philosopher]].
+
+- possible links :: [[id:0eb5a80e-df5d-4647-8a59-833ca15436ea][Existentialism]] · [[Psychology]] · [[roam:Filologie]]

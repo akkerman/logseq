@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       be168716-081f-4f52-b4a2-db6b43d6d09b
+:ROAM_ALIASES: CCP
+:END:
+#+title: Common Closure Principle
+
+/Gather into components those classes that change for the same reasons and at the same times. \\
+Separate into different components those classes that change at different times and for different reasons./
+
+CCP is voor componenten wat [[id:2cbfd8a1-06f9-44ba-9141-96dac0b40794][SRP]] is voor classes.
+
+CCP lijkt op [[id:48226ded-ee42-4870-9c41-19a1ae6b8021][OCP]] zodanig dat je classes in een component groepeerd die om dezelfde reden gelijkertijd wijzigen en/of gesloten zijn voor gelijksoortige wijzigingen.
+
+Dit grouperen doe je om het aantal componenten dat je moet wijzigigen bij wijzigende requirements tot een minimum te beperken.

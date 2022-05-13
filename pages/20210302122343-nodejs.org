@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       3125d530-3156-4c44-bfaf-19e8dbb40f47
+:ROAM_REFS: https://nodejs.org/
+:ROAM_ALIASES: Node.js node
+:END:
+#+title: nodejs
+
+Node.js® is a [[id:4aad8986-2a12-4877-ab70-345ab5614c66][JavaScript]] runtime built on Chrome's V8 JavaScript engine.

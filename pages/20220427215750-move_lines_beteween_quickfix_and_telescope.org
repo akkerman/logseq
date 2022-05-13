@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       919711a2-3849-4851-b81c-fdc01a4d893b
+:END:
+#+title: Move lines beteween quickfix and telescope
+
+- tags :: [[id:3e18bba2-0f35-4987-9b24-01e9007feea2][vim]] · [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+
+*** From telescope
+- C-q . all unfiltered items
+- M-q · all selected items (select with TAB)
+*** To telescope
+:Telescope quickfix

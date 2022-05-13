@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       b9739f85-a6ef-4910-82c2-85e1c1ec4149
+:END:
+#+title: Openssl commands
+
+- tags :: [[id:582d4973-103b-4d74-90c5-96902b85a161][bash]] [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+
+[[https://www.sslshopper.com/article-most-common-openssl-commands.html][The Most Common OpenSSL Commands]]
+
+View content of certificate
+
+#+begin_src sh
+openssl x509 -text -noout -in certificate.pem
+#+end_src
+
+Check if certificate and key belong to each other.
+The modulus should be the same:
+
+#+begin_src sh
+# certificate
+openssl x509 -modulus -noout -in certificate.pem
+# key
+openssl rsa  -modulus -noout -in key.pem
+# csr
+openssl req  -modulue -noout -in csr.pem
+#+end_src
+
+
+Generate a password
+
+#+begin_src sh
+openssl rand -base64 32
+#+end_src
+
+#+RESULTS:
+: cBLjcAYfeenNKkltjBT4H/B48EuwccSavFPOUVLIp4M=

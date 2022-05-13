@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       41ab37ae-b6c6-4205-9828-694601495d2d
+:ROAM_ALIASES: "transient notes" "snelle krabbel"
+:END:
+#+title: Fleeting notes
+
+Een snelle krabbel moet zo weinig mogelijk inbreken op wat je aan het doen bent. Er komt een gedachte, je schrijf of typt deze snel neer en verder. Als deze krabbels waarde hebben moet je ervoor zorgen dat ze in een soort Inbox terecht komen zodat je deze dagelijks door kunt gaan er ze kan omzetten naar een [[id:00b4999d-f578-4972-9307-efafbbdd81e9][permanente notitie]] en verwijderd. Eventueel kunnen ze direct verwijderd.
+
+[[id:70d4862d-26ec-44b5-bd86-852e224cb0f4][Evergreen Notes]] spreekt van transient notes maar volgens mij is dat concept precies hetzelfde als Fleeting Notes. Fleeting (vluchtig in NL) en transient (voorbijgaand) lijken in betekenis ook veel op elkaar.
+
+Vluchtige notities moet je dagelijks omzetten omdat ze een herinnering zijn aan een gedachte en niet perse de volledige gedachte helemaal omvatten.

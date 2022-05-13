@@ -1,0 +1,43 @@
+:PROPERTIES:
+:ID:       e120d5ea-0d25-4090-ab79-be30ad17a97c
+:END:
+#+TITLE: Basis Regels
+
+- tags :: [[id:9be3ea40-46d8-4916-9826-35074da11d2a][Home]]
+
+* Reageer niet als je boos bent
+:PROPERTIES:
+:ID:       37490006-e97d-411c-8cab-ce90c01a5914
+:ROAM_ALIASES: "Never reply when angry"
+:END:
+
+* Beloof niets als je blij bent
+:PROPERTIES:
+:ID:       601daae0-dec4-42c5-91f3-9823e7bfd247
+:ROAM_ALIASES: "Never make a promise when happy"
+:END:
+
+- [[id:22f10151-9b2b-4eae-a9a7-11e8e28a6a49][Een prettig gevoel maakt dat we minder kritisch zijn en gemakkelijker fouten maken.]]
+- [[id:07c6442a-8eaf-4781-b222-96951671d8b1][Mensen die bewuster denken zijn meer betrokken, skeptisch en rationeel.]]
+
+* Maak geen besluiten als je verdrietig bent
+:PROPERTIES:
+:ID:       5cd20ac7-c6a0-4b74-bb84-9ffed727a3e2
+:ROAM_ALIASES: "Never make a decision when sad"
+:END:
+
+* Krijg meer vrijheden en kansen door het nemen van verantwoordelijkheid
+:PROPERTIES:
+:ID:       9e04fba3-fc99-46c1-a59d-959e63661897
+:ROAM_ALIASES: "Earn freedom by taking responsibility"
+:END:
+
+12 rules for life: an antidote to chaos. [[id:5829b762-6d40-43e0-b0c4-5d4cc1224f83][Regel 7. Streef na wat betekenisvol is (niet wat opportuun is)]]
+
+Beyond order: 12 more rules for life. [[id:16b2347d-2d1c-4fc8-a7be-635e2eac7414][Rule 4.  Notice that opportunity lurks where responsibility has been abdicated]]
+
+* Falen is niet de vijand, opgeven is de vijaand
+:PROPERTIES:
+:ID:       7d028d53-3fa4-4e85-bcfd-dcd134676591
+:ROAM_ALIASES: "Failure is not the enemy, quitting is the enemy"
+:END:

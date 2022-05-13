@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       326107eb-0d3d-4915-8667-ffd29f168fe1
+:END:
+#+title: conjunction
+#+filetags: :todo:

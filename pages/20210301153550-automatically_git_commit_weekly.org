@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       cd77f28d-9d12-4b0f-a8eb-075ac09f43dd
+:END:
+#+title: Automatically git commit weekly
+#+options: toc:nil num:nil
+
+- tags :: [[id:2926f2fb-c256-41c8-985a-b62840382173][how-to]]
+
+Use the following script in a [[id:7ca5dd3d-fadb-4867-a7dd-262d3135b719][cron job]] to automatically create a weekly [[id:00f182c8-814f-4400-b072-270f528dcd42][Git]] [[id:df92f84f-a09b-4fff-89b5-4ad28a0a62ff][branch]]
+This script assumes the local repo already has two branches, a weekly branch and master.
+
+#+begin_src shell
+cd $1
+
+current_branch=$(git rev-parse --abbrev-ref HEAD)
+
+# add open changes
+git add -A
+git commit -am $(date +%Y%m%d%H%M)
+
+# merge current branch to master and delete
+git switch master
+git merge $current_branch --squash
+git commit -am $current_branch
+git branch -D $current_branch
+
+# create new branch
+new_branch=$(date +y%Yw%W)
+git switch -c $new_branch
+
+# update origin
+git push origin +master:master
+git push -d origin $current_branch
+git push --set-upstream origin +$new_branch:$new_branch
+#+end_src
+
+Use the following line in [[id:7ca5dd3d-fadb-4867-a7dd-262d3135b719][cron]] to call the script.
+This will run it each monday at 1 in the morning
+
+#+begin_src crontab
+0 1 * * 1 /home/<user>/.local/bin/branch-weekly.sh <directory>
+#+end_src
